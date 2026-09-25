@@ -1,0 +1,448 @@
+{
+  "identitas": {
+    "universitas": "UNIVERSITAS PGRI RONGGOLAWE",
+    "fakultas": "FAKULTAS SAINS DAN TEKNOLOGI",
+    "prodi": "PROGRAM STUDI S1 INFORMATIKA",
+    "kode_dokumen": "RPS-INF-IF6801",
+    "mata_kuliah": "Teknologi Internet of Thing",
+    "kode_mk": "IF6801",
+    "rumpun_mk": "Sistem Tertanam, Jaringan & Keamanan Komputer",
+    "bobot_sks": 3,
+    "semester": 6,
+    "tgl_penyusunan": "25 Agustus 2025",
+    "dosen_pengembang": "Fitroh Amaluddin, M.Kom.",
+    "koordinator_rmk": "Fitroh Amaluddin, M.Kom.",
+    "ka_prodi": "AMALUDIN ARIFIA, M.Kom.",
+    "nidn_kaprodi": "07xxxxxxxx",
+    "ujm_prodi": "UJM Program Studi Informatika",
+    "nidn_ujm": "07xxxxxxxx",
+    "dosen_pengampu": "Fitroh Amaluddin, M.Kom.",
+    "matakuliah_syarat": "IF240224 Jaringan Komputer / Sistem Operasi"
+  },
+  "capaian_pembelajaran": {
+    "cpl": [
+      {
+        "kode": "CPL03",
+        "deskripsi": "Memiliki kemampuan memahami cara kerja sistem komputer serta menerapkan berbagai algoritma/metode untuk memecahkan masalah dalam suatu organisasi. [C2, C3]"
+      },
+      {
+        "kode": "CPL04",
+        "deskripsi": "Memiliki kompetensi dalam menganalisis persoalan computing yang kompleks untuk mengidentifikasi solusi pengelolaan proyek teknologi di bidang informatika/ilmu komputer dengan mempertimbangkan perkembangan ilmu transdisiplin. [C4]"
+      },
+      {
+        "kode": "CPL05",
+        "deskripsi": "Memiliki kemampuan merancang, mengimplementasikan, dan mengevaluasi solusi berbasis computing (sistem cerdas, embedded systems, IoT, cloud) yang memenuhi kebutuhan pengguna dengan pendekatan analitis dan saintifik. [C5, C6]"
+      },
+      {
+        "kode": "CPL08",
+        "deskripsi": "Menunjukkan komitmen terhadap standar profesional, etika, tata kelola, dan kerja sama tim interdisipliner dalam pelaksanaan proyek teknologi. [A3, A4]"
+      }
+    ],
+    "cpmk": [
+      {
+        "kode": "CPMK1",
+        "cpl_induk": "CPL03",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu menjelaskan arsitektur referensi IoT, komponen sensor/aktuator, mikrokontroler (ESP32/Arduino), dan mengonfigurasi interkoneksi hardware serta interfacing I/O analog/digital dan komunikasi bus (I2C, SPI, UART) [C2, C3]."
+      },
+      {
+        "kode": "CPMK2",
+        "cpl_induk": "CPL04",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu menganalisis dan menerapkan protokol komunikasi IoT (MQTT, CoAP, HTTP REST, WebSocket) serta teknologi jaringan nirkabel (Wi-Fi, Bluetooth Low Energy, LoRaWAN) untuk pertukaran data telemetri yang hemat daya dan andal [C4]."
+      },
+      {
+        "kode": "CPMK3",
+        "cpl_induk": "CPL05",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu merancang dan mengintegrasikan platform cloud IoT (ThingsBoard, Firebase, Node-RED, InfluxDB/Grafana), dashboard analitik, dan inferensi Edge AI / TinyML sederhana [C5]."
+      },
+      {
+        "kode": "CPMK4",
+        "cpl_induk": "CPL08",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu bekerja sama dalam tim interdisipliner untuk merancang, mengimplementasikan, dan memvalidasi purwarupa sistem pintar IoT dunia nyata dengan memperhatikan aspek keamanan siber (TLS/SSL, autentikasi token) dan etika profesional [A4, C6]."
+      }
+    ],
+    "sub_cpmk": [
+      {
+        "kode": "Sub-CPMK 1",
+        "cpmk_induk": "CPMK1",
+        "bobot_penilaian": 3,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu menjelaskan definisi, evolusi, arsitektur 4-layer IoT (Persepsi, Jaringan, Middleware, Aplikasi), dan studi kasus penerapan industri 4.0 [C2]."
+      },
+      {
+        "kode": "Sub-CPMK 2",
+        "cpmk_induk": "CPMK1",
+        "bobot_penilaian": 4,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu mengonfigurasi GPIO mikrokontroler ESP32, sinyal digital, pembacaan ADC analog, modulasi PWM, serta interfacing sensor fisik (suhu/kelembaban, cahaya, gerak) dan aktuator [C3]."
+      },
+      {
+        "kode": "Sub-CPMK 3",
+        "cpmk_induk": "CPMK1",
+        "bobot_penilaian": 7,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu memprogram dan menganalisis komunikasi bus periferal sensor cerdas menggunakan antarmuka serial UART, protokol I2C (OLED/Sensor kompleks), dan antarmuka SPI kecepatan tinggi [C4]."
+      },
+      {
+        "kode": "Sub-CPMK 4",
+        "cpmk_induk": "CPMK2",
+        "bobot_penilaian": 6,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu mengonfigurasi konektivitas nirkabel jarak pendek Wi-Fi (Station & SoftAP mode) dan Bluetooth Low Energy (BLE Server/Client & Beacon) pada mikrokontroler [C3, C4]."
+      },
+      {
+        "kode": "Sub-CPMK 5",
+        "cpmk_induk": "CPMK2",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu menganalisis arsitektur Low-Power Wide-Area Network (LPWAN), modulasi radio LoRa, topologi star LoRaWAN, dan transmisi data telemetri jarak jauh berdaya rendah [C4]."
+      },
+      {
+        "kode": "Sub-CPMK 6",
+        "cpmk_induk": "CPMK2",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu menerapkan protokol publish-subscribe MQTT (Message Queuing Telemetry Transport), merancang hirarki topik, dan mengonfigurasi Quality of Service (QoS 0, 1, 2) dengan broker Mosquitto [C4]."
+      },
+      {
+        "kode": "Sub-CPMK 7",
+        "cpmk_induk": "CPMK2",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu membandingkan efisiensi protokol MQTT vs HTTP REST vs CoAP (Constrained Application Protocol) dan mengimplementasikan WebSocket untuk komunikasi data sensor dua arah waktu-nyata [C4]."
+      },
+      {
+        "kode": "Sub-CPMK 8",
+        "cpmk_induk": "CPMK3",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu merancang alur logika pemrosesan data sensor terdistribusi berbasis event-driven menggunakan Node-RED flow engine dan visualisasi UI Node-RED Dashboard [C5]."
+      },
+      {
+        "kode": "Sub-CPMK 9",
+        "cpmk_induk": "CPMK3",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2,
+        "deskripsi": "Mampu mengintegrasikan node sensor IoT ke platform Cloud IoT (ThingsBoard Open-Source / Firebase Realtime) dan membangun visualisasi data time-series terkelola (InfluxDB & Grafana) [C5]."
+      },
+      {
+        "kode": "Sub-CPMK 10",
+        "cpmk_induk": "CPMK3",
+        "bobot_penilaian": 8,
+        "jumlah_minggu": 2,
+        "deskripsi": "Mampu menerapkan keamanan komunikasi IoT (MQTTS/TLS enkripsi), token autentikasi, fitur Over-The-Air (OTA) firmware update, serta pengantar inferensi Edge AI/TinyML pada mikrokontroler [C4, C5]."
+      },
+      {
+        "kode": "Sub-CPMK 11",
+        "cpmk_induk": "CPMK4",
+        "bobot_penilaian": 12,
+        "jumlah_minggu": 2,
+        "deskripsi": "Mampu mengintegrasikan purwarupa produk cerdas IoT end-to-end (Hardware, Firmware, Jaringan, Cloud, Dashboard) dan mempresentasikannya secara profesional dalam kolaborasi tim [A4, C6]."
+      },
+      {
+        "kode": "Sub-CPMK 12 (UTS & UAS)",
+        "cpmk_induk": "CPMK1, CPMK2, CPMK3, CPMK4",
+        "bobot_penilaian": 30,
+        "jumlah_minggu": 2,
+        "deskripsi": "Mampu mendemonstrasikan evaluasi komprehensif penguasaan konsep, analisis protokol, dan unjuk kerja purwarupa IoT melalui Evaluasi Tengah Semester (15%) dan Capstone Project Akhir Semester (15%) [C3, C4, C5, C6]."
+      }
+    ]
+  },
+  "deskripsi_singkat_mk": "Mata kuliah Teknologi Internet of Thing (IF6801) membekali mahasiswa S1 Informatika dengan pemahaman teori mendalam dan keterampilan praktis komprehensif dalam merekayasa ekosistem Internet of Things (IoT) modern. Materi perkuliahan mencakup arsitektur 4-lapisan IoT, pemrograman sistem tertanam mikrokontroler modern (ESP32 SoC), interfacing aneka sensor/aktuator, protokol komunikasi bus (UART, I2C, SPI), serta jaringan nirkabel jarak pendek dan jarak jauh (Wi-Fi, Bluetooth Low Energy/BLE, dan LPWAN/LoRaWAN). Mahasiswa dilatih mengimplementasikan protokol perpesanan data telemetri hemat daya (MQTT, CoAP, HTTP REST, WebSocket), mengintegrasikan platform komputasi awan IoT (ThingsBoard, Firebase, Node-RED, InfluxDB/Grafana), menerapkan keamanan siber IoT (TLS/SSL, autentikasi berbasis token, pembaruan firmware nirkabel Over-The-Air/OTA), serta pengenalan komputasi tepi (Edge AI / TinyML). Perkuliahan menitikberatkan pada Project-Based Learning berbasis studi kasus nyata (Smart Agriculture, Smart Environment, Smart Home, Industrial IoT).",
+  "bahan_kajian": [
+    "1. Pengantar Ekosistem Internet of Things (IoT), Arsitektur Referensi 4-Lapisan, & Tren Industri 4.0",
+    "2. Arsitektur Mikrokontroler IoT (ESP32 SoC Architecture), GPIO, Interfacing Analog ADC/DAC, & PWM",
+    "3. Protokol Bus Komunikasi Periferal Sensor: UART Serial, I2C Bus Protocol, & SPI High-Speed Bus",
+    "4. Jaringan Nirkabel Jarak Pendek: Wi-Fi Networking (Station vs SoftAP) & Bluetooth Low Energy (BLE Services/Characteristics)",
+    "5. Jaringan Nirkabel Jarak Jauh Berdaya Rendah (LPWAN): Karakteristik Radio LoRa & Arsitektur LoRaWAN Gateway",
+    "6. Protokol Komunikasi Telemetri IoT: MQTT Broker Architecture, Topic Structure, & Quality of Service (QoS)",
+    "7. Protokol Ringan CoAP (Constrained Application Protocol), HTTP REST, & WebSockets untuk Data Sensor Real-Time",
+    "8. Pemrosesan Data Event-Driven & Integrasi Middleware menggunakan Node-RED Flow Engine",
+    "9. Platform Komputasi Awan IoT: Arsitektur ThingsBoard (Rule Engine, Device Provisioning) & Firebase",
+    "10. Manajemen Data Sensor Time-Series: InfluxDB Database & Visualisasi Dashboard Interaktif Grafana",
+    "11. Keamanan Siber IoT: Enkripsi Komunikasi Data (MQTTS/HTTPS via TLS), Token Autentikasi, & Secure Boot",
+    "12. Pembaruan Firmware Nirkabel: Over-The-Air (OTA) Updates & Manajemen Daya Rendah (Deep Sleep Mode)",
+    "13. Pengenalan Edge Computing & TinyML: Inferensi Kecerdasan Buatan pada Mikrokontroler ESP32",
+    "14. Perancangan & Integrasi Purwarupa Produk Cerdas IoT Terpadu Berbasis Studi Kasus Nyata"
+  ],
+  "pustaka": {
+    "utama": [
+      "1. Hanes, D., Salgueiro, G., Grossetete, P., Barton, R., & Henry, J. (2017). IoT Fundamentals: Networking Technologies, Protocols, and Use Cases for the Internet of Things. Cisco Press.",
+      "2. Buyya, R., & Dastjerdi, A. V. (2016). Internet of Things: Principles and Paradigms. Morgan Kaufmann / Elsevier.",
+      "3. Lea, P. (2020). Internet of Things for Architects: Architecting IoT solutions by implementing sensors, communication infrastructure, edge computing, and cloud systems. Packt Publishing."
+    ],
+    "pendukung": [
+      "1. Schwartz, M. (2018). Internet of Things with ESP32. Packt Publishing.",
+      "2. Warden, P., & Situnayake, D. (2019). TinyML: Machine Learning with TensorFlow Lite on Arduino and Ultra-Low-Power Microcontrollers. O'Reilly Media.",
+      "3. Al-Sarawi, S., Anbar, M., Alieyan, K., & Alzubi, M. (2017). Internet of Things (IoT) communication protocols: Review. IEEE 8th International Conference on Information Technology.",
+      "4. IEEE Internet of Things Journal & ACM Transactions on Sensor Networks terkini."
+    ]
+  },
+  "matriks_16_pertemuan": [
+    {
+      "minggu": "1",
+      "sub_cpmk": "Sub-CPMK 1: Mampu menjelaskan definisi, evolusi, arsitektur 4-layer IoT, dan studi kasus industri 4.0 [C2]",
+      "indikator": "Ketepatan menjelaskan komponen ekosistem IoT, membedakan lapisan persepsi, jaringan, middleware, dan aplikasi, serta mengidentifikasi peluang implementasi IoT di lingkungan sekitar",
+      "teknik_kriteria": "Kriteria: Kejelasan konsep & penalaran; Teknik: Kuis interaktif & Diskusi kelas",
+      "luring": "Kuliah interaktif, Diskusi Kelompok, Eksplorasi Ekosistem IoT dan Studi Kasus Smart Agriculture/Smart City Tuban (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Mempelajari modul RPS-01, video arsitektur IoT, forum diskusi di LMS UNIROW",
+      "materi_pustaka": "Pengenalan IoT, Karakteristik M2M vs IoT, Arsitektur 4 Lapisan, Tantangan IoT (Bandwidth, Power, Security) (Hanes Bab 1-2, Buyya Bab 1)",
+      "bobot": "3%"
+    },
+    {
+      "minggu": "2",
+      "sub_cpmk": "Sub-CPMK 2: Mampu mengonfigurasi GPIO mikrokontroler ESP32, sinyal analog ADC/DAC, PWM, dan interfacing sensor fisik [C3]",
+      "indikator": "Keterampilan menghubungkan rangkaian pinout ESP32, memprogram pembacaan data sensor analog/digital (DHT22, LDR, Ultrasonik), dan mengontrol aktuator relai/LED via PWM",
+      "teknik_kriteria": "Kriteria: Kebenaran rangkaian skematik & kode firmware C++/Arduino IDE; Teknik: Praktikum Lab 1",
+      "luring": "Kuliah Pengantar, Praktikum Lab: Instalasi Board ESP32, Wiring Pinout Sensor & Aktuator, Serial Monitoring di Lab Komputer (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Simulasi rangkaian sirkuit ESP32 menggunakan Wokwi Simulator di LMS UNIROW",
+      "materi_pustaka": "Arsitektur SoC ESP32 (Tensilica Xtensa), Pinout GPIO, ADC/DAC Resolution, PWM Duty Cycle, Interfacing Sensor Analog & Digital (Schwartz Bab 1-2)",
+      "bobot": "4%"
+    },
+    {
+      "minggu": "3",
+      "sub_cpmk": "Sub-CPMK 3: Mampu memprogram komunikasi bus periferal sensor cerdas: UART Serial, protokol I2C, dan antarmuka SPI [C4]",
+      "indikator": "Ketepatan mengatur baudrate UART, pengalamatan slave I2C (Address Scanner), menampilkan data sensor pada layar OLED I2C, dan komunikasi bus SPI berkecepatan tinggi",
+      "teknik_kriteria": "Kriteria: Keberhasilan transmisi data bus & ketepatan timing pulsa; Teknik: Penilaian Tugas Terstruktur Praktikum 2",
+      "luring": "Praktikum Komputasi di Lab: I2C Scanner, Interfacing Display OLED SSD1306, Sensor BME280 / MPU6050, dan Logging SPI MicroSD (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Mengunduh library sensor, submit laporan praktikum bus I2C/SPI di LMS UNIROW",
+      "materi_pustaka": "Protokol Bus: UART (Baudrate, Parity), I2C (SDA/SCL, Start/Stop Bit, Acknowledge), SPI (MOSI, MISO, SCK, CS) (Lea Bab 3, Schwartz Bab 3)",
+      "bobot": "7%"
+    },
+    {
+      "minggu": "4",
+      "sub_cpmk": "Sub-CPMK 4: Mampu mengonfigurasi konektivitas nirkabel Wi-Fi (Station & SoftAP) dan Bluetooth Low Energy (BLE) [C3, C4]",
+      "indikator": "Kemampuan menghubungkan ESP32 ke Access Point lokal, membuat SoftAP mandiri, merancang BLE GATT Server (Service & Characteristic), dan bertukar data dengan smartphone",
+      "teknik_kriteria": "Kriteria: Stabilitas koneksi nirkabel & keberhasilan pairing BLE; Teknik: Lembar Kerja Praktikum Nirkabel",
+      "luring": "Kuliah Mimbar, Praktikum Pembuatan ESP32 Web Server Mandiri dan BLE Environmental Sensing Server (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Eksplorasi aplikasi nRF Connect untuk monitoring transmisi data BLE di LMS UNIROW",
+      "materi_pustaka": "Protokol Nirkabel Jarak Pendek: Wi-Fi 802.11 b/g/n (STA vs AP mode), Bluetooth Low Energy (BLE Architecture, GAP, GATT, Advertising) (Hanes Bab 4, Schwartz Bab 4)",
+      "bobot": "6%"
+    },
+    {
+      "minggu": "5",
+      "sub_cpmk": "Sub-CPMK 5: Mampu menganalisis arsitektur LPWAN, modulasi radio LoRa, dan transmisi data LoRaWAN jarak jauh berdaya rendah [C4]",
+      "indikator": "Keahlian mengatur frekuensi regional LoRa (920-923 MHz AS923 Indonesia), parameter Spreading Factor (SF), Bandwidth, Coding Rate, serta menguji jarak transmisi paket data",
+      "teknik_kriteria": "Kriteria: Ketepatan perhitungan link budget & packet loss telemetry; Teknik: Tugas Analisis Jaringan Sensor",
+      "luring": "Kuliah Interaktif, Demonstrasi Point-to-Point LoRa Transceiver RFM95/SX1276 dan Topologi LoRaWAN Gateway di Lab (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Simulasi cakupan sinyal LoRa dan analisis konsumsi daya modulasi di LMS UNIROW",
+      "materi_pustaka": "LPWAN Overview, Teknologi LoRa (Chirp Spread Spectrum), LoRaWAN (Class A, B, C Devices, Join Procedure OTAA vs ABP), Gateway (Hanes Bab 4, Lea Bab 4)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "6",
+      "sub_cpmk": "Sub-CPMK 6: Mampu menerapkan protokol publish-subscribe MQTT, perancangan topik, dan konfigurasi QoS dengan broker Mosquitto [C4]",
+      "indikator": "Ketepatan merancang struktur topik MQTT (e.g., campus/fst/lab/temp), konfigurasi pesan retained, Last Will and Testament (LWT), dan implementasi klien Pub/Sub di ESP32",
+      "teknik_kriteria": "Kriteria: Integritas pengiriman pesan telemetri & efisiensi payload JSON; Teknik: Tugas Terstruktur Implementasi MQTT",
+      "luring": "Kuliah Pengantar, Praktikum Konfigurasi MQTT Broker Eclipse Mosquitto, Uji Publish-Subscribe Data Sensor ESP32 ke Broker Lokal/Cloud (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Testing MQTT klien menggunakan MQTT Explorer / MQTTX di LMS UNIROW",
+      "materi_pustaka": "Arsitektur Publish-Subscribe, Protokol MQTT v3.1.1/v5.0, Topik Hirarkis, QoS Level (0, 1, 2), Broker Mosquitto, Klien PubSubClient (Hanes Bab 5, Buyya Bab 4)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "7",
+      "sub_cpmk": "Sub-CPMK 7: Mampu membandingkan efisiensi protokol MQTT vs HTTP REST vs CoAP dan mengimplementasikan WebSocket [C4]",
+      "indikator": "Kemampuan mengukur overhead header paket, latensi pertukaran data, konsumsi daya pada protokol CoAP berbasis UDP, dan streaming WebSocket interaktif",
+      "teknik_kriteria": "Kriteria: Analisis komparatif kinerja protokol IoT; Teknik: Presentasi Singkat Hasil Benchmark Protokol",
+      "luring": "Kuliah Diskusi, Praktikum Komparasi Packet Sniffing Wireshark pada payload MQTT, CoAP, dan HTTP (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Review persiapan Evaluasi Tengah Semester (UTS) di LMS UNIROW",
+      "materi_pustaka": "Protokol CoAP (Constrained Application Protocol), Format Pesan CoAP, HTTP RESTful vs CoAP vs MQTT, WebSocket Duplex Streaming (Hanes Bab 5, Al-Sarawi et al.)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "8",
+      "sub_cpmk": "Evaluasi Tengah Semester (UTS): Mengukur ketercapaian CPMK1 dan CPMK2 (Sub-CPMK 1 s.d. 7)",
+      "indikator": "Ketuntasan, ketelitian, dan kecepatan mahasiswa dalam merangkai sirkuit sensor mikrokontroler, memprogram bus komunikasi, dan mentransmisikan telemetri via protokol MQTT/Wi-Fi",
+      "teknik_kriteria": "Kriteria: Rubrik Asesmen Ujian Tertulis & Ujian Lab Terjadwal (Skala 1-100); Teknik: Tes Tulis & Live Coding Sirkuit",
+      "luring": "Ujian Tengah Semester Luring di Lab Komputer & Embedded Systems (150 Menit)",
+      "daring": "Unggah kode firmware dan rekaman pembuktian telemetri sensor di portal LMS UNIROW",
+      "materi_pustaka": "Materi Perkuliahan Minggu 1 sampai Minggu 7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": "9",
+      "sub_cpmk": "Sub-CPMK 8: Mampu merancang alur pemrosesan data event-driven berbasis Node-RED dan visualisasi dashboard UI [C5]",
+      "indikator": "Keahlian membuat flow pemrosesan data (MQTT Input, Function Node JavaScript, Switch, Change), integrasi notifikasi pesan Telegram/Email, dan perancangan grafik dashboard responsif",
+      "teknik_kriteria": "Kriteria: Logika alur otomatisasi & kemudahan interaksi dashboard; Teknik: Penilaian Tugas Terstruktur Node-RED",
+      "luring": "Hands-on Workshop: Instalasi Node-RED di Komputer Lab, Merancang Otomasi Sistem Kontrol Suhu Ruangan & Dashboard UI (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Ekspor dan impor alur flow Node-RED (JSON) melalui forum LMS UNIROW",
+      "materi_pustaka": "Event-Driven Architecture, Node-RED Runtime Engine, Node Configuration, JavaScript Function Nodes, Node-RED Dashboard Widgets (Lea Bab 6)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "10",
+      "sub_cpmk": "Sub-CPMK 9: Mampu mengintegrasikan node sensor IoT ke platform Cloud IoT ThingsBoard dan Firebase Realtime [C5]",
+      "indikator": "Keahlian provisioning perangkat pada ThingsBoard (Access Token/Device Credential), merancang Rule Chain telemetry, konfigurasi alarm, dan sinkronisasi database NoSQL Firebase",
+      "teknik_kriteria": "Kriteria: Integrasi telemetri awan & keandalan rule chain otomatis; Teknik: Portofolio Cloud IoT",
+      "luring": "Kuliah Interaktif, Praktikum Konfigurasi ThingsBoard Cloud/Local Server, Setting Telemetri Widget & Remote RPC Control Aktuator (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Akses server ThingsBoard prodi melalui LMS UNIROW",
+      "materi_pustaka": "Cloud IoT Architecture, ThingsBoard Core (Device Provisioning, Telemetry Data, Rule Engine, Alarms), Firebase Realtime Database (Buyya Bab 6, Lea Bab 8)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "11",
+      "sub_cpmk": "Sub-CPMK 9: Mampu mengelola database time-series InfluxDB dan membangun visualisasi analitik Grafana [C5]",
+      "indikator": "Kemampuan mendesain skema data time-series (Bucket, Measurement, Tag, Field), query bahasa Flux, dan merancang dashboard monitoring analitik multi-panel di Grafana",
+      "teknik_kriteria": "Kriteria: Efisiensi penyimpanan data deret waktu & keindahan visualisasi Grafana; Teknik: Lembar Kerja Praktikum Time-Series",
+      "luring": "Workshop Lab: Integrasi Node-RED -> InfluxDB -> Grafana Monitoring Server di Lab Komputer (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Diskusi optimasi retensi data time-series sensor di forum LMS UNIROW",
+      "materi_pustaka": "Time-Series Database (TSDB), InfluxDB Architecture (Retention Policy, Continuous Queries), Grafana Dashboard Customization (Lea Bab 8, Buyya Bab 7)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "12",
+      "sub_cpmk": "Sub-CPMK 10: Mampu menerapkan keamanan komunikasi IoT (TLS/SSL, autentikasi) dan pembaruan firmware nirkabel OTA [C4, C5]",
+      "indikator": "Ketepatan implementasi sertifikat CA/SSL pada koneksi MQTT (Port 8883 MQTTS), autentikasi token JWT, fitur Over-The-Air (OTA Web Updater), dan konfigurasi Deep Sleep mode",
+      "teknik_kriteria": "Kriteria: Ketahanan keamanan data terhadap serangan man-in-the-middle & keberhasilan update OTA; Teknik: Tugas Keamanan IoT",
+      "luring": "Kuliah Diskusi, Praktik Pengamanan Komunikasi Sensor Menggunakan Enkripsi TLS/SSL dan Fitur ArduinoOTA di ESP32 (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Unduh modul keamanan IoT dan checklist kerentanan OWASP IoT Top 10 di LMS UNIROW",
+      "materi_pustaka": "Keamanan IoT: Enkripsi TLS/SSL, X.509 Certificates, Token Authentication, OWASP IoT Top 10, Over-The-Air (OTA) Updates, Power Optimization (Hanes Bab 10, Lea Bab 11)",
+      "bobot": "4%"
+    },
+    {
+      "minggu": "13",
+      "sub_cpmk": "Sub-CPMK 10: Mampu menerapkan konsep Edge Computing dan inferensi TinyML sederhana pada mikrokontroler [C4, C5]",
+      "indikator": "Pemahaman edge computing vs cloud analytics, kemampuan melatih model klasifikasi sensor sederhana (misal deteksi anomali getaran/suara) dan deploy ke ESP32 via Edge Impulse / TFLite",
+      "teknik_kriteria": "Kriteria: Akurasi model klasifikasi pada mikrokontroler berdaya rendah; Teknik: Lembar Kerja TinyML",
+      "luring": "Kuliah Mimbar, Demonstrasi Pengambilan Data Sensor, Ekstraksi Fitur, dan Deployment Model Klasifikasi TinyML ke ESP32 (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Eksplorasi platform Edge Impulse dan uji live inference di LMS UNIROW",
+      "materi_pustaka": "Edge Computing, Konsep TinyML, Model Quantization (INT8), TensorFlow Lite for Microcontrollers, Studi Kasus Anomaly Detection pada Sensor (Warden & Situnayake Bab 1-3)",
+      "bobot": "4%"
+    },
+    {
+      "minggu": "14",
+      "sub_cpmk": "Sub-CPMK 11: Mampu merancang dan mengintegrasikan arsitektur purwarupa sistem cerdas IoT (Hardware, Cloud, Dashboard) [C5, C6]",
+      "indikator": "Kemampuan mengintegrasikan seluruh subsistem (perangkat keras sensor/aktuator, mikrokontroler, konektivitas nirkabel, middleware otomasi, dan cloud dashboard) menjadi satu produk terpadu",
+      "teknik_kriteria": "Kriteria: Kematangan integrasi sistem & efisiensi daya purwarupa; Teknik: Asesmen Progres Proyek Capstone Tahap 2",
+      "luring": "Project-Based Learning Workshop: Troubleshooting, Perakitan Fisik (Packaging/Enclosure), dan Uji Reliabilitas Purwarupa di Lab (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Upload draf naskah laporan teknis proyek dan skematik sirkuit di LMS UNIROW",
+      "materi_pustaka": "Metodologi Rekayasa Produk IoT, Skematik Sirkuit Elektronika, Packaging & Enclosure 3D Print, Pengujian Reliabilitas Sistem (Lea Bab 12)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "15",
+      "sub_cpmk": "Sub-CPMK 11: Mampu memvalidasi purwarupa IoT di lapangan, mengevaluasi kinerja, dan mempresentasikannya secara profesional [A4, C6]",
+      "indikator": "Keahlian melakukan uji coba kondisi riil, kalibrasi sensor, pengujian baterai, komunikasi tim yang kompak, demonstrasi produk interaktif, dan respon ilmiah terhadap pertanyaan penguji",
+      "teknik_kriteria": "Kriteria: Rubrik Penilaian Presentasi & Unjuk Kerja Alat (Skala 1-5); Teknik: Seminar Pleno Expo IoT Mahasiswa",
+      "luring": "Expo Pameran & Sidang Presentasi Proyek IoT, Live Demo Alat Beroperasi Nyata & Sesi Uji Pertanyaan Tim Penguji (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Unggah video demonstrasi alat (YouTube unlisted link) dan peer-review nilai rekan tim di LMS UNIROW",
+      "materi_pustaka": "Komunikasi Profesional Rekayasa IoT, Dokumentasi Teknis Open-Source (GitHub Readme & Wiring Diagram), Diseminasi Produk Teknologi",
+      "bobot": "7%"
+    },
+    {
+      "minggu": "16",
+      "sub_cpmk": "Evaluasi Akhir Semester (UAS): Mengukur ketercapaian CPMK3 dan CPMK4 (Sub-CPMK 8 s.d. 11) berbasis Capstone Project IoT",
+      "indikator": "Kualitas purwarupa perangkat keras, stabilitas transmisi data telemetri, kematangan dashboard awan, kelengkapan naskah laporan ilmiah, dan kebersihan repositori kode",
+      "teknik_kriteria": "Kriteria: Rubrik Holistik Capstone Project IoT & Deliverables (Skala 1-100); Teknik: Penilaian Naskah Final & Portofolio Produk",
+      "luring": "Penyerahan Purwarupa Alat Terpadu, Naskah Laporan Akhir Resmi, dan Evaluasi Kelayakan Produk",
+      "daring": "Unggah bundle berkas final (Laporan PDF IEEE format, Skematik Fritzing/EasyEDA, Source Code GitHub, Slide Presentasi) di LMS UNIROW",
+      "materi_pustaka": "Seluruh Bahan Kajian Teknologi Internet of Thing (Minggu 1 s.d. Minggu 15)",
+      "bobot": "15%"
+    }
+  ],
+  "tugas_terstruktur": [
+    {
+      "tugas_ke": 1,
+      "nama_tugas": "Tugas 1 (Interfacing Multi-Sensor ESP32 & Serial/I2C Data Logging)",
+      "sub_cpmk": "Sub-CPMK 1, Sub-CPMK 2, Sub-CPMK 3",
+      "waktu": "Minggu 3 (Dikumpulkan Minggu 4)",
+      "deskripsi": "Mahasiswa secara mandiri/berpasangan merancang sirkuit terintegrasi ESP32 dengan minimal dua sensor (1 sensor analog dan 1 sensor bus I2C seperti BME280/MPU6050/OLED). Menuliskan firmware yang melakukan kalibrasi pembacaan sensor dan menampilkan data terformat pada Serial Monitor dan layar OLED.",
+      "luaran": "Laporan teknis 4-6 halaman format IEEE disertai skematik rangkaian dan cuplikan kode program yang terdokumentasi rapi."
+    },
+    {
+      "tugas_ke": 2,
+      "nama_tugas": "Tugas 2 (Rancang Bangun Sistem Telemetri MQTT Real-Time & Node-RED Flow)",
+      "sub_cpmk": "Sub-CPMK 4, Sub-CPMK 6, Sub-CPMK 8",
+      "waktu": "Minggu 6 (Dikumpulkan Minggu 7)",
+      "deskripsi": "Mahasiswa menghubungkan ESP32 ke jaringan Wi-Fi, melakukan pengiriman payload telemetri data sensor berformat JSON ke broker MQTT publik/lokal dengan QoS 1, serta membangun flow di Node-RED yang menerima data, memicu alarm (notifikasi Telegram jika suhu melewati batas), dan menampilkannya pada dashboard grafik.",
+      "luaran": "Berkas ekspor flow Node-RED (.json), source code firmware ESP32, dan video singkat demonstrasi pertukaran data telemetri."
+    },
+    {
+      "tugas_ke": 3,
+      "nama_tugas": "Tugas 3 (Integrasi Cloud IoT ThingsBoard, InfluxDB & Visualisasi Grafana)",
+      "sub_cpmk": "Sub-CPMK 9, Sub-CPMK 10",
+      "waktu": "Minggu 10 s.d. Minggu 11 (Dikumpulkan Minggu 12)",
+      "deskripsi": "Mahasiswa mengonfigurasi perangkat pada platform ThingsBoard Cloud dan database deret waktu InfluxDB. Menyimpan histori data sensor selama minimal 3 hari pengamatan, menerapkan rule engine notifikasi otomatis, dan merancang dashboard analitik multi-panel interaktif di Grafana.",
+      "luaran": "Laporan analisis performa penyimpanan data time-series, tautan dashboard publik ThingsBoard/Grafana, dan dokumentasi API."
+    },
+    {
+      "tugas_ke": 4,
+      "nama_tugas": "Tugas 4 (Capstone Project: Rancang Bangun Produk Sistem Cerdas IoT Skala Industri/Masyarakat)",
+      "sub_cpmk": "Sub-CPMK 10, Sub-CPMK 11",
+      "waktu": "Minggu 12 s.d. Minggu 15 (Dipresentasikan Minggu 15 & Dikumpulkan Minggu 16)",
+      "deskripsi": "Proyek Capstone berkelompok (3-4 mahasiswa) menyelesaikan permasalahan riil (e.g., Smart Agriculture hidroponik/tambak, Smart Building efisiensi energi, Environmental Monitoring kualitas udara/banjir). Merancang purwarupa hardware terlindungi enclosure, komunikasi nirkabel aman berenkripsi TLS/SSL, middleware otomatisasi, cloud dashboard, serta dokumentasi repositori GitHub publik.",
+      "luaran": "Purwarupa fisik alat IoT berfungsi penuh, Laporan Akhir Proyek format IEEE (15-25 halaman), repositori GitHub lengkap (Readme, wiring diagram Fritzing, BOM biaya komponen), dan video demo produk interaktif."
+    }
+  ],
+  "rubrik_obe": {
+    "skala": [
+      {
+        "nilai": 5,
+        "kategori": "Sangat Baik / Sangat Kompeten",
+        "rentang": "85 - 100",
+        "deskripsi": "Menunjukkan keunggulan luar biasa dalam perancangan sirkuit perangkat keras, firmware efisien tanpa blocking delay (menggunakan FreeRTOS/millis), transmisi telemetri MQTT/LoRaWAN sangat andal, integrasi dashboard awan profesional, enkripsi keamanan data teruji, dan purwarupa berfungsi sempurna di lapangan."
+      },
+      {
+        "nilai": 4,
+        "kategori": "Baik / Kompeten",
+        "rentang": "70 - 84",
+        "deskripsi": "Rangkaian hardware terpasang benar dan stabil, kode firmware terstruktur baik, protokol komunikasi data sensor berjalan konsisten ke cloud platform, dashboard interaktif berfungsi normal, laporan terdokumentasi lengkap dan rapi."
+      },
+      {
+        "nilai": 3,
+        "kategori": "Cukup / Cukup Kompeten",
+        "rentang": "60 - 69",
+        "deskripsi": "Memahami konsep dasar IoT dan interfacing sensor, rangkaian berfungsi namun tata letak kabel berantakan, terjadi beberapa kali packet drop saat transmisi data telemetri, dashboard awan sederhana, dokumentasi standar."
+      },
+      {
+        "nilai": 2,
+        "kategori": "Kurang / Kurang Kompeten",
+        "rentang": "50 - 59",
+        "deskripsi": "Rangkaian perangkat keras sering mengalami error/korsleting, kode firmware banyak bug dan delay kaku, transmisi data telemetri tidak stabil, dashboard cloud tidak terintegrasi dengan baik."
+      },
+      {
+        "nilai": 1,
+        "kategori": "Sangat Kurang / Tidak Kompeten",
+        "rentang": "< 50",
+        "deskripsi": "Gagal memahami prinsip IoT dan pemrograman mikrokontroler, alat tidak dapat menyala atau membaca sensor, tidak ada transmisi data ke jaringan/cloud, terindikasi plagiarisme proyek."
+      }
+    ],
+    "aspek_penilaian": [
+      {
+        "aspek": "Penguasaan Interfacing Hardware & Mikrokontroler (Kognitif & Psikomotor C3)",
+        "skor_1": "Gagal membaca sensor, pengkabelan salah dan berisiko merusak komponen (< 50)",
+        "skor_2": "Sensor terbaca namun nilai tidak terkalibrasi dan pembacaan sering hilang (50-59)",
+        "skor_3": "Interfacing sensor digital/analog berjalan dengan pembacaan cukup akurat (60-69)",
+        "skor_4": "Interfacing sensor bus I2C/SPI sangat presisi, kalibrasi data akurat dan cepat (70-84)",
+        "skor_5": "Penguasaan hardware sempurna, skematik elektronik standar industri, efisiensi konsumsi daya teroptimasi (85-100)"
+      },
+      {
+        "aspek": "Implementasi Protokol Jaringan & Keamanan Telemetri (Analisis & Penerapan C4)",
+        "skor_1": "Gagal menghubungkan perangkat ke jaringan nirkabel atau broker (< 50)",
+        "skor_2": "Terhubung ke Wi-Fi tetapi payload tidak terformat dan transmisi sering diskoneksi (50-59)",
+        "skor_3": "Protokol MQTT/HTTP berjalan normal dengan format JSON standar (60-69)",
+        "skor_4": "Protokol MQTT sangat stabil dengan hirarki topik rapi, penanganan QoS tepat, dan LWT aktif (70-84)",
+        "skor_5": "Arsitektur komunikasi sangat andal, menerapkan enkripsi MQTTS/TLS, token autentikasi aman, dan OTA firmware update (85-100)"
+      },
+      {
+        "aspek": "Integrasi Cloud IoT, Middleware & Dashboard UI (Kreasi C5-C6)",
+        "skor_1": "Data sensor tidak tersimpan di cloud dan tidak ada visualisasi antarmuka (< 50)",
+        "skor_2": "Data masuk ke cloud tetapi tampilan dashboard rusak dan tanpa rule otomatisasi (50-59)",
+        "skor_3": "Dashboard ThingsBoard/Node-RED menampilkan data sensor secara real-time standar (60-69)",
+        "skor_4": "Dashboard sangat komunikatif dan informatif, rule engine notifikasi aktif, kontrol dua arah berjalan (70-84)",
+        "skor_5": "Sistem cloud terpadu tingkat enterprise (InfluxDB + Grafana + ThingsBoard), analitik visual memukau, kontrol RPC responsif waktu-nyata (85-100)"
+      },
+      {
+        "aspek": "Inovasi Produk Capstone, Kualitas Laporan & Presentasi Tim (Afektif & Soft Skills)",
+        "skor_1": "Purwarupa tidak berbentuk, laporan tidak selesai, tim tidak mampu menjawab pertanyaan (< 50)",
+        "skor_2": "Purwarupa rapuh tanpa packaging, laporan kurang rapi, presentasi kaku (50-59)",
+        "skor_3": "Purwarupa berfungsi baik dalam kemasan kotak standar, laporan IEEE lengkap, presentasi lancar (60-69)",
+        "skor_4": "Purwarupa memiliki nilai guna tinggi bagi mitra, kemasan rapi 3D print/box akrilik, presentasi meyakinkan (70-84)",
+        "skor_5": "Inovasi produk luar biasa siap hilirisasi/paten, repositori GitHub berstandar open-source global, penguasaan materi sempurna saat tanya jawab (85-100)"
+      }
+    ]
+  }
+}
