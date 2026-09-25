@@ -39,14 +39,15 @@ def set_cell_font(cell, name="Calibri", size_pt=9, bold=False, color_rgb=(0, 0, 
 
 
 def parse_int_safe(val, default=0):
-    """Konversi nilai bobot atau angka secara aman baik dari int, float, maupun string dengan %."""
+    """Konversi nilai bobot atau angka secara aman baik dari int, float, maupun string dengan % (termasuk desimal misal 2.5%)."""
     if val is None:
         return default
     try:
         if isinstance(val, (int, float)):
-            return int(val)
+            return int(val) if float(val).is_integer() else val
         cleaned = str(val).replace("%", "").strip()
-        return int(cleaned) if cleaned else default
+        f = float(cleaned)
+        return int(f) if f.is_integer() else f
     except Exception:
         return default
 

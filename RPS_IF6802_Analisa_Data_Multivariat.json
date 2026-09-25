@@ -62,59 +62,88 @@
     ],
     "sub_cpmk": [
       {
-        "kode": "Sub-CPMK1",
+        "kode": "Sub-CPMK 1",
         "cpmk_induk": "CPMK1",
+        "bobot_penilaian": 3,
+        "jumlah_minggu": 1,
         "deskripsi": "Mampu menjelaskan konsep dasar analisis multivariat, taksonomi metode dependence vs independence, representasi matriks data, vektor mean, dan matriks kovarians [C2]."
       },
       {
-        "kode": "Sub-CPMK2",
+        "kode": "Sub-CPMK 2",
         "cpmk_induk": "CPMK1",
+        "bobot_penilaian": 4,
+        "jumlah_minggu": 1,
         "deskripsi": "Mampu menerapkan pengujian asumsi distribusi normal multivariat (Mardia's test, Royston test, Chi-Square Q-Q Plot) dan mendeteksi pencilan multivariat menggunakan Mahalanobis Distance [C3]."
       },
       {
-        "kode": "Sub-CPMK3",
+        "kode": "Sub-CPMK 3",
         "cpmk_induk": "CPMK2",
+        "bobot_penilaian": 7,
+        "jumlah_minggu": 1,
         "deskripsi": "Mampu menghitung dan menganalisis reduksi dimensi variabel dengan Principal Component Analysis (PCA) berbasis nilai eigen dan vektor eigen serta interpretasi Scree Plot dan Biplot [C4]."
       },
       {
-        "kode": "Sub-CPMK4",
+        "kode": "Sub-CPMK 4",
         "cpmk_induk": "CPMK2",
+        "bobot_penilaian": 6,
+        "jumlah_minggu": 1,
         "deskripsi": "Mampu menganalisis struktur faktor laten dengan Exploratory Factor Analysis (EFA) menggunakan rotasi orthogonal (Varimax) dan oblique (Promax), serta interpretasi loading faktor [C4]."
       },
       {
-        "kode": "Sub-CPMK5",
+        "kode": "Sub-CPMK 5",
         "cpmk_induk": "CPMK3",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 1,
         "deskripsi": "Mampu menganalisis model Regresi Linier Berganda multivariat, diagnosa multikolinieritas (VIF), heteroskedastisitas, dan autokorelasi [C4]."
       },
       {
-        "kode": "Sub-CPMK6",
+        "kode": "Sub-CPMK 6",
         "cpmk_induk": "CPMK3",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 1,
         "deskripsi": "Mampu menerapkan dan menganalisis model Regresi Logistik Biner dan Multinomial untuk variabel respon kategorik multivariat [C4]."
       },
       {
-        "kode": "Sub-CPMK7",
+        "kode": "Sub-CPMK 7",
         "cpmk_induk": "CPMK3",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 1,
         "deskripsi": "Mampu mengevaluasi perbedaan rata-rata multivariat antar kelompok perlakuan menggunakan MANOVA (Wilks' Lambda, Pillai's Trace, Hotelling's Trace, Roy's Largest Root) [C4, C5]."
       },
       {
-        "kode": "Sub-CPMK8",
+        "kode": "Sub-CPMK 8",
         "cpmk_induk": "CPMK4",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 1,
         "deskripsi": "Mampu merancang fungsi pembeda dan mengklasifikasikan observasi baru dengan Analisis Diskriminan Linier (LDA) dan Kuadratik (QDA) [C5]."
       },
       {
-        "kode": "Sub-CPMK9",
+        "kode": "Sub-CPMK 9",
         "cpmk_induk": "CPMK4",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2,
         "deskripsi": "Mampu merancang dan mengevaluasi segmentasi data observasi multivariat menggunakan teknik Hierarchical Clustering (Single, Complete, Average, Ward) dan K-Means Clustering dengan evaluasi koefisien Silhouette [C5, C6]."
       },
       {
-        "kode": "Sub-CPMK10",
+        "kode": "Sub-CPMK 10",
         "cpmk_induk": "CPMK4",
+        "bobot_penilaian": 8,
+        "jumlah_minggu": 2,
         "deskripsi": "Mampu merancang visualisasi persepsi posisi objek dan asosiasi kategori menggunakan Multidimensional Scaling (MDS) dan Analisis Korespondensi [C5]."
       },
       {
-        "kode": "Sub-CPMK11",
+        "kode": "Sub-CPMK 11",
         "cpmk_induk": "CPMK4",
+        "bobot_penilaian": 12,
+        "jumlah_minggu": 2,
         "deskripsi": "Mampu mempresentasikan dan mempertahankan laporan proyek analitik multivariat komprehensif pada dataset riil berdimensi tinggi menggunakan Python/R [C5, C6]."
+      },
+      {
+        "kode": "Sub-CPMK 12 (UTS & UAS)",
+        "cpmk_induk": "CPMK1, CPMK2, CPMK3, CPMK4",
+        "bobot_penilaian": 30,
+        "jumlah_minggu": 2,
+        "deskripsi": "Mampu mendemonstrasikan evaluasi komprehensif penguasaan teori dan praktik analitik multivariat melalui Ujian Tengah Semester (15%) dan Ujian Akhir Semester berbasis Capstone Project (15%) [C2, C3, C4, C5, C6]."
       }
     ]
   },
@@ -156,7 +185,7 @@
       "luring": "Kuliah interaktif, Diskusi Kelompok, Praktik Dasar Pembuatan Matriks Data di Python/R (PB: 3x50'; PT: 3x60'; BM: 3x60')",
       "daring": "Mempelajari modul RPS-01, video tutorial NumPy/Pandas matriks, forum tanya-jawab di LMS UNIROW",
       "materi_pustaka": "Pengenalan Analisis Multivariat, Taksonomi Hair et al., Aljabar Matriks Multivariat, Vektor Mean dan Matriks Kovarians (Pustaka Utama 1: Bab 1-2, Pustaka Utama 2: Bab 1)",
-      "bobot": "5%"
+      "bobot": "3%"
     },
     {
       "minggu": "2",
@@ -166,7 +195,7 @@
       "luring": "Kuliah Pengantar, Praktikum Komputasi di Lab: Implementasi Uji Normalitas Multivariat & Mahalanobis Distance dengan Python (SciPy/Statsmodels) (PB: 3x50'; PT: 3x60'; BM: 3x60')",
       "daring": "Mengunduh dataset multivariat studi kasus finansial/kesehatan, submit notebook praktikum di LMS",
       "materi_pustaka": "Distribusi Normal Multivariat, Sifat-sifat Elips Kontur, Diagnosa Outlier, Mahalanobis Distance vs Euclidean (Pustaka Utama 1: Bab 4-5)",
-      "bobot": "5%"
+      "bobot": "4%"
     },
     {
       "minggu": "3",
@@ -176,7 +205,7 @@
       "luring": "Kuliah Mimbar, Problem-Based Learning (PBL): Studi Kasus Reduksi Dimensi Data Citra/Sensor, Praktikum PCA (PB: 3x50'; PT: 3x60'; BM: 3x60')",
       "daring": "Mempelajari materi interaktif PCA, visualisasi 3D Komponen Utama melalui Jupyter Lab/Google Colab",
       "materi_pustaka": "Principal Component Analysis (PCA), Dekomposisi Spektral, Nilai & Vektor Eigen, Scree Plot, Biplot (Pustaka Utama 1: Bab 8, Pustaka Utama 2: Bab 3)",
-      "bobot": "8%"
+      "bobot": "7%"
     },
     {
       "minggu": "4",
@@ -186,7 +215,7 @@
       "luring": "Kuliah Interaktif, Diskusi Studi Kasus Psikometri/Survei Informatika, Praktik EFA di R/Python (PB: 3x50'; PT: 3x60'; BM: 3x60')",
       "daring": "Mengerjakan kuis daring mengenai perbedaan mendasar PCA vs EFA di LMS UNIROW",
       "materi_pustaka": "Exploratory Factor Analysis (EFA), KMO Test, Ekstraksi Faktor, Rotasi Ortogonal vs Oblik, Factor Score (Pustaka Utama 2: Bab 3, Pustaka Pendukung 2: Bab 13)",
-      "bobot": "7%"
+      "bobot": "6%"
     },
     {
       "minggu": "5",
@@ -196,7 +225,7 @@
       "luring": "Ceramah, Diskusi Pemodelan Multivariat, Simulasi Perhitungan Matriks Regresi di Python (PB: 3x50'; PT: 3x60'; BM: 3x60')",
       "daring": "Submit laporan regresi dataset harga properti/performa server di LMS UNIROW",
       "materi_pustaka": "Multiple Linear Regression dalam Notasi Matriks, Uji Simultan & Parsial, Multikolinearitas (VIF), Diagnosa Residual (Pustaka Utama 1: Bab 7, Pustaka Utama 2: Bab 4)",
-      "bobot": "7%"
+      "bobot": "5%"
     },
     {
       "minggu": "6",
@@ -206,7 +235,7 @@
       "luring": "Kuliah Pengantar, Praktik Komputasi Kasus Deteksi Churn Nasabah / Spam Classification dengan Regresi Logistik di Python (PB: 3x50'; PT: 3x60'; BM: 3x60')",
       "daring": "Diskusi asinkron penanganan data imbalanced pada regresi logistik melalui LMS UNIROW",
       "materi_pustaka": "Regresi Logistik Biner dan Multinomial, Fungsi Logit, Odds Ratio, Uji Hosmer-Lemeshow, Confusion Matrix (Pustaka Utama 2: Bab 5, Pustaka Pendukung 1: Bab 4)",
-      "bobot": "8%"
+      "bobot": "5%"
     },
     {
       "minggu": "7",
@@ -216,7 +245,7 @@
       "luring": "Kuliah Diskusi, Praktik Komputasi Uji MANOVA di Python/R, Evaluasi Hasil Box's M (PB: 3x50'; PT: 3x60'; BM: 3x60')",
       "daring": "Review materi persiapan Ujian Tengah Semester (UTS) di LMS UNIROW",
       "materi_pustaka": "Perbandingan Vektor Mean Multivariat, Hotelling's Two-Sample T², One-Way & Two-Way MANOVA, Box's M Test (Pustaka Utama 1: Bab 6, Pustaka Utama 2: Bab 6)",
-      "bobot": "10%"
+      "bobot": "5%"
     },
     {
       "minggu": "8",
@@ -236,7 +265,7 @@
       "luring": "Kuliah Pengantar, Case-Based Learning: Klasifikasi Kelayakan Kredit Nasabah / Pengenalan Pola Teks, Praktikum LDA/QDA di Python (PB: 3x50'; PT: 3x60'; BM: 3x60')",
       "daring": "Akses tutorial interaktif perbandingan batas keputusan linier vs kuadratik di LMS UNIROW",
       "materi_pustaka": "Discriminant Analysis, Two-Group & Multi-Group LDA, QDA, Batas Keputusan Bayesian (Pustaka Utama 1: Bab 11, Pustaka Utama 2: Bab 5)",
-      "bobot": "6%"
+      "bobot": "5%"
     },
     {
       "minggu": "10",
@@ -246,7 +275,7 @@
       "luring": "Kuliah Mimbar, Praktikum Pembuatan Dendrogram dan Analisis Segmentasi Profil Pelanggan di Lab (PB: 3x50'; PT: 3x60'; BM: 3x60')",
       "daring": "Diskusi kelompok pemilihan metrik jarak pada data campuran di forum LMS UNIROW",
       "materi_pustaka": "Cluster Analysis, Matriks Kedekatan (Proximity Matrix), Hierarchical Agglomerative Methods, Interpretasi Dendrogram (Pustaka Utama 1: Bab 12, Pustaka Utama 2: Bab 7)",
-      "bobot": "7%"
+      "bobot": "5%"
     },
     {
       "minggu": "11",
@@ -256,7 +285,7 @@
       "luring": "Kuliah Interaktif, Diskusi Kelompok Penerapan K-Means pada Big Data, Praktikum K-Means & Profiling Karakter Klaster (PB: 3x50'; PT: 3x60'; BM: 3x60')",
       "daring": "Eksplorasi visualisasi Klaster 3D interaktif menggunakan Plotly di LMS UNIROW",
       "materi_pustaka": "Non-Hierarchical Clustering (K-Means, K-Medoids), Optimasi Inersia, Elbow Curve, Silhouette Analysis (Pustaka Utama 2: Bab 7, Pustaka Pendukung 1: Bab 10)",
-      "bobot": "7%"
+      "bobot": "5%"
     },
     {
       "minggu": "12",
@@ -266,7 +295,7 @@
       "luring": "Kuliah Diskusi, Demonstrasi Perhitungan Classical Metric MDS dan Non-Metric MDS di R/Python (PB: 3x50'; PT: 3x60'; BM: 3x60')",
       "daring": "Mengunduh modul studi kasus perceptual map e-commerce di LMS UNIROW",
       "materi_pustaka": "Multidimensional Scaling (MDS), Matriks Dissimilaritas, Metrik vs Non-Metrik MDS, Nilai Stress & Shepard Diagram (Pustaka Utama 1: Bab 12, Pustaka Utama 2: Bab 8)",
-      "bobot": "5%"
+      "bobot": "4%"
     },
     {
       "minggu": "13",
@@ -276,7 +305,7 @@
       "luring": "Kuliah Mimbar, Praktikum Simple & Multiple Correspondence Analysis (MCA) di Python/R (PB: 3x50'; PT: 3x60'; BM: 3x60')",
       "daring": "Aktivitas kuis interaktif mengenai penentuan inersia total di LMS UNIROW",
       "materi_pustaka": "Simple Correspondence Analysis (CA), Multiple Correspondence Analysis (MCA), Matriks Kontingensi, Inersia & Chi-Square Metric (Pustaka Utama 2: Bab 8, Pustaka Utama 3: Bab 5)",
-      "bobot": "5%"
+      "bobot": "4%"
     },
     {
       "minggu": "14",
