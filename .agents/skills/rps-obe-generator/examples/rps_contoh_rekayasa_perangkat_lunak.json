@@ -1,0 +1,372 @@
+{
+  "identitas": {
+    "universitas": "UNIVERSITAS PGRI RONGGOLAWE",
+    "fakultas": "FAKULTAS SAINS DAN TEKNOLOGI",
+    "prodi": "PROGRAM STUDI S1 INFORMATIKA",
+    "kode_dokumen": "RPS-INF-2024-MK08",
+    "mata_kuliah": "Rekayasa Perangkat Lunak",
+    "kode_mk": "MK08",
+    "rumpun_mk": "Software Engineering",
+    "bobot_sks": 3,
+    "semester": 3,
+    "tgl_penyusunan": "24 September 2026",
+    "dosen_pengembang": "Andy Haryoko, S.T., M.T.",
+    "koordinator_rmk": "Andy Haryoko, S.T., M.T.",
+    "ka_prodi": "Dr. Eng. Ahmad Fauzi, S.Kom., M.Kom.",
+    "nidn_kaprodi": "0712058501",
+    "ujm_prodi": "Budi Santoso, S.Kom., M.Kom.",
+    "nidn_ujm": "0723088702",
+    "dosen_pengampu": "Andy Haryoko, S.T., M.T.",
+    "matakuliah_syarat": "MK06 Algoritma Pemrograman, MK10 Pengenalan Pemrograman"
+  },
+  "capaian_pembelajaran": {
+    "cpl": [
+      {
+        "kode": "CPL04",
+        "deskripsi": "Memiliki kompetensi dalam menganalisis persoalan computing yang kompleks untuk mengidentifikasi solusi pengelolaan proyek teknologi di bidang informatika/ilmu komputer dengan mempertimbangkan perkembangan ilmu transdisiplin."
+      },
+      {
+        "kode": "CPL05",
+        "deskripsi": "Menguasai konsep teoritis dalam bidang Informatika/Ilmu Komputer untuk mendesain dan mensimulasikan aplikasi teknologi multi-platform yang sesuai dengan kebutuhan industri dan masyarakat."
+      },
+      {
+        "kode": "CPL08",
+        "deskripsi": "Memiliki kemampuan untuk mengimplementasikan kebutuhan computing dengan menggunakan berbagai metode/algoritma yang sesuai dengan kebutuhan pengguna."
+      }
+    ],
+    "cpmk": [
+      {
+        "kode": "CPMK1",
+        "cpl_induk": "CPL04",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu menganalisis kebutuhan sistem perangkat lunak yang kompleks menggunakan pendekatan berorientasi objek dan model siklus hidup pengembangan yang adaptif."
+      },
+      {
+        "kode": "CPMK2",
+        "cpl_induk": "CPL05",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu merancang arsitektur perangkat lunak, antarmuka, dan struktur data sistem berbasis standar Unified Modeling Language (UML) dan prinsip Clean Architecture."
+      },
+      {
+        "kode": "CPMK3",
+        "cpl_induk": "CPL08",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu mengimplementasikan rancangan perangkat lunak ke dalam bentuk prototipe kerja fungsional serta mengevaluasi kualitasnya melalui pengujian verifikasi dan validasi formal."
+      }
+    ],
+    "sub_cpmk": [
+      {
+        "kode": "Sub-CPMK 1",
+        "cpmk_induk": "CPMK1",
+        "deskripsi": "Mahasiswa mampu menjelaskan konsep dasar rekayasa perangkat lunak, tantangan software crisis, evolusi metodologi pengembangan (Waterfall hingga Agile), dan etika profesi rekayasa perangkat lunak [C2, A2].",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 2",
+        "cpmk_induk": "CPMK1",
+        "deskripsi": "Mahasiswa mampu melakukan elisitasi dan menganalisis kebutuhan fungsional serta non-fungsional perangkat lunak, lalu menyusun dokumen Software Requirements Specification (SRS) sesuai standar IEEE 830 [C4, P3].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 3",
+        "cpmk_induk": "CPMK2",
+        "deskripsi": "Mahasiswa mampu memodelkan kebutuhan sistem menggunakan diagram analisis berorientasi objek (Use Case Diagram, Activity Diagram, dan Sequence Diagram) secara konsisten [C4, P3].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 4",
+        "cpmk_induk": "CPMK2",
+        "deskripsi": "Mahasiswa mampu merancang arsitektur perangkat lunak modular, pola desain (Design Patterns), dan diagram kelas (Class Diagram) dengan menerapkan prinsip SOLID dan Clean Architecture [C6, P4].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 1
+      },
+      {
+        "kode": "Sub-CPMK 5",
+        "cpmk_induk": "CPMK2",
+        "deskripsi": "Mahasiswa mampu merancang antarmuka pengguna (UI/UX) dan menyusun diagram interaksi komponen sistem berbasis standar kegunaan (usability) [C6, P3].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 6",
+        "cpmk_induk": "CPMK3",
+        "deskripsi": "Mahasiswa mampu mengimplementasikan modul perangkat lunak secara kolaboratif menggunakan version control system (Git) dan framework modern [C3, P4, A4].",
+        "bobot_penilaian": 15,
+        "jumlah_minggu": 3
+      },
+      {
+        "kode": "Sub-CPMK 7",
+        "cpmk_induk": "CPMK3",
+        "deskripsi": "Mahasiswa mampu merancang skenario pengujian perangkat lunak (Black Box & White Box Testing) serta melakukan pengujian otomatis (Unit Testing) untuk verifikasi sistem [C5, P4].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 8 (UTS & UAS)",
+        "cpmk_induk": "CPMK1, CPMK2, CPMK3",
+        "deskripsi": "Mahasiswa mampu mendemonstrasikan evaluasi penguasaan teoretis komprehensif melalui UTS (15%) dan unjuk kerja proyek perangkat lunak utuh melalui UAS (15%) [C5, C6, P5, A4].",
+        "bobot_penilaian": 30,
+        "jumlah_minggu": 2
+      }
+    ]
+  },
+  "deskripsi_singkat_mk": "Mata kuliah Rekayasa Perangkat Lunak (RPL) membekali mahasiswa dengan pemahaman mendalam tentang prinsip, metodologi, dan teknik dalam rekayasa perangkat lunak modern berskala industri. Pokok bahasan mencakup siklus hidup pengembangan sistem (SDLC), metodologi Agile/Scrum, elisitasi dan spesifikasi kebutuhan (SRS standar IEEE), pemodelan berorientasi objek dengan UML, perancangan arsitektur perangkat lunak dengan prinsip SOLID dan Clean Architecture, teknik implementasi kolaboratif berbasis Git, penjaminan kualitas serta strategi pengujian Black Box dan White Box. Pembelajaran dirancang berpusat pada mahasiswa dengan pendekatan Project-Based Learning (PjBL) berkelompok untuk menghasilkan prototipe perangkat lunak yang solutif terhadap permasalahan nyata di masyarakat atau industri.",
+  "bahan_kajian": [
+    "1. Pengantar Rekayasa Perangkat Lunak: Definisi software, software crisis, karakteristik software vs hardware, dan etika profesi rekayasa perangkat lunak.",
+    "2. Software Process & Metodologi SDLC: Linear/Waterfall, Prototyping, Incremental, RAD, dan Agile Methodologies (Scrum & Kanban).",
+    "3. Requirements Engineering: Elisitasi kebutuhan, analisis kebutuhan fungsional & non-fungsional, pemodelan use case, dan dokumentasi SRS standar IEEE 830 / ISO 29148.",
+    "4. Object-Oriented Analysis (OOA): Domain modeling, Use Case Specification, Activity Diagram, dan System Sequence Diagram.",
+    "5. Software Architecture & Design Principles: Architectural styles (Layered, Microservices, MVC), SOLID principles, dan dasar Design Patterns (GoF).",
+    "6. Object-Oriented Design (OOD): Detailed Class Diagram, State Machine Diagram, dan pemodelan persistensi data relasional/NoSQL.",
+    "7. User Interface Design & Interaction: Prinsip heuristik Nielsen, wireframing, dan prototipe interaktif.",
+    "8. Implementation & Team Collaboration: Version control dengan Git/GitHub, branching workflow, clean code conventions, dan code review.",
+    "9. Software Quality Assurance & Testing: Verifikasi vs validasi, White Box Testing (Basis Path, Cyclomatic Complexity), Black Box Testing (Equivalence Partitioning, Boundary Value Analysis), dan automated Unit Testing.",
+    "10. Software Maintenance, DevOps, & Evolution: Deployment dasar, CI/CD pipeline overview, refactoring, dan manajemen perubahan sistem."
+  ],
+  "pustaka": {
+    "utama": [
+      "Pressman, R. S., & Maxim, B. R. (2020). Software Engineering: A Practitioner's Approach (9th ed.). New York: McGraw-Hill Education.",
+      "Sommerville, I. (2020). Software Engineering (10th ed.). Boston: Pearson Education."
+    ],
+    "pendukung": [
+      "Martin, R. C. (2018). Clean Architecture: A Craftsman's Guide to Software Structure and Design. Boston: Prentice Hall.",
+      "IEEE Computer Society. (2014). Guide to the Software Engineering Body of Knowledge (SWEBOK v3.0). IEEE Computer Society.",
+      "Fowler, M. (2018). Refactoring: Improving the Design of Existing Code (2nd ed.). Boston: Addison-Wesley.",
+      "Rubin, K. S. (2012). Essential Scrum: A Practical Guide to the Most Popular Agile Process. Addison-Wesley."
+    ]
+  },
+  "matriks_16_pertemuan": [
+    {
+      "minggu": 1,
+      "sub_cpmk": "Sub-CPMK 1",
+      "indikator": "Ketepatan dalam menjelaskan esensi rekayasa perangkat lunak, software crisis, atribut kualitas perangkat lunak, dan tanggung jawab etika profesional.",
+      "teknik_kriteria": "Teknik non-tes: Keaktifan tanya jawab & resume materi.\nKriteria: Rubrik Partisipasi Kelas.",
+      "luring": "Kuliah interaktif, pemaparan RPS dan kontrak kuliah, diskusi kelas.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mengunduh RPS, membaca Bab 1 Pressman, dan mengisi form komitmen perkuliahan.",
+      "materi_pustaka": "Pengantar RPL: Definisi software, software engineering vs computer science, software crisis, karakteristik software, kode etik ACM/IEEE.\nPustaka: [Pressman20: Bab 1], [Sommerville20: Bab 1]",
+      "bobot": 2.5
+    },
+    {
+      "minggu": 2,
+      "sub_cpmk": "Sub-CPMK 1",
+      "indikator": "Ketepatan membandingkan model proses Waterfall, Spiral, Prototyping, serta menjelaskan nilai dan prinsip Agile/Scrum.",
+      "teknik_kriteria": "Teknik non-tes: Studi komparasi model SDLC (Tugas Kelompok Kecil).\nKriteria: Marking Scheme Analisis Komparatif.",
+      "luring": "Diskusi kelompok terarah (Small Group Discussion), studi kasus pemilihan model proses untuk berbagai skenario industri.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Diskusi forum daring mengenai adaptasi Scrum pada startup teknologi.",
+      "materi_pustaka": "Software Process Models: Prescriptive models (Waterfall, Incremental, RAD) vs Agile Process (Scrum, Kanban, Extreme Programming).\nPustaka: [Pressman20: Bab 2 & 3], [Rubin12: Bab 1-3]",
+      "bobot": 2.5
+    },
+    {
+      "minggu": 3,
+      "sub_cpmk": "Sub-CPMK 2",
+      "indikator": "Ketepatan melakukan elisitasi kebutuhan dari studi kasus pengguna serta membedakan kebutuhan fungsional dan non-fungsional (FURPS+).",
+      "teknik_kriteria": "Teknik tes/non-tes: Kuis-1 identifikasi kebutuhan & draf elisitasi awal.\nKriteria: Pedoman Penskoran Kuis.",
+      "luring": "Contextual Learning & Role-Play (Simulasi wawancara klien dan analisis kebutuhan sistem).\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan rekaman wawancara klien atau transkrip kebutuhan proyek tim.",
+      "materi_pustaka": "Requirements Engineering: Elisitasi kebutuhan (wawancara, kuesioner, observasi), klasifikasi kebutuhan fungsional & non-fungsional, matriks keterlacakan kebutuhan.\nPustaka: [Pressman20: Bab 5], [Sommerville20: Bab 4]",
+      "bobot": 5
+    },
+    {
+      "minggu": 4,
+      "sub_cpmk": "Sub-CPMK 2",
+      "indikator": "Ketepatan menyusun dokumen Software Requirements Specification (SRS) formal sesuai standar IEEE 830 / ISO 29148.",
+      "teknik_kriteria": "Teknik non-tes: Tugas-1 (Penyusunan Dokumen SRS Tim).\nKriteria: Rubrik Penilaian SRS Skala 1-5.",
+      "luring": "Workshop penulisan dokumen SRS standar IEEE 830, peer-review antar kelompok mahasiswa.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan berkas Tugas-1 (Dokumen SRS format PDF dan repositori draf di GitHub).",
+      "materi_pustaka": "Spesifikasi & Validasi Kebutuhan: Struktur IEEE Std 830-1998 / ISO/IEC/IEEE 29148, use case scenarios, acceptance criteria, dan validasi kebutuhan.\nPustaka: [Sommerville20: Bab 4], [IEEE 830]",
+      "bobot": 5
+    },
+    {
+      "minggu": 5,
+      "sub_cpmk": "Sub-CPMK 3",
+      "indikator": "Ketepatan merancang Use Case Diagram, mendeskripsikan Use Case Scenario, dan merancang Activity Diagram untuk alur proses bisnis.",
+      "teknik_kriteria": "Teknik non-tes: Praktik laboratorium pemodelan visual dengan CASE tools (Enterprise Architect/StarUML).\nKriteria: Rubrik Pemodelan UML.",
+      "luring": "Praktik laboratorium komputer, tutorial pemodelan Use Case dan Activity Diagram terpandu.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Upload diagram UML use case dan feedback asinkronus oleh dosen.",
+      "materi_pustaka": "Object-Oriented Modeling I: Konsep dasar UML, aktor, use case relationship (include, extend, generalization), Activity Diagram alur bisnis.\nPustaka: [Pressman20: Bab 6], [Fowler18]",
+      "bobot": 5
+    },
+    {
+      "minggu": 6,
+      "sub_cpmk": "Sub-CPMK 3",
+      "indikator": "Ketepatan merancang Sequence Diagram dan State Machine Diagram yang memodelkan interaksi objek secara dinamis.",
+      "teknik_kriteria": "Teknik non-tes: Evaluasi unjuk kerja diagram sekuensial dan konsistensi terhadap use case.\nKriteria: Marking Scheme Diagram Dinamis.",
+      "luring": "Problem-Based Learning: Analisis interaksi dinamis pesan antar objek pada skenario kompleks (autentikasi, checkout, transaksi).\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mengakses video tutorial interaksi diagram dan latihan mandiri.",
+      "materi_pustaka": "Object-Oriented Modeling II: Sequence Diagram (lifeline, activation bar, message synchronous/asynchronous), State Machine Diagram untuk lifecycle entitas.\nPustaka: [Pressman20: Bab 7], [Sommerville20: Bab 5]",
+      "bobot": 5
+    },
+    {
+      "minggu": 7,
+      "sub_cpmk": "Sub-CPMK 4",
+      "indikator": "Ketepatan merancang diagram kelas (Class Diagram) dengan menerapkan prinsip SOLID dan pemilihan pola arsitektur yang modular.",
+      "teknik_kriteria": "Teknik non-tes: Tugas-2 (Perancangan Arsitektur & Class Diagram Sistem).\nKriteria: Rubrik Arsitektur Perangkat Lunak Skala 1-5.",
+      "luring": "Studi kasus arsitektur (Layered, Clean Architecture, MVC), perancangan Class Diagram (atribut, operasi, visibilitas, asosiasi, agregasi, komposisi).\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan Tugas-2 (Dokumen Perancangan Arsitektur & Model UML Lengkap).",
+      "materi_pustaka": "Software Architecture & OOD: Arsitektur perangkat lunak, modul, prinsip SOLID (Single Responsibility, Open-Closed, Liskov, Interface Segregation, Dependency Inversion), Class Diagram.\nPustaka: [Martin18: Bab 1-7], [Pressman20: Bab 8 & 9]",
+      "bobot": 10
+    },
+    {
+      "minggu": 8,
+      "sub_cpmk": "Sub-CPMK 1, 2, 3, 4",
+      "indikator": "Penguasaan konsep teoritis siklus hidup perangkat lunak, elisitasi kebutuhan, spesifikasi SRS, dan pemodelan analisis-desain UML.",
+      "teknik_kriteria": "Teknik Tes: Ujian Tulis Tengah Semester (UTS) berbentuk soal analisis kasus terstruktur.\nKriteria: Pedoman Penskoran Kunci Jawaban UTS.",
+      "luring": "Evaluasi Tengah Semester / Ujian Tertulis Terjadwal di Ruang Kelas.\n[PB: 1x(3x50')]",
+      "daring": "LMS Unirow: Backup pengunggahan berkas jawaban UTS daring bila berhalangan luring.",
+      "materi_pustaka": "Seluruh Materi Pertemuan 1 s.d. 7 (Pengantar RPL, SDLC, Analisis Kebutuhan, SRS, Pemodelan UML Use Case, Activity, Sequence, Arsitektur SOLID).\nPustaka: [Pressman20], [Sommerville20], [Martin18]",
+      "bobot": 15
+    },
+    {
+      "minggu": 9,
+      "sub_cpmk": "Sub-CPMK 5",
+      "indikator": "Ketepatan merancang antarmuka pengguna (UI/UX) berbasis wireframe/mockup yang memenuhi 10 prinsip heuristik usability Nielsen.",
+      "teknik_kriteria": "Teknik non-tes: Presentasi prototipe interaktif (Figma/Adobe XD).\nKriteria: Rubrik Usability Design.",
+      "luring": "Workshop UI/UX Prototyping, simulasi uji coba antarmuka oleh pengguna sebaya (Peer Usability Testing).\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan tautan prototipe interaktif Figma dan feedback evaluasi heuristik.",
+      "materi_pustaka": "User Interface Design: 10 Heuristik Usability Nielsen, prinsip desain visual, tata letak informasi, wireframing, high-fidelity prototyping.\nPustaka: [Pressman20: Bab 11], [Sommerville20: Bab 9]",
+      "bobot": 5
+    },
+    {
+      "minggu": 10,
+      "sub_cpmk": "Sub-CPMK 5",
+      "indikator": "Ketepatan menyusun desain basis data relasional/NoSQL yang terintegrasi dengan diagram kelas dan modul fungsional sistem.",
+      "teknik_kriteria": "Teknik non-tes: Pemeriksaan skema database relasional (DDL SQL) & Entity Relationship Diagram (ERD).\nKriteria: Marking Scheme Desain Data.",
+      "luring": "Tutorial dan praktik laboratorium perancangan skema data fisik, mapping Class Diagram ke Relational Tables.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengunggahan script DDL SQL database dan diagram ERD terverifikasi.",
+      "materi_pustaka": "Data Design: Pemetaan model objek ke relasional (ORM concept), integritas referensial, normalisasi data, optimasi indeks.\nPustaka: [Pressman20: Bab 10], [Sommerville20: Bab 5]",
+      "bobot": 5
+    },
+    {
+      "minggu": 11,
+      "sub_cpmk": "Sub-CPMK 6",
+      "indikator": "Kemampuan menerapkan alur kerja kolaboratif Git (branching, pull request, merge conflict resolution) dalam repository proyek tim.",
+      "teknik_kriteria": "Teknik non-tes: Observasi repository Git & commit history tim.\nKriteria: Rubrik Kolaborasi Git & Version Control.",
+      "luring": "Hands-on lab kolaborasi Git/GitHub, inisiasi sprint backlog implementasi proyek perangkat lunak tim.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Registrasi URL repository GitHub kelompok dan pemantauan kontribusi via GitHub Insights.",
+      "materi_pustaka": "Software Construction & Version Control: Git workflow (Gitflow/GitHub flow), issue tracking, semantic commit, branching strategy.\nPustaka: [Sommerville20: Bab 25], [Pressman20: Bab 19]",
+      "bobot": 5
+    },
+    {
+      "minggu": 12,
+      "sub_cpmk": "Sub-CPMK 6",
+      "indikator": "Kemampuan mengimplementasikan backend service dan antarmuka frontend berdasarkan arsitektur yang telah dirancang.",
+      "teknik_kriteria": "Teknik non-tes: Sprint Review 1 (Presentasi progres modul fungsional 50%).\nKriteria: Rubrik Kualitas Kode & Implementasi.",
+      "luring": "Project-Based Learning (PjBL) mentoring: Dosen mereview implementasi modul backend/frontend, refactoring kode, dan clean architecture.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan milestone 1 (Source code modul inti di repository Git).",
+      "materi_pustaka": "Implementation Practices: Coding conventions, exception handling, modularity, RESTful API design, database connection pooling.\nPustaka: [Martin18: Bab 15-22], [Sommerville20: Bab 7]",
+      "bobot": 5
+    },
+    {
+      "minggu": 13,
+      "sub_cpmk": "Sub-CPMK 6",
+      "indikator": "Kemampuan mengintegrasikan modul-modul sistem perangkat lunak menjadi aplikasi terpadu yang berfungsi penuh.",
+      "teknik_kriteria": "Teknik non-tes: Sprint Review 2 (Demo fungsionalitas sistem 80%).\nKriteria: Marking Scheme Integrasi Modul.",
+      "luring": "PjBL mentoring: Sesi integrasi sistem terpadu, penyelarasan API client-server, dan uji alur transaksi data end-to-end.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Update release tag pada GitHub dan catatan rilis perbaikan bug integrasi.",
+      "materi_pustaka": "Component Integration: Interfacing, API authentication (JWT/OAuth), data serialization, logging, dan error monitoring.\nPustaka: [Pressman20: Bab 12], [Sommerville20: Bab 8]",
+      "bobot": 5
+    },
+    {
+      "minggu": 14,
+      "sub_cpmk": "Sub-CPMK 7",
+      "indikator": "Ketepatan menyusun rencana uji, kasus uji Black Box (Equivalence Partitioning, Boundary Value Analysis) dan White Box (Basis Path).",
+      "teknik_kriteria": "Teknik non-tes: Tugas-3 (Dokumen Rencana & Laporan Pengujian Software Test Plan).\nKriteria: Rubrik Pengujian Perangkat Lunak Skala 1-5.",
+      "luring": "Workshop Pengujian Perangkat Lunak: Perancangan matriks kasus uji Black Box dan kalkulasi Cyclomatic Complexity pada kode logika.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan berkas Tugas-3 (Dokumen Test Plan & Test Cases format PDF).",
+      "materi_pustaka": "Software Testing Strategies & Techniques: Verifikasi vs validasi, White Box (Basis path testing, cyclomatic complexity), Black Box (Equivalence partitioning, boundary value analysis, cause-effect graphing).\nPustaka: [Pressman20: Bab 13 & 14], [Sommerville20: Bab 8]",
+      "bobot": 5
+    },
+    {
+      "minggu": 15,
+      "sub_cpmk": "Sub-CPMK 7",
+      "indikator": "Kemampuan mengeksekusi pengujian otomatis (Unit Testing / Integration Testing) dan mendokumentasikan hasil temuan defek (Bug Report).",
+      "teknik_kriteria": "Teknik non-tes: Unjuk kerja eksekusi unit test dan pelaporan bug di issue tracker.\nKriteria: Marking Scheme Eksekusi Pengujian.",
+      "luring": "Praktik laboratorium pengujian otomatis menggunakan framework test (JUnit / PyTest / Jest), penulisan bug report standar industri.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Submission laporan bug tracking dan hasil coverage unit testing di repository.",
+      "materi_pustaka": "Automated Testing & Quality Metrics: Unit testing framework, test assertions, code coverage analysis, bug lifecycle, dan deployment overview.\nPustaka: [Pressman20: Bab 14 & 15], [Sommerville20: Bab 8]",
+      "bobot": 5
+    },
+    {
+      "minggu": 16,
+      "sub_cpmk": "Sub-CPMK 5, 6, 7, 8",
+      "indikator": "Unjuk kerja aplikasi perangkat lunak utuh, validitas hasil pengujian, kualitas laporan akhir, dan kemahiran dalam presentasi/tanya jawab.",
+      "teknik_kriteria": "Teknik Tes & Non-Tes: Ujian Akhir Semester (UAS) berbentuk Expo Presentasi & Live Demo Proyek Perangkat Lunak Tim.\nKriteria: Rubrik Evaluasi Proyek Capstone Skala 1-5.",
+      "luring": "Ujian Akhir Semester (UAS): Sesi demo langsung sistem di hadapan dosen penguji, evaluasi source code, dan tanya jawab teknis komprehensif.\n[PB: 1x(3x50')]",
+      "daring": "LMS Unirow: Pengumpulan tautan rilis final sistem (URL aplikasi live/video demo), repository lengkap, dan berkas Laporan Akhir Proyek.",
+      "materi_pustaka": "Kompilasi Seluruh Materi Pembelajaran Semester (SRS, Arsitektur, Implementasi, Testing, dan Dokumentasi Sistem Lengkap).\nPustaka: Seluruh Pustaka Utama dan Pendukung",
+      "bobot": 15
+    }
+  ],
+  "tugas_terstruktur": [
+    {
+      "tugas_ke": 1,
+      "judul": "Analisis Kebutuhan dan Penyusunan Dokumen Spesifikasi Kebutuhan Perangkat Lunak (SRS)",
+      "sub_cpmk": "Sub-CPMK 2",
+      "alokasi_waktu": "Minggu ke-3 s.d. ke-4 (2 Minggu)",
+      "jenis": "Kelompok (3-4 Mahasiswa)",
+      "deskripsi": "Mahasiswa secara berkelompok memilih studi kasus riil pemecahan masalah di lingkungan kampus atau UMKM lokal, melakukan elisitasi kebutuhan melalui wawancara/observasi, mengidentifikasi kebutuhan fungsional dan non-fungsional, serta menyusun dokumen Software Requirements Specification (SRS) formal mengacu pada standar IEEE Std 830-1998 / ISO 29148.",
+      "indikator": "Ketepatan identifikasi kebutuhan, kelengkapan struktur bab SRS, kejelasan skenario use case, dan akurasi perumusan batasan teknis.",
+      "luaran": "Dokumen SRS formal (PDF) dan repositori dokumentasi Markdown di GitHub.",
+      "bobot": 10
+    },
+    {
+      "tugas_ke": 2,
+      "judul": "Perancangan Arsitektur Sistem dan Pemodelan Berorientasi Objek dengan UML",
+      "sub_cpmk": "Sub-CPMK 3 & 4",
+      "alokasi_waktu": "Minggu ke-5 s.d. ke-7 (3 Minggu)",
+      "jenis": "Kelompok (3-4 Mahasiswa)",
+      "deskripsi": "Berdasarkan dokumen SRS yang telah divalidasi, kelompok merancang arsitektur perangkat lunak dengan pendekatan Clean Architecture / MVC, memodelkan alur sistem dengan diagram UML (Use Case, Activity, Sequence), serta merancang Class Diagram yang mematuhi prinsip SOLID dan rancangan skema database relasional.",
+      "indikator": "Kesesuaian diagram UML terhadap dokumen SRS, konsistensi antar diagram, kepatuhan notasi standar UML 2.5, dan penerapan prinsip SOLID pada Class Diagram.",
+      "luaran": "Dokumen Software Design Description (SDD) format PDF, berkas diagram visual CASE tools, dan skrip DDL SQL database.",
+      "bobot": 10
+    },
+    {
+      "tugas_ke": 3,
+      "judul": "Perancangan Rencana Pengujian dan Eksekusi Automated Unit Testing",
+      "sub_cpmk": "Sub-CPMK 7",
+      "alokasi_waktu": "Minggu ke-14 s.d. ke-15 (2 Minggu)",
+      "jenis": "Kelompok (3-4 Mahasiswa)",
+      "deskripsi": "Kelompok menyusun dokumen Software Test Plan, merancang kasus uji fungsional menggunakan teknik Black Box (Equivalence Partitioning & Boundary Value Analysis) dan White Box (Basis Path), serta menulis skrip unit testing otomatis pada modul kritis aplikasi untuk mengukur code coverage.",
+      "indikator": "Ketepatan penentuan test cases, kelengkapan matriks keterlacakan pengujian, validitas eksekusi pengujian otomatis, dan kualitas laporan defek (bug report).",
+      "luaran": "Dokumen Test Plan & Bug Report (PDF) serta skrip automated unit testing di repository GitHub.",
+      "bobot": 10
+    }
+  ],
+  "rubrik_obe": {
+    "skala": [
+      {
+        "nilai": 5,
+        "kategori": "Sangat Kompeten",
+        "rentang": "81 - 100",
+        "deskripsi": "Mahasiswa menunjukkan penguasaan sangat mendalam terhadap metodologi rekayasa perangkat lunak. Analisis kebutuhan sangat akurat, pemodelan arsitektur dan diagram UML konsisten tanpa cacat logika, implementasi kode bersih (clean code) dan aman, pengujian komprehensif dengan cakupan tinggi, dokumentasi sangat sistematis, dan presentasi sangat meyakinkan."
+      },
+      {
+        "nilai": 4,
+        "kategori": "Kompeten",
+        "rentang": "61 - 80",
+        "deskripsi": "Mahasiswa mampu menerapkan metodologi rekayasa perangkat lunak dengan baik. Analisis kebutuhan tepat, diagram UML merepresentasikan sistem secara benar dengan sedikit catatan minor, fungsi aplikasi berjalan dengan baik pada skenario utama, pengujian memadai, dokumentasi rapi sesuai standar, dan mampu bekerja sama secara efektif dalam tim."
+      },
+      {
+        "nilai": 3,
+        "kategori": "Cukup Kompeten",
+        "rentang": "41 - 60",
+        "deskripsi": "Mahasiswa memahami konsep dasar rekayasa perangkat lunak. Analisis kebutuhan mencakup fitur dasar namun kurang mendalam, beberapa notasi UML tidak konsisten, fungsi utama aplikasi berjalan namun masih terdapat bug pada penanganan kesalahan (error handling), pengujian terbatas pada skenario positif, dan dokumentasi memiliki beberapa kekurangan format."
+      },
+      {
+        "nilai": 2,
+        "kategori": "Kurang Kompeten",
+        "rentang": "21 - 40",
+        "deskripsi": "Mahasiswa memiliki pemahaman terbatas mengenai rekayasa perangkat lunak. Analisis kebutuhan keliru atau tidak lengkap, perancangan diagram membingungkan dan melanggar aturan notasi, aplikasi tidak dapat berjalan dengan stabil (sering crash), pengujian tidak terstruktur, dan dokumentasi tidak memenuhi standar minimal."
+      },
+      {
+        "nilai": 1,
+        "kategori": "Tidak Kompeten",
+        "rentang": "0 - 20",
+        "deskripsi": "Mahasiswa tidak mampu mendemonstrasikan capaian pembelajaran. Tidak mampu melakukan analisis maupun perancangan perangkat lunak, sistem tidak ada atau tidak berfungsi sama sekali, tidak ada bukti pengujian, dokumen tidak diserahkan, atau terindikasi plagiarisme berat."
+      }
+    ]
+  }
+}

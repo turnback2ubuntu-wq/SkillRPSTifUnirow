@@ -1,0 +1,374 @@
+{
+  "identitas": {
+    "universitas": "UNIVERSITAS PGRI RONGGOLAWE",
+    "fakultas": "FAKULTAS SAINS DAN TEKNOLOGI",
+    "prodi": "PROGRAM STUDI S1 INFORMATIKA",
+    "kode_dokumen": "RPS-INF-IF260624",
+    "mata_kuliah": "Sistem Informasi Bisnis",
+    "kode_mk": "IF260624",
+    "rumpun_mk": "Sistem Informasi & Manajemen TI",
+    "bobot_sks": 3,
+    "semester": 5,
+    "tgl_penyusunan": "24 September 2026",
+    "dosen_pengembang": "ANDY HARYOKO, ST., MT",
+    "koordinator_rmk": "ANDY HARYOKO, ST., MT",
+    "ka_prodi": "AMALUDIN ARIFIA, M.Kom.",
+    "nidn_kaprodi": "07xxxxxxxx",
+    "ujm_prodi": "UJM Program Studi Informatika",
+    "nidn_ujm": "07xxxxxxxx",
+    "dosen_pengampu": "ANDY HARYOKO, ST., MT",
+    "matakuliah_syarat": "MK26 Basis Data, MK08 Rekayasa Perangkat Lunak"
+  },
+  "capaian_pembelajaran": {
+    "cpl": [
+      {
+        "kode": "CPL03",
+        "deskripsi": "Memiliki kemampuan memahami cara kerja sistem komputer serta menerapkan berbagai algoritma/metode untuk memecahkan masalah dalam suatu organisasi."
+      },
+      {
+        "kode": "CPL04",
+        "deskripsi": "Memiliki kompetensi dalam menganalisis persoalan computing yang kompleks untuk mengidentifikasi solusi pengelolaan proyek teknologi di bidang informatika/ilmu komputer dengan mempertimbangkan perkembangan ilmu transdisiplin."
+      },
+      {
+        "kode": "CPL10",
+        "deskripsi": "Memiliki kemampuan untuk mengimplementasikan, mengevaluasi dan mengembangkan solusi berbasis computing multi-platform yang sesuai dengan kebutuhan computing dalam suatu organisasi."
+      }
+    ],
+    "cpmk": [
+      {
+        "kode": "CPMK1",
+        "cpl_induk": "CPL03",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu menganalisis peranan fundamental sistem informasi, konsep keunggulan kompetitif (Porter's Five Forces & Value Chain), serta tata kelola teknologi informasi dalam ekosistem bisnis digital [C4]."
+      },
+      {
+        "kode": "CPMK2",
+        "cpl_induk": "CPL04",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu menganalisis dan memodelkan proses bisnis terintegrasi pada sistem enterprise (Enterprise Resource Planning, Supply Chain Management, Customer Relationship Management, dan E-Commerce) [C4]."
+      },
+      {
+        "kode": "CPMK3",
+        "cpl_induk": "CPL10",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu merancang arsitektur solusi sistem informasi bisnis berbasis komputasi awan, Business Intelligence (BI), dan sistem pendukung keputusan (DSS) untuk pemecahan masalah bisnis nyata [C6]."
+      }
+    ],
+    "sub_cpmk": [
+      {
+        "kode": "Sub-CPMK 1",
+        "cpmk_induk": "CPMK1",
+        "deskripsi": "Mahasiswa mampu menjelaskan konsep dasar sistem informasi bisnis, komponen pembentuknya, dimensi organisasi-manajemen-teknologi, dan transformasi digital firm [C2, A2].",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 2",
+        "cpmk_induk": "CPMK1",
+        "deskripsi": "Mahasiswa mampu menganalisis peranan strategis SI dalam mencapai keunggulan kompetitif menggunakan model Porter, Value Chain, dan menganalisis isu etika/privasi data era digital [C4, A3].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 3",
+        "cpmk_induk": "CPMK2",
+        "deskripsi": "Mahasiswa mampu memodelkan proses bisnis lintas fungsi (cross-functional business processes) menggunakan standar Business Process Model and Notation (BPMN) [C4, P3].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 4",
+        "cpmk_induk": "CPMK2",
+        "deskripsi": "Mahasiswa mampu membedah arsitektur sistem enterprise terpadu (ERP, SCM, dan CRM) serta menganalisis integrasi data rantai pasok dan relasi pelanggan [C4].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 1
+      },
+      {
+        "kode": "Sub-CPMK 5",
+        "cpmk_induk": "CPMK2",
+        "deskripsi": "Mahasiswa mampu menganalisis model bisnis elektronik (E-Commerce B2B/B2C/C2C, m-commerce) dan mekanisme pembayaran digital (Payment Gateway/Fintech) [C4].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 6",
+        "cpmk_induk": "CPMK3",
+        "deskripsi": "Mahasiswa mampu merancang arsitektur Business Intelligence, data warehouse, OLAP, dan visualisasi dashboard analitik bisnis untuk pengambilan keputusan manajerial [C6, P4].",
+        "bobot_penilaian": 15,
+        "jumlah_minggu": 3
+      },
+      {
+        "kode": "Sub-CPMK 7",
+        "cpmk_induk": "CPMK3",
+        "deskripsi": "Mahasiswa mampu mengevaluasi aspek keamanan informasi bisnis, audit sistem, kecerdasan artifisial terapan, serta mitigasi risiko implementasi teknologi informasi [C5, A3].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 8 (UTS & UAS)",
+        "cpmk_induk": "CPMK1, CPMK2, CPMK3",
+        "deskripsi": "Mahasiswa mampu mendemonstrasikan evaluasi pemahaman teoretis melalui UTS tertulis (15%) dan unjuk kerja perancangan proyek solusi sistem informasi bisnis digital melalui UAS (15%) [C5, C6, P5, A4].",
+        "bobot_penilaian": 30,
+        "jumlah_minggu": 2
+      }
+    ]
+  },
+  "deskripsi_singkat_mk": "Mata kuliah Sistem Informasi Bisnis (IF260624) membekali mahasiswa dengan wawasan strategis, manajerial, dan teknis mengenai pemanfaatan teknologi informasi untuk mendorong transformasi digital dan keunggulan kompetitif organisasi. Pembahasan mencakup peranan sistem informasi dalam perusahaan digital modern (digital firm), analisis strategi kompetitif dan rantai nilai (Porter's Value Chain), isu etika dan privasi data (UU PDP), pemodelan proses bisnis dengan BPMN, sistem enterprise terintegrasi (ERP, SCM, CRM), pasar digital dan e-commerce, infrastruktur komputasi awan (Cloud/SaaS), arsitektur Business Intelligence (BI) dan data warehousing, perancangan dashboard analitik interaktif, hingga keamanan informasi dan mitigasi risiko bisnis. Pembelajaran menekankan keterlibatan aktif mahasiswa melalui metode Case Method dan Project-Based Learning (PjBL) berbasis tim untuk memecahkan problematika bisnis nyata di era industri 4.0.",
+  "bahan_kajian": [
+    "1. Pengantar Sistem Informasi Bisnis & Transformasi Digital Firm: Komponen SI, data-information-knowledge, dimensi organisasi, manajemen, dan teknologi.",
+    "2. Sistem Informasi dalam Organisasi Bisnis Global: Klasifikasi sistem fungsi bisnis (TPS, MIS, DSS, ESS), peran CIO dan integrasi fungsi bisnis.",
+    "3. Sistem Informasi Strategis & Keunggulan Kompetitif: Model Kekuatan Kompetitif Porter, Value Chain Analysis, ekosistem bisnis digital, dan sinergi TI.",
+    "4. Isu Etika, Sosial, dan Regulasi Bisnis Digital: 5 dimensi moral teknologi informasi, privasi data, perlindungan HAKI, dan kepatuhan UU PDP.",
+    "5. Pemodelan Proses Bisnis (Business Process Modeling): Analisis alur kerja, notasi standar BPMN 2.0 (events, activities, gateways, swimlanes), dan rekayasa ulang proses bisnis (BPR).",
+    "6. Sistem Enterprise Terpadu: Enterprise Resource Planning (ERP): Arsitektur ERP, modul terintegrasi, database terpusat, tantangan dan manfaat implementasi (SAP, Odoo).",
+    "7. Supply Chain Management (SCM) & Customer Relationship Management (CRM): Kolaborasi rantai pasok global, bullwhip effect, CRM operasional & analitikal, Customer Lifetime Value.",
+    "8. E-Commerce & Transformasi Pasar Digital: Model bisnis e-commerce (B2B, B2C, C2C), revenue model digital, ekosistem fintech, payment gateway, dan m-commerce.",
+    "9. Infrastruktur TI & Cloud Computing untuk Bisnis: Evolusi infrastruktur TI, model cloud (IaaS, PaaS, SaaS) untuk efisiensi belanja modal (CapEx vs OpEx), skalabilitas bisnis.",
+    "10. Fondasi Business Intelligence (BI) & Data Warehousing: Database operasional vs data warehouse, proses ETL (Extract-Transform-Load), data mart, dan multidimensional data modeling.",
+    "11. Analitik Data Bisnis & Perancangan Executive Dashboard: Konsep OLAP, analisis deskriptif/prediktif, KPI bisnis, visualisasi data interaktif (Power BI / Tableau / Looker Studio).",
+    "12. Kecerdasan Artifisial, Manajemen Pengetahuan, & Keamanan Bisnis: AI dalam bisnis, chatbot CRM, Knowledge Management Systems (KMS), manajemen risiko siber, Business Continuity Plan (BCP)."
+  ],
+  "pustaka": {
+    "utama": [
+      "Laudon, K. C., & Laudon, J. P. (2022). Management Information Systems: Managing the Digital Firm (17th ed.). Harlow: Pearson Education.",
+      "Rainer, R. K., & Prince, B. (2021). Introduction to Information Systems: Supporting and Transforming Business (9th ed.). Hoboken, NJ: John Wiley & Sons."
+    ],
+    "pendukung": [
+      "Turban, E., Pollard, C., & Wood, G. (2021). Information Technology for Management: Driving Digital Transformation to Increase Local and Global Competitiveness (12th ed.). Hoboken, NJ: John Wiley & Sons.",
+      "O'Brien, J. A., & Marakas, G. M. (2017). Management Information Systems (10th ed.). New York: McGraw-Hill Education.",
+      "Weske, M. (2019). Business Process Management: Concepts, Languages, Architectures (3rd ed.). Berlin: Springer.",
+      "Sharda, R., Delen, D., & Turban, E. (2020). Analytics, Data Science, & Artificial Intelligence: Systems for Decision Support (11th ed.). Pearson."
+    ]
+  },
+  "matriks_16_pertemuan": [
+    {
+      "minggu": 1,
+      "sub_cpmk": "Sub-CPMK 1",
+      "indikator": "Ketepatan dalam menjelaskan esensi sistem informasi bisnis, perbedaannya dengan ilmu komputer murni, 3 dimensi sistem (organisasi, manajemen, teknologi), dan karakteristik digital firm.",
+      "teknik_kriteria": "Teknik non-tes: Keaktifan diskusi kelas & resume materi perkuliahan.\nKriteria: Rubrik Partisipasi Kelas.",
+      "luring": "Kuliah interaktif, pemaparan RPS dan kontrak perkuliahan, diskusi tanya jawab terpandu.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mengunduh RPS, membaca materi Bab 1 Laudon, mengisi form komitmen belajar.",
+      "materi_pustaka": "Pengantar Sistem Informasi Bisnis: Definisi SI, data vs informasi vs knowledge, 3 dimensi SI, tujuan strategis bisnis berinvestasi di TI, karakteristik perusahaan digital.\nPustaka: [Laudon22: Bab 1], [Rainer21: Bab 1]",
+      "bobot": 2.5
+    },
+    {
+      "minggu": 2,
+      "sub_cpmk": "Sub-CPMK 1",
+      "indikator": "Ketepatan mengklasifikasikan sistem informasi berdasarkan tingkatan organisasi (operasional, manajerial, strategis) dan fungsi bisnis perusahaan.",
+      "teknik_kriteria": "Teknik non-tes: Studi kasus pemetaan SI pada organisasi perbankan/ritel.\nKriteria: Marking Scheme Analisis Sistem.",
+      "luring": "Small Group Discussion: Analisis pembagian peran sistem TPS, MIS, DSS, dan ESS pada perusahaan multinasional.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Forum diskusi daring mengenai peranan Chief Information Officer (CIO) modern.",
+      "materi_pustaka": "Sistem Informasi dalam Bisnis Global: TPS (Transaction Processing Systems), MIS (Management Information Systems), DSS, ESS, kolaborasi enterprise dan intranet/extranet.\nPustaka: [Laudon22: Bab 2], [O'Brien17: Bab 2]",
+      "bobot": 2.5
+    },
+    {
+      "minggu": 3,
+      "sub_cpmk": "Sub-CPMK 2",
+      "indikator": "Ketepatan menerapkan Model 5 Kekuatan Porter dan Model Rantai Nilai (Value Chain) untuk menganalisis keunggulan kompetitif bisnis berbasis TI.",
+      "teknik_kriteria": "Teknik non-tes: Tugas-1 (Analisis Strategi Keunggulan Kompetitif Kasus Industri Nyata).\nKriteria: Rubrik Analisis Kasus Bisnis Skala 1-5.",
+      "luring": "Case Method: Bedah kasus keunggulan kompetitif perusahaan digital (studi kasus Amazon / GoTo / Netflix).\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan berkas Tugas-1 format PDF dan lembar refleksi kasus.",
+      "materi_pustaka": "Sistem Informasi Strategis & Keunggulan Kompetitif: Model Kekuatan Kompetitif Michael Porter, strategi diferensiasi & cost leadership, Value Chain Model (aktivitas utama & pendukung).\nPustaka: [Laudon22: Bab 3], [Turban21: Bab 2]",
+      "bobot": 5
+    },
+    {
+      "minggu": 4,
+      "sub_cpmk": "Sub-CPMK 2",
+      "indikator": "Ketepatan mengidentifikasi dilema etika, tantangan privasi data konsumen era AI, serta kepatuhan hukum transaksi elektronik dan UU Perlindungan Data Pribadi (UU PDP).",
+      "teknik_kriteria": "Teknik tes/non-tes: Kuis-1 Etika & Regulasi Bisnis Digital.\nKriteria: Pedoman Penskoran Kuis.",
+      "luring": "Debat kelompok terstruktur mengenai privasi data, tracking perilaku konsumen, profiling iklan digital, dan etika algoritma.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mengerjakan Kuis-1 daring (analisis skenario pelanggaran privasi data).",
+      "materi_pustaka": "Etika, Sosial, dan Regulasi Sistem Bisnis: 5 dimensi moral TI, hak kepemilikan intelektual (HAKI), privasi data konsumen, regulasi UU PDP Indonesia, dan tata kelola etis data.\nPustaka: [Laudon22: Bab 4], [Rainer21: Bab 3]",
+      "bobot": 5
+    },
+    {
+      "minggu": 5,
+      "sub_cpmk": "Sub-CPMK 3",
+      "indikator": "Ketepatan mengidentifikasi proses bisnis fungsional dan merancang diagram pemodelan proses bisnis menggunakan notasi standar BPMN 2.0.",
+      "teknik_kriteria": "Teknik non-tes: Praktik laboratorium pemodelan proses bisnis dengan tools CASE (Bizagi / Camunda / Draw.io).\nKriteria: Rubrik Pemodelan BPMN.",
+      "luring": "Praktik laboratorium komputer: Pemodelan proses bisnis *as-is* dan *to-be* untuk proses pengadaan dan penjualan ritel.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mengunggah berkas diagram BPMN (format .bpmn dan .png) dan catatan perbaikan.",
+      "materi_pustaka": "Business Process Modeling & Management: Konsep proses bisnis, Business Process Reengineering (BPR), notasi BPMN 2.0 (Events, Activities, Gateways, Pools, Swimlanes, Data Objects).\nPustaka: [Weske19: Bab 1-3], [Laudon22: Bab 2]",
+      "bobot": 5
+    },
+    {
+      "minggu": 6,
+      "sub_cpmk": "Sub-CPMK 3",
+      "indikator": "Ketepatan menganalisis bottleneck alur kerja, merancang optimasi proses bisnis (*Business Process Improvement*), dan menyusun spesifikasi kebutuhan sistem baru.",
+      "teknik_kriteria": "Teknik non-tes: Tugas-2 (Pemodelan Proses Bisnis BPMN & Analisis Kebutuhan Sistem Enterprise).\nKriteria: Rubrik Perancangan Proses Bisnis Skala 1-5.",
+      "luring": "Workshop analisis inefisiensi alur bisnis dan perancangan alur proses otomatisasi terpadu.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan laporan Tugas-2 (Dokumen Analisis Proses Bisnis & Diagram BPMN).",
+      "materi_pustaka": "Business Process Optimization: Analisis siklus waktu, eliminasi aktivitas non-value-added, integrasi otomatisasi proses bisnis, dan dokumentasi spesifikasi proses bisnis.\nPustaka: [Weske19: Bab 4-6], [Turban21: Bab 8]",
+      "bobot": 5
+    },
+    {
+      "minggu": 7,
+      "sub_cpmk": "Sub-CPMK 4",
+      "indikator": "Ketepatan membedah arsitektur Enterprise Resource Planning (ERP), integrasi Supply Chain Management (SCM), dan Customer Relationship Management (CRM).",
+      "teknik_kriteria": "Teknik non-tes: Observasi demonstrasi modul ERP Open Source (Odoo ERP) & evaluasi studi kasus.\nKriteria: Marking Scheme Sistem Enterprise.",
+      "luring": "Tutorial dan hands-on lab simulasi sistem ERP (Odoo): Modul Sales, Purchase, Inventory, dan Accounting.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Eksplorasi mandiri instance cloud Odoo dan penyelesaian modul latihan inventori.",
+      "materi_pustaka": "Enterprise Systems (ERP, SCM, CRM): Arsitektur ERP, database enterprise terpusat, integrasi supply chain upstream-downstream, bullwhip effect, modul operasional dan analitis CRM.\nPustaka: [Laudon22: Bab 9], [Rainer21: Bab 10-11]",
+      "bobot": 10
+    },
+    {
+      "minggu": 8,
+      "sub_cpmk": "Sub-CPMK 1, 2, 3, 4",
+      "indikator": "Penguasaan konsep strategis sistem informasi bisnis, model Porter, analisis etika regulasi, pemodelan BPMN, dan arsitektur sistem enterprise terpadu.",
+      "teknik_kriteria": "Teknik Tes: Ujian Tertulis Tengah Semester (UTS) berbentuk soal analisis studi kasus komprehensif.\nKriteria: Pedoman Penskoran Kunci Jawaban UTS.",
+      "luring": "Evaluasi Tengah Semester / Ujian Tertulis Terjadwal di Ruang Kelas.\n[PB: 1x(3x50')]",
+      "daring": "LMS Unirow: Pengumpulan arsip jawaban dan berita acara pelaksanaan UTS.",
+      "materi_pustaka": "Seluruh Materi Pertemuan 1 s.d. 7 (Pengantar SI Bisnis, Keunggulan Kompetitif Porter, Etika & Regulasi, BPMN, dan Sistem Enterprise ERP/SCM/CRM).\nPustaka: [Laudon22], [Rainer21], [Weske19]",
+      "bobot": 15
+    },
+    {
+      "minggu": 9,
+      "sub_cpmk": "Sub-CPMK 5",
+      "indikator": "Ketepatan membedakan model bisnis e-commerce (B2B, B2C, C2C), revenue model digital, arsitektur marketplace, dan mekanisme digital advertising.",
+      "teknik_kriteria": "Teknik non-tes: Evaluasi komparatif platform e-commerce dan model pendapatan digital.\nKriteria: Marking Scheme E-Commerce.",
+      "luring": "Diskusi kelompok terarah: Analisis struktur bisnis platform e-commerce nasional dan global (Tokopedia, Shopee, Alibaba).\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Forum diskusi mengenai tren social commerce (TikTok Shop) dan perilaku konsumen digital.",
+      "materi_pustaka": "E-Commerce: Digital Markets & Digital Goods: Karakteristik pasar digital, perbandingan B2B/B2C/C2C, m-commerce, revenue models (iklan, langganan, transaksi, afiliasi), social commerce.\nPustaka: [Laudon22: Bab 10], [Turban21: Bab 7]",
+      "bobot": 5
+    },
+    {
+      "minggu": 10,
+      "sub_cpmk": "Sub-CPMK 5",
+      "indikator": "Ketepatan menganalisis integrasi payment gateway, mekanisme keamanan transaksi digital (SSL/TLS, 3D Secure), dan ekosistem financial technology (Fintech/QRIS).",
+      "teknik_kriteria": "Teknik non-tes: Praktik simulasi alur pembayaran sandbox payment gateway (Midtrans / Xendit).\nKriteria: Rubrik Implementasi Pembayaran Digital.",
+      "luring": "Praktik laboratorium: Simulasi transaksi sandbox payment gateway dan verifikasi notifikasi webhook pembayaran.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mengunggah tangkapan layar transaksi sukses mode sandbox dan log callback sistem.",
+      "materi_pustaka": "Digital Payment Systems & Fintech: Mekanisme payment gateway, standar keamanan PCI-DSS, tokenisasi, digital wallet, sistem QRIS, dan inovasi fintech dalam bisnis ritel.\nPustaka: [Laudon22: Bab 10], [Rainer21: Bab 7]",
+      "bobot": 5
+    },
+    {
+      "minggu": 11,
+      "sub_cpmk": "Sub-CPMK 6",
+      "indikator": "Ketepatan menjelaskan arsitektur Business Intelligence, perbedaan database transaksional (OLTP) vs analitikal (OLAP), dan pemodelan skema data warehouse (Star Schema).",
+      "teknik_kriteria": "Teknik non-tes: Latihan perancangan skema data mart dan alur proses ETL data penjualan.\nKriteria: Marking Scheme Data Warehouse.",
+      "luring": "Kuliah interaktif dan tutorial perancangan skema dimensi (Star / Snowflake Schema) untuk data mart penjualan dan persediaan.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mempelajari modul pengantar data warehouse dan mengunduh dataset transaksi latihan.",
+      "materi_pustaka": "Fondasi Business Intelligence & Data Warehousing: Konsep OLTP vs OLAP, data warehouse, data mart, arsitektur ETL (Extract, Transform, Load), tabel fakta dan dimensi.\nPustaka: [Laudon22: Bab 6], [Sharda20: Bab 1-3]",
+      "bobot": 5
+    },
+    {
+      "minggu": 12,
+      "sub_cpmk": "Sub-CPMK 6",
+      "indikator": "Kemampuan melakukan transformasi data, pembuatan metrik/Key Performance Indicators (KPI), dan kalkulasi ukuran analitis bisnis.",
+      "teknik_kriteria": "Teknik non-tes: Praktik transformasi dataset bisnis menggunakan Business Intelligence tools (Power BI / Tableau).\nKriteria: Rubrik Analisis Data Bisnis.",
+      "luring": "Hands-on lab: Import data, pembersihan data (Power Query), pemodelan relasi tabel data, dan penentuan formula DAX/kalkulasi ukuran bisnis.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan berkas kerja BI (.pbix / .twbx) progres pemodelan data.",
+      "materi_pustaka": "Business Analytics & Metric Modeling: Perumusan KPI bisnis (Sales Growth, Customer Churn, Inventory Turnover), relasi relasional dalam BI, kalkulasi metrik analitis.\nPustaka: [Sharda20: Bab 3-4], [Turban21: Bab 10]",
+      "bobot": 5
+    },
+    {
+      "minggu": 13,
+      "sub_cpmk": "Sub-CPMK 6",
+      "indikator": "Kemampuan merancang visualisasi dashboard eksekutif interaktif yang memudahkan manajer dalam memantau kinerja dan mengambil keputusan strategis.",
+      "teknik_kriteria": "Teknik non-tes: Tugas-3 (Proyek Perancangan Dashboard Business Intelligence Interaktif Kasus Bisnis Nyata).\nKriteria: Rubrik Executive Dashboard Skala 1-5.",
+      "luring": "Project-Based Learning (PjBL) mentoring: Bimbingan desain visualisasi dashboard, drill-down interaktif, dan storytelling data bisnis.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan Tugas-3 (Tautan dashboard publik/cloud dan laporan analisis manajerial).",
+      "materi_pustaka": "Executive Dashboard Design & Decision Support: Prinsip visualisasi data bisnis, interactivity (slicers, cross-filtering, drill-through), visualisasi tren dan peramalan sederhana.\nPustaka: [Sharda20: Bab 4], [Laudon22: Bab 12]",
+      "bobot": 5
+    },
+    {
+      "minggu": 14,
+      "sub_cpmk": "Sub-CPMK 7",
+      "indikator": "Ketepatan menganalisis peluang penerapan Artificial Intelligence (AI) generatif, machine learning, dan Knowledge Management Systems (KMS) dalam operasi bisnis.",
+      "teknik_kriteria": "Teknik non-tes: Telaah kasus penerapan AI dalam CRM dan rantai pasok modern.\nKriteria: Marking Scheme Analisis AI Bisnis.",
+      "luring": "Seminar kelas & diskusi kelompok: Peluang otomasi proses bisnis (RPA), chatbot layanan pelanggan cerdas, dan sistem penangkap pengetahuan organisasi.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Akses artikel ilmiah mengenai adopsi generative AI pada industri retail dan perbankan.",
+      "materi_pustaka": "AI & Knowledge Management in Business: Knowledge Management Systems (KMS), Enterprise Content Management, otomatisasi proses bisnis (RPA), generative AI untuk produktivitas kerja.\nPustaka: [Laudon22: Bab 11], [Sharda20: Bab 8]",
+      "bobot": 5
+    },
+    {
+      "minggu": 15,
+      "sub_cpmk": "Sub-CPMK 7",
+      "indikator": "Ketepatan menyusun rencana tata kelola keamanan informasi bisnis, analisis kerentanan sistem enterprise, dan Business Continuity Plan (BCP) menghadapi insiden siber.",
+      "teknik_kriteria": "Teknik non-tes: Penyusunan rencana mitigasi risiko dan audit keamanan sistem bisnis.\nKriteria: Rubrik Keamanan & Audit Sistem.",
+      "luring": "Contextual Learning: Studi kasus dampak insiden ransomware pada operasional bisnis dan penyusunan strategi Disaster Recovery Planning (DRP).\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mengunggah lembar kerja analisis risiko siber dan kesiapan implementasi proyek akhir.",
+      "materi_pustaka": "Keamanan Sistem Informasi & Business Continuity: Ancaman siber terhadap sistem bisnis, kontrol keamanan administratif dan teknis, Disaster Recovery Planning (DRP), dan Business Continuity Planning (BCP).\nPustaka: [Laudon22: Bab 8], [Rainer21: Bab 4]",
+      "bobot": 5
+    },
+    {
+      "minggu": 16,
+      "sub_cpmk": "Sub-CPMK 5, 6, 7, 8",
+      "indikator": "Kualitas hasil perancangan solusi sistem informasi bisnis digital utuh, kedalaman analisis manajerial, daya guna dashboard BI, serta kemahiran dalam presentasi dan argumentasi.",
+      "teknik_kriteria": "Teknik Tes & Non-Tes: Ujian Akhir Semester (UAS) berbentuk Expo Presentasi & Live Demo Proyek Solusi SI Bisnis Tim.\nKriteria: Rubrik Evaluasi Proyek Capstone Skala 1-5.",
+      "luring": "Ujian Akhir Semester (UAS): Sesi presentasi dan demo langsung sistem informasi bisnis di hadapan dosen penguji, evaluasi laporan manajerial, dan tanya jawab komprehensif.\n[PB: 1x(3x50')]",
+      "daring": "LMS Unirow: Pengumpulan repositori proyek, tautan live dashboard BI, video presentasi, dan berkas Laporan Akhir Proyek.",
+      "materi_pustaka": "Kompilasi Seluruh Materi Pembelajaran Semester (Strategi Bisnis, BPMN, ERP, E-Commerce, BI Dashboard, dan Keamanan Sistem).\nPustaka: Seluruh Pustaka Utama dan Pendukung",
+      "bobot": 15
+    }
+  ],
+  "tugas_terstruktur": [
+    {
+      "tugas_ke": 1,
+      "judul": "Analisis Model Bisnis Digital dan Evaluasi Keunggulan Kompetitif Industri Nyata",
+      "sub_cpmk": "Sub-CPMK 2",
+      "alokasi_waktu": "Minggu ke-3 s.d. ke-4 (2 Minggu)",
+      "jenis": "Kelompok (3-4 Mahasiswa)",
+      "deskripsi": "Mahasiswa secara berkelompok memilih satu perusahaan nyata di sektor industri retail, transportasi, manufaktur, atau jasa keuangan yang telah melakukan transformasi digital. Kelompok membedah model bisnis perusahaan tersebut menggunakan kerangka Model 5 Kekuatan Michael Porter, menganalisis aktivitas rantai nilai (Value Chain) yang didukung oleh teknologi informasi, serta mengidentifikasi faktor penentu keunggulan kompetitifnya.",
+      "indikator": "Ketepatan identifikasi 5 kekuatan Porter, ketajaman analisis aktivitas rantai nilai (utama & pendukung), kejelasan justifikasi keunggulan kompetitif, dan mutu laporan manajerial.",
+      "luaran": "Laporan Analisis Kasus Bisnis formal (PDF 10-15 halaman) dan slide presentasi infografis.",
+      "bobot": 10
+    },
+    {
+      "tugas_ke": 2,
+      "judul": "Pemodelan Proses Bisnis Terintegrasi (BPMN 2.0) dan Analisis Kebutuhan Sistem Enterprise",
+      "sub_cpmk": "Sub-CPMK 3 & 4",
+      "alokasi_waktu": "Minggu ke-5 s.d. ke-6 (2 Minggu)",
+      "jenis": "Kelompok (3-4 Mahasiswa)",
+      "deskripsi": "Kelompok melakukan analisis alur kerja operasional pada studi kasus organisasi nyata atau UMKM (misal: proses pengadaan barang, manajemen persediaan, atau pemrosesan pesanan pelanggan). Mahasiswa memodelkan proses bisnis kondisi berjalan (As-Is) dan proses usulan perbaikan otomatisasi (To-Be) menggunakan standar notasi BPMN 2.0 dengan tools CASE, serta merumuskan kebutuhan modul sistem enterprise (ERP/CRM) yang diperlukan.",
+      "indikator": "Kepatuhan terhadap notasi standar BPMN 2.0, konsistensi swimlanes antar departemen, ketajaman identifikasi inefisiensi (bottleneck), dan kelayakan solusi perbaikan proses (To-Be).",
+      "luaran": "Dokumen Analisis & Desain Proses Bisnis (PDF) beserta berkas sumber diagram pemodelan (.bpmn / .png).",
+      "bobot": 10
+    },
+    {
+      "tugas_ke": 3,
+      "judul": "Perancangan Solusi Sistem Informasi Bisnis dan Executive Dashboard Business Intelligence",
+      "sub_cpmk": "Sub-CPMK 6",
+      "alokasi_waktu": "Minggu ke-11 s.d. ke-13 (3 Minggu)",
+      "jenis": "Kelompok (3-4 Mahasiswa)",
+      "deskripsi": "Kelompok merancang solusi sistem informasi bisnis terpadu yang memadukan integrasi data transaksi dengan perancangan dashboard Business Intelligence interaktif (menggunakan Power BI / Tableau / Looker Studio). Dashboard harus menampilkan visualisasi metrik bisnis utama (KPI), tren penjualan, analisis kinerja produk, dan fasilitas filter interaktif untuk membantu eksekutif mengambil keputusan strategis berdasarkan dataset riil.",
+      "indikator": "Ketepatan perancangan skema data mart (star schema), validitas kalkulasi metrik/KPI, keindahan dan ergonomi visualisasi data, interaktivitas dashboard, dan wawasan manajerial yang dihasilkan.",
+      "luaran": "Berkas kerja dashboard BI (.pbix / .twbx / cloud link) dan Laporan Analitik Eksekutif (PDF).",
+      "bobot": 10
+    }
+  ],
+  "rubrik_obe": {
+    "skala": [
+      {
+        "nilai": 5,
+        "kategori": "Sangat Kompeten",
+        "rentang": "81 - 100",
+        "deskripsi": "Mahasiswa menunjukkan penguasaan sangat mendalam terhadap konsep sistem informasi bisnis. Analisis keunggulan kompetitif dan rantai nilai sangat tajam dan komprehensif, pemodelan BPMN sangat konsisten dan akurat sesuai standar industri, rancangan dashboard BI sangat estetis, interaktif, dan memberikan wawasan manajerial yang sangat bernilai tinggi, laporan disusun secara profesional, dan presentasi sangat meyakinkan."
+      },
+      {
+        "nilai": 4,
+        "kategori": "Kompeten",
+        "rentang": "61 - 80",
+        "deskripsi": "Mahasiswa mampu menerapkan konsep sistem informasi bisnis dengan baik. Analisis strategi Porter dan rantai nilai tepat, diagram BPMN memenuhi kaidah pemodelan dengan sedikit catatan minor, dashboard BI berfungsi dengan baik menampilkan KPI utama, dokumentasi laporan terstruktur rapi, dan kolaborasi tim berjalan efektif."
+      },
+      {
+        "nilai": 3,
+        "kategori": "Cukup Kompeten",
+        "rentang": "41 - 60",
+        "deskripsi": "Mahasiswa memahami konsep dasar sistem informasi bisnis. Analisis keunggulan kompetitif memadai namun kurang mendalam, beberapa notasi BPMN kurang tepat atau membingungkan, dashboard BI menyajikan grafik dasar namun minim fasilitas interaktivitas analitik, dan laporan memiliki beberapa kekurangan format."
+      },
+      {
+        "nilai": 2,
+        "kategori": "Kurang Kompeten",
+        "rentang": "21 - 40",
+        "deskripsi": "Mahasiswa menunjukkan pemahaman terbatas mengenai sistem informasi bisnis. Analisis strategi keliru atau dangkal, pemodelan proses bisnis melanggar aturan standar BPMN, dashboard BI tidak menampilkan KPI yang relevan atau tidak berfungsi, dan dokumentasi tugas sangat minim."
+      },
+      {
+        "nilai": 1,
+        "kategori": "Tidak Kompeten",
+        "rentang": "0 - 20",
+        "deskripsi": "Mahasiswa tidak mampu mendemonstrasikan capaian pembelajaran. Tidak mampu melakukan analisis maupun pemodelan proses bisnis, tidak ada artefak dashboard atau laporan yang diserahkan, atau terindikasi plagiarisme berat."
+      }
+    ]
+  }
+}

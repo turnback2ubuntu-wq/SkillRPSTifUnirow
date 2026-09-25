@@ -1,0 +1,374 @@
+{
+  "identitas": {
+    "universitas": "UNIVERSITAS PGRI RONGGOLAWE",
+    "fakultas": "FAKULTAS SAINS DAN TEKNOLOGI",
+    "prodi": "PROGRAM STUDI S1 INFORMATIKA",
+    "kode_dokumen": "RPS-INF-IF640424",
+    "mata_kuliah": "Statistik Teknik",
+    "kode_mk": "IF640424",
+    "rumpun_mk": "Matematika & Ilmu Komputasi",
+    "bobot_sks": 3,
+    "semester": 4,
+    "tgl_penyusunan": "25 Agustus 2025",
+    "dosen_pengembang": "Andy Haryoko, S.T., M.T.",
+    "koordinator_rmk": "Andy Haryoko, S.T., M.T.",
+    "ka_prodi": "AMALUDIN ARIFIA, M.Kom.",
+    "nidn_kaprodi": "07xxxxxxxx",
+    "ujm_prodi": "UJM Program Studi Informatika",
+    "nidn_ujm": "07xxxxxxxx",
+    "dosen_pengampu": "Andy Haryoko, S.T., M.T.",
+    "matakuliah_syarat": "MK23 Kalkulus, MK21 Matematika Diskrit"
+  },
+  "capaian_pembelajaran": {
+    "cpl": [
+      {
+        "kode": "CPL03",
+        "deskripsi": "Memiliki kemampuan memahami cara kerja sistem komputer serta menerapkan berbagai algoritma/metode untuk memecahkan masalah dalam suatu organisasi."
+      },
+      {
+        "kode": "CPL04",
+        "deskripsi": "Memiliki kompetensi dalam menganalisis persoalan computing yang kompleks untuk mengidentifikasi solusi pengelolaan proyek teknologi di bidang informatika/ilmu komputer dengan mempertimbangkan perkembangan ilmu transdisiplin."
+      },
+      {
+        "kode": "CPL07",
+        "deskripsi": "Memiliki kemampuan menyusun deskripsi saintifik dari hasil kajian implikasi pengembangan atau implementasi ilmu pengetahuan dan teknologi dalam bentuk skripsi atau laporan tugas akhir atau artikel ilmiah."
+      }
+    ],
+    "cpmk": [
+      {
+        "kode": "CPMK1",
+        "cpl_induk": "CPL03",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu menerapkan konsep teori probabilitas, variabel acak diskrit dan kontinu, serta distribusi probabilitas standar (Binomial, Poisson, Normal, Eksponensial) dalam memodelkan fenomena ketidakpastian komputasi dan rekayasa [C3]."
+      },
+      {
+        "kode": "CPMK2",
+        "cpl_induk": "CPL04",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu menganalisis data empiris melalui statistika deskriptif, estimasi parameter populasi, pengujian hipotesis statistik parametrik dan non-parametrik (uji t, z, Chi-Square, ANOVA) untuk validasi eksperimen rekayasa informatika [C4]."
+      },
+      {
+        "kode": "CPMK3",
+        "cpl_induk": "CPL07",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu memodelkan hubungan antarvariabel menggunakan regresi linier sederhana, berganda, dan korelasi, serta menyusun laporan analisis inferensial saintifik berbasis komputasi statistik (R / Python) [C4, C6, P4]."
+      }
+    ],
+    "sub_cpmk": [
+      {
+        "kode": "Sub-CPMK 1",
+        "cpmk_induk": "CPMK2",
+        "deskripsi": "Mahasiswa mampu menjelaskan konsep dasar statistika dalam rekayasa komputasi, jenis data, teknik sampling, dan menyajikan data melalui statistika deskriptif (mean, median, modus, dispersi) secara visual dan numerik [C2, A2].",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 2",
+        "cpmk_induk": "CPMK1",
+        "deskripsi": "Mahasiswa mampu menghitung dan menerapkan hukum-hukum probabilitas (teorema Bayes, independensi) dan variabel acak diskrit (distribusi Binomial, Poisson, Hipergeometrik) pada persoalan komputasi [C3, P3].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 3",
+        "cpmk_induk": "CPMK1",
+        "deskripsi": "Mahasiswa mampu menerapkan distribusi probabilitas kontinu (distribusi Normal, Standar Z, Eksponensial, Weibull) dalam analisis keandalan sistem (system reliability) dan waktu respon komputasi [C3, P3].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 4",
+        "cpmk_induk": "CPMK2",
+        "deskripsi": "Mahasiswa mampu menghitung distribusi sampling (Central Limit Theorem) dan mengestimasi parameter populasi melalui pendugaan titik serta interval kepercayaan (Confidence Interval) [C3, P3].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 1
+      },
+      {
+        "kode": "Sub-CPMK 5",
+        "cpmk_induk": "CPMK2",
+        "deskripsi": "Mahasiswa mampu merumuskan dan menguji hipotesis statistik satu populasi dan dua populasi (Uji z, Uji t satu arah & dua arah, p-value) untuk evaluasi performa sistem rekayasa [C4, P4].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 6",
+        "cpmk_induk": "CPMK2",
+        "deskripsi": "Mahasiswa mampu menganalisis varians multikelompok menggunakan ANOVA satu arah dan dua arah (One-Way & Two-Way ANOVA) serta pengujian Goodness-of-Fit Chi-Square [C4, P4].",
+        "bobot_penilaian": 15,
+        "jumlah_minggu": 3
+      },
+      {
+        "kode": "Sub-CPMK 7",
+        "cpmk_induk": "CPMK3",
+        "deskripsi": "Mahasiswa mampu membangun model regresi linier sederhana, regresi linier berganda, menghitung koefisien korelasi Pearson/Spearman, dan mendiagnosis residual model menggunakan perangkat komputasi statistik (R / Python) [C4, C6, P4].",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2
+      },
+      {
+        "kode": "Sub-CPMK 8 (UTS & UAS)",
+        "cpmk_induk": "CPMK1, CPMK2, CPMK3",
+        "deskripsi": "Mahasiswa mampu mendemonstrasikan evaluasi pemahaman teoretis melalui UTS tertulis (15%) dan unjuk kerja proyek pengolahan data saintifik berbasis studi kasus rekayasa nyata melalui UAS (15%) [C4, C5, C6, P5, A4].",
+        "bobot_penilaian": 30,
+        "jumlah_minggu": 2
+      }
+    ]
+  },
+  "deskripsi_singkat_mk": "Mata kuliah Statistik Teknik (IF640424) membekali mahasiswa dengan dasar-dasar pemikiran probabilistik, analisis data kuantitatif, dan metodologi inferensi statistik yang esensial dalam perancangan, pengujian, serta pengambilan keputusan di bidang rekayasa informatika dan komputasi. Pembahasan mencakup penyajian dan eksplorasi data statistik deskriptif, teori probabilitas dasar dan bersyarat (Teorema Bayes), variabel acak diskrit dan kontinu, distribusi probabilitas teoritis (Binomial, Poisson, Normal, Eksponensial, Weibull), teori sampling dan Central Limit Theorem, estimasi parameter titik dan interval kepercayaan, pengujian hipotesis parametrik (uji-z, uji-t satu dan dua sampel), pengujian non-parametrik (Chi-Square), analisis varians (One-Way dan Two-Way ANOVA), serta pemodelan korelasi dan regresi linier berganda. Pembelajaran mengintegrasikan teori matematis dengan hands-on komputasi statistik menggunakan bahasa pemrograman R atau Python untuk menyelesaikan permasalahan nyata pada benchmarking sistem, kendali mutu, dan data science.",
+  "bahan_kajian": [
+    "1. Pengantar Statistika Rekayasa & Eksplorasi Data: Peranan statistika dalam rekayasa komputer, populasi vs sampel, jenis variabel, visualisasi data (histogram, boxplot, scatter plot), dan ukuran pemusatan/penyebaran data.",
+    "2. Teori Probabilitas: Ruang sampel, kejadian, hukum penjumlahan dan perkalian, probabilitas bersyarat, independensi stokastik, dan Teorema Bayes.",
+    "3. Variabel Acak & Distribusi Diskrit: Konsep fungsi massa peluang (PMF), nilai harapan E(X), varians, distribusi seragam diskrit, Binomial, Hipergeometrik, dan Poisson.",
+    "4. Distribusi Probabilitas Kontinu: Fungsi kerapatan peluang (PDF), fungsi distribusi kumulatif (CDF), distribusi Normal, skor baku Z, distribusi Eksponensial, dan distribusi Weibull untuk reliabilitas sistem.",
+    "5. Distribusi Sampling & Teorema Limit Pusat: Sampling error, distribusi rata-rata sampel, Central Limit Theorem (CLT), dan distribusi t-Student.",
+    "6. Estimasi Parameter Statistik: Pendugaan titik, sifat penduga tak bias dan efisien, selang kepercayaan (Confidence Interval) rata-rata satu dan dua populasi, serta proporsi.",
+    "7. Pengujian Hipotesis Satu dan Dua Populasi: Formulasi H0 dan H1, error tipe I dan II, signifikansi alpha, uji z, uji t satu sampel, uji t dua sampel independen dan berpasangan (paired t-test), serta nilai p-value.",
+    "8. Uji Kecocokan Chi-Square: Uji Goodness-of-Fit distribusi frekuensi teoritis vs empiris, dan uji independensi tabel kontingensi r x c.",
+    "9. Analisis Varians (ANOVA): Asumsi ANOVA (normalitas, homogenitas Levene), One-Way ANOVA, tabel ANOVA, F-test, dan uji perbandingan berganda (Post-Hoc Tukey HSD).",
+    "10. Desain Eksperimen Faktorial: Two-Way ANOVA tanpa dan dengan interaksi, analisis efek utama dan efek interaksi pada optimasi performa sistem.",
+    "11. Analisis Korelasi & Regresi Linier Sederhana: Diagram pencar, koefisien korelasi Pearson dan Spearman, metode kuadrat terkecil (OLS), koefisien determinasi (R²), dan inferensi koefisien regresi.",
+    "12. Regresi Linier Berganda & Komputasi Statistik: Pemodelan regresi multivariat, uji asumsi klasik (multikolinearitas VIF, heteroskedastisitas, normalitas residual), dan otomatisasi analisis dengan R / Python."
+  ],
+  "pustaka": {
+    "utama": [
+      "Walpole, R. E., Myers, R. H., Myers, S. L., & Ye, K. (2016). Probability & Statistics for Engineers & Scientists (9th ed.). Boston: Pearson Education.",
+      "Montgomery, D. C., & Runger, G. C. (2018). Applied Statistics and Probability for Engineers (7th ed.). Hoboken, NJ: John Wiley & Sons."
+    ],
+    "pendukung": [
+      "Devore, J. L. (2015). Probability and Statistics for Engineering and the Sciences (9th ed.). Boston: Cengage Learning.",
+      "Navidi, W. (2020). Statistics for Engineers and Scientists (5th ed.). New York: McGraw-Hill Education.",
+      "Dalgaard, P. (2008). Introductory Statistics with R (2nd ed.). New York: Springer.",
+      "Haryoko, A. (2025). Buku Ajar Statistik Teknik Berbasis R dan Python. Tuban: UNIROW Press."
+    ]
+  },
+  "matriks_16_pertemuan": [
+    {
+      "minggu": 1,
+      "sub_cpmk": "Sub-CPMK 1",
+      "indikator": "Ketepatan dalam menjelaskan peranan statistika dalam rekayasa informatika, membedakan populasi dan sampel, mengidentifikasi skala pengukuran (nominal, ordinal, interval, rasio), dan menyajikan data visual.",
+      "teknik_kriteria": "Teknik non-tes: Keaktifan diskusi & resume ringkasan jenis data.\nKriteria: Rubrik Partisipasi Kelas.",
+      "luring": "Kuliah interaktif, pemaparan RPS dan kontrak perkuliahan, pengenalan tools R/RStudio dan Python Environment.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mengunduh RPS, modul instalasi R/RStudio, dan mengisi form komitmen belajar.",
+      "materi_pustaka": "Pengantar Statistika Rekayasa & Visualisasi Data: Definisi statistika deskriptif vs inferensial, sampling data komputasi, pembuatan diagram batang, histogram, boxplot, dan scatter plot.\nPustaka: [Walpole16: Bab 1], [Montgomery18: Bab 1], [Haryoko25: Bab 1]",
+      "bobot": 2.5
+    },
+    {
+      "minggu": 2,
+      "sub_cpmk": "Sub-CPMK 1",
+      "indikator": "Kemampuan menghitung ukuran pemusatan (mean, median, modus) dan dispersi data (varians, standar deviasi, IQR, skewness) serta mendeteksi pencilan (outliers).",
+      "teknik_kriteria": "Teknik non-tes: Latihan kalkulasi numerik dan analisis data eksploratif di lab komputer.\nKriteria: Marking Scheme Statistika Deskriptif.",
+      "luring": "Praktik laboratorium komputer: Analisis data eksploratif (EDA) menggunakan skrip R/Python pada dataset benchmarking throughput jaringan.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengunggahan skrip R/Python latihan mandiri dan interpretasi grafik boxplot.",
+      "materi_pustaka": "Ukuran Pemusatan dan Dispersi: Rata-rata sampel, median, modus, varians, deviasi standar, koefisien variasi, kuartil, Interquartile Range (IQR), dan deteksi pencilan.\nPustaka: [Walpole16: Bab 1], [Dalgaard08: Bab 1-2]",
+      "bobot": 2.5
+    },
+    {
+      "minggu": 3,
+      "sub_cpmk": "Sub-CPMK 2",
+      "indikator": "Ketepatan menghitung ruang sampel, permutasi-kombinasi, probabilitas bersyarat, independensi kejadian, dan menerapkan Teorema Bayes pada masalah klasifikasi data.",
+      "teknik_kriteria": "Teknik non-tes: Penyelesaian studi kasus probabilitas bersyarat & filter spam Naive Bayes.\nKriteria: Marking Scheme Teori Probabilitas.",
+      "luring": "Problem-Based Learning: Analisis probabilitas error transmisi data pada kanal komunikasi dan penerapan Teorema Bayes untuk deteksi anomali trafik.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mengerjakan kuis mandiri probabilitas bersyarat dan teorema Bayes.",
+      "materi_pustaka": "Teori Probabilitas: Ruang sampel, titik sampel, aksioma probabilitas, aturan penjumlahan dan perkalian, probabilitas bersyarat, hukum probabilitas total, dan Teorema Bayes.\nPustaka: [Walpole16: Bab 2], [Montgomery18: Bab 2]",
+      "bobot": 5
+    },
+    {
+      "minggu": 4,
+      "sub_cpmk": "Sub-CPMK 2",
+      "indikator": "Kemampuan memodelkan variabel acak diskrit, merumuskan fungsi massa peluang (PMF), menghitung ekspektasi matematis, dan menerapkan distribusi Binomial serta Poisson.",
+      "teknik_kriteria": "Teknik non-tes: Tugas-1 (Eksplorasi Data Statistika Deskriptif dan Pemodelan Distribusi Probabilitas Menggunakan R/Python).\nKriteria: Rubrik Pemodelan Statistik Skala 1-5.",
+      "luring": "Workshop komputasi: Simulasi pemodelan kedatangan paket data (Poisson) dan pengujian keberhasilan transmisi bit (Binomial) dengan fungsi R/Python.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan berkas laporan Tugas-1 (PDF laporan dan file kode R/Jupyter Notebook .ipynb).",
+      "materi_pustaka": "Variabel Acak Diskrit & Distribusi Peluang: Konsep random variable, PMF, fungsi distribusi kumulatif CDF, nilai harapan E(X), varians Var(X), distribusi Binomial, Hipergeometrik, dan Poisson.\nPustaka: [Walpole16: Bab 3 & 5], [Montgomery18: Bab 3]",
+      "bobot": 5
+    },
+    {
+      "minggu": 5,
+      "sub_cpmk": "Sub-CPMK 3",
+      "indikator": "Kemampuan menerapkan konsep fungsi kerapatan peluang (PDF) kontinu, standardisasi Z-score, dan menghitung probabilitas menggunakan distribusi Normal standar.",
+      "teknik_kriteria": "Teknik non-tes: Latihan pemecahan soal distribusi Normal dan integrasi kurva Gaussian.\nKriteria: Marking Scheme Distribusi Normal.",
+      "luring": "Kuliah interaktif dan tutorial: Pemodelan distribusi Normal pada variasi latensi server dan perhitungan persentil performa menggunakan tabel Z dan R.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Akses modul interaktif visualisasi kurva Normal dan latihan soal komputasi.",
+      "materi_pustaka": "Variabel Acak Kontinu & Distribusi Normal: Definisi PDF dan CDF kontinu, kurva lonceng Gaussian, sifat distribusi Normal, transformasi variabel Z baku, pembacaan tabel Normal.\nPustaka: [Walpole16: Bab 6], [Montgomery18: Bab 4]",
+      "bobot": 5
+    },
+    {
+      "minggu": 6,
+      "sub_cpmk": "Sub-CPMK 3",
+      "indikator": "Ketepatan menganalisis keandalan sistem (*reliability analysis*), waktu kegagalan komponen (MTTF/MTBF), menggunakan distribusi Eksponensial dan Weibull.",
+      "teknik_kriteria": "Teknik non-tes: Studi kasus reliabilitas infrastruktur server cloud dan siklus hidup perangkat keras.\nKriteria: Marking Scheme Reliabilitas Sistem.",
+      "luring": "Case Method: Analisis keandalan kluster server dan perancangan strategi redundansi berbasis fungsi hazard distribusi Weibull.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mengunggah resume hasil analisis reliabilitas komponen dan kode simulasi R.",
+      "materi_pustaka": "Distribusi Kontinu Terapan: Distribusi Eksponensial (sifat memoryless, laju kegagalan konstan), distribusi Gamma, dan distribusi Weibull untuk analisis keandalan rekayasa.\nPustaka: [Walpole16: Bab 6], [Devore15: Bab 4]",
+      "bobot": 5
+    },
+    {
+      "minggu": 7,
+      "sub_cpmk": "Sub-CPMK 4",
+      "indikator": "Kemampuan menjelaskan Dalil Batas Pusat (Central Limit Theorem) dan menyusun selang kepercayaan (Confidence Interval) rata-rata dan proporsi populasi.",
+      "teknik_kriteria": "Teknik non-tes: Simulasi sampling berulang dan pembuktian empiris Teorema Limit Pusat di R/Python.\nKriteria: Marking Scheme Estimasi Parameter.",
+      "luring": "Praktik laboratorium: Simulasi Monte Carlo penarikan sampel acak untuk memverifikasi konvergensi rata-rata sampel ke distribusi Normal.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mengerjakan kuis estimasi interval kepercayaan satu dan dua populasi.",
+      "materi_pustaka": "Distribusi Sampling & Estimasi Parameter: Konsep sampling acak, Central Limit Theorem (CLT), galat baku (standard error), pendugaan titik, selang kepercayaan (1-alpha)% untuk rata-rata dan proporsi.\nPustaka: [Walpole16: Bab 8 & 9], [Montgomery18: Bab 7 & 8]",
+      "bobot": 10
+    },
+    {
+      "minggu": 8,
+      "sub_cpmk": "Sub-CPMK 1, 2, 3, 4",
+      "indikator": "Penguasaan konsep teoritis statistika deskriptif, teori probabilitas Bayes, variabel acak diskrit-kontinu, distribusi Normal/Eksponensial, dan estimasi parameter.",
+      "teknik_kriteria": "Teknik Tes: Ujian Tertulis Tengah Semester (UTS) berbentuk soal analisis perhitungan dan penyelesaian masalah rekayasa terstruktur.\nKriteria: Pedoman Penskoran Kunci Jawaban UTS.",
+      "luring": "Evaluasi Tengah Semester / Ujian Tertulis Terjadwal di Ruang Kelas.\n[PB: 1x(3x50')]",
+      "daring": "LMS Unirow: Pengunggahan arsip lembar jawaban dan berita acara pelaksanaan UTS.",
+      "materi_pustaka": "Seluruh Materi Pertemuan 1 s.d. 7 (Statistika Deskriptif, Probabilitas, Variabel Acak Diskrit & Kontinu, Distribusi Normal/Eksponensial, Teorema Limit Pusat, Estimasi Interval).\nPustaka: [Walpole16], [Montgomery18], [Haryoko25]",
+      "bobot": 15
+    },
+    {
+      "minggu": 9,
+      "sub_cpmk": "Sub-CPMK 5",
+      "indikator": "Kemampuan merumuskan hipotesis nol (H0) dan alternatif (H1), menentukan daerah penolakan uji satu dan dua arah, menghitung nilai uji statistik z dan t satu sampel, serta interpretasi p-value.",
+      "teknik_kriteria": "Teknik non-tes: Latihan perumusan hipotesis dan pengujian satu sampel dengan software statistik.\nKriteria: Marking Scheme Uji Hipotesis.",
+      "luring": "Kuliah interaktif dan latihan studi kasus: Menguji klaim performa komputasi algoritma baru terhadap standar acuan (benchmark baseline).\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Forum diskusi mengenai interpretasi p-value vs tingkat signifikansi alpha dalam pengujian ilmiah.",
+      "materi_pustaka": "Uji Hipotesis Satu Sampel: Prinsip uji hipotesis, Type I & Type II error, power of test, uji z rata-rata populasi, uji t satu sampel (Student-t), penentuan keputusan dengan p-value.\nPustaka: [Walpole16: Bab 10], [Montgomery18: Bab 9]",
+      "bobot": 5
+    },
+    {
+      "minggu": 10,
+      "sub_cpmk": "Sub-CPMK 5",
+      "indikator": "Kemampuan melakukan pengujian hipotesis komparasi dua sampel independen (Two-Sample t-Test) dan dua sampel berpasangan (Paired t-Test) untuk validasi eksperimen.",
+      "teknik_kriteria": "Teknik non-tes: Tugas-2 (Perancangan Pengujian Hipotesis Statistik Komparatif Uji t pada Eksperimen Kinerja Sistem Komputasi).\nKriteria: Rubrik Pengujian Hipotesis Skala 1-5.",
+      "luring": "Praktik laboratorium: Eksekusi uji t independen dan paired t-test menggunakan R (fungsi t.test) untuk membandingkan runtime algoritma optimasi sebelum dan sesudah refactoring.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan berkas laporan Tugas-2 (Laporan pengujian hipotesis ilmiah, output R/Python, dan grafik boxplot perbandingan).",
+      "materi_pustaka": "Uji Hipotesis Dua Sampel: Uji beda dua rata-rata independen (varians sama vs beda / Welch's t-test), uji beda dua sampel berpasangan (paired t-test), uji hipotesis dua proporsi.\nPustaka: [Walpole16: Bab 10], [Dalgaard08: Bab 5]",
+      "bobot": 5
+    },
+    {
+      "minggu": 11,
+      "sub_cpmk": "Sub-CPMK 6",
+      "indikator": "Ketepatan melakukan pengujian Goodness-of-Fit Chi-Square untuk menguji kesesuaian distribusi data empiris dan Uji Independensi Chi-Square pada tabel kontingensi r x c.",
+      "teknik_kriteria": "Teknik non-tes: Analisis uji kecocokan distribusi data komputasi dan uji asosiasi variabel kategorial.\nKriteria: Marking Scheme Uji Chi-Square.",
+      "luring": "Tutorial dan hands-on lab: Pengujian apakah bilangan acak generator berdistribusi seragam menggunakan uji Chi-Square dan uji tabel kontingensi preferensi pengguna UI.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Mengunggah hasil komputasi uji Chi-Square dan interpretasi derajat kebebasan (df).",
+      "materi_pustaka": "Pengujian Non-Parametrik Chi-Square: Uji kecocokan distribusi (Goodness-of-Fit Test), frekuensi observasi vs ekspektasi, uji independensi dua faktor kategorial, tabel kontingensi.\nPustaka: [Walpole16: Bab 10], [Montgomery18: Bab 9]",
+      "bobot": 5
+    },
+    {
+      "minggu": 12,
+      "sub_cpmk": "Sub-CPMK 6",
+      "indikator": "Kemampuan menyusun tabel ANOVA satu arah (One-Way ANOVA), memverifikasi asumsi normalitas (Shapiro-Wilk) dan homogenitas varians (Levene's test), serta uji lanjut Post-Hoc Tukey HSD.",
+      "teknik_kriteria": "Teknik non-tes: Perhitungan manual tabel ANOVA dan eksekusi fungsi aov() di R.\nKriteria: Marking Scheme One-Way ANOVA.",
+      "luring": "Kuliah interaktif & praktik lab: Membandingkan efisiensi waktu eksekusi 4 algoritma sorting pada ukuran input seragam menggunakan One-Way ANOVA dan plot Tukey HSD.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Akses modul panduan One-Way ANOVA dan interpretasi output F-hitung vs F-tabel.",
+      "materi_pustaka": "Analisis Varians Satu Arah (One-Way ANOVA): Konsep partisi variabilitas (SST, SSB, SSW), derajat kebebasan, Mean Square, F-ratio, uji asumsi model, dan Post-Hoc Multiple Comparisons (Tukey HSD).\nPustaka: [Walpole16: Bab 13], [Montgomery18: Bab 13]",
+      "bobot": 5
+    },
+    {
+      "minggu": 13,
+      "sub_cpmk": "Sub-CPMK 6",
+      "indikator": "Kemampuan merancang desain eksperimen faktorial dan melakukan Analisis Varians Dua Arah (Two-Way ANOVA) untuk menguji efek utama dan efek interaksi dua faktor perlakuan.",
+      "teknik_kriteria": "Teknik non-tes: Analisis output Two-Way ANOVA dan interpretasi grafik interaksi antar faktor.\nKriteria: Marking Scheme Two-Way ANOVA.",
+      "luring": "Problem-Based Learning: Analisis pengaruh jenis browser (Faktor A) dan kecepatan koneksi (Faktor B) terhadap response time aplikasi web menggunakan Two-Way ANOVA.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Diskusi forum mengenai makna fisis efek interaksi dalam eksperimen rekayasa sistem.",
+      "materi_pustaka": "Analisis Varians Dua Arah (Two-Way ANOVA): Desain eksperimen faktorial, Sum of Squares efek utama A, efek utama B, Sum of Squares interaksi AB, dan Sum of Squares Error.\nPustaka: [Walpole16: Bab 14], [Montgomery18: Bab 14]",
+      "bobot": 5
+    },
+    {
+      "minggu": 14,
+      "sub_cpmk": "Sub-CPMK 7",
+      "indikator": "Kemampuan membangun model regresi linier sederhana, mengestimasi parameter beta-0 dan beta-1 dengan metode OLS, menghitung koefisien korelasi Pearson r dan R², serta uji signifikansi model.",
+      "teknik_kriteria": "Teknik non-tes: Tugas-3 (Pemodelan Prediktif Regresi Linier Berganda dan Analisis Multivariat ANOVA Kasus Rekayasa Nyata).\nKriteria: Rubrik Pemodelan Regresi Skala 1-5.",
+      "luring": "Workshop perancangan model prediktif: Estimasi hubungan antara jumlah pengguna aktif dengan utilisasi memori server menggunakan fungsi lm() di R.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengumpulan berkas draf Tugas-3 dan dataset eksperimen.",
+      "materi_pustaka": "Regresi Linier Sederhana & Korelasi: Diagram pencar, estimasi Ordinary Least Squares (OLS), garis regresi, uji signifikansi koefisien (uji t slope), analisis ragam regresi (ANOVA for regression), koefisien determinasi R².\nPustaka: [Walpole16: Bab 11], [Montgomery18: Bab 11]",
+      "bobot": 5
+    },
+    {
+      "minggu": 15,
+      "sub_cpmk": "Sub-CPMK 7",
+      "indikator": "Kemampuan memodelkan regresi linier berganda, menguji signifikansi simultan (F-test) dan parsial (t-test), serta mendiagnosis uji asumsi klasik (multikolinearitas VIF, heteroskedastisitas, normalitas residual).",
+      "teknik_kriteria": "Teknik non-tes: Unjuk kerja diagnostik residual model regresi dan penulisan laporan analisis saintifik inferensial.\nKriteria: Marking Scheme Diagnostik Regresi.",
+      "luring": "Praktik laboratorium: Diagnostik residual regresi (Q-Q plot, Residual vs Fitted, Breusch-Pagan test, Durbin-Watson) dan seleksi variabel prediktor dengan Stepwise Regression di R.\n[PB: 1x(3x50')], [PT: 1x(3x60')], [KM: 1x(3x60')]",
+      "daring": "LMS Unirow: Pengunggahan laporan akhir analisis regresi multivariat dan skrip reproduksibilitas R/Python.",
+      "materi_pustaka": "Regresi Linier Berganda & Uji Asumsi Klasik: Matriks regresi multivariat, Adjusted R², Variance Inflation Factor (VIF), residual analysis, transformasi data, dan validasi model regresi.\nPustaka: [Walpole16: Bab 12], [Montgomery18: Bab 12], [Dalgaard08: Bab 11]",
+      "bobot": 5
+    },
+    {
+      "minggu": 16,
+      "sub_cpmk": "Sub-CPMK 5, 6, 7, 8",
+      "indikator": "Kualitas penyusunan laporan saintifik hasil eksperimen statistik terpadu, ketepatan interpretasi hasil inferensi data, kemahiran dalam visualisasi analitik, dan presentasi tim di hadapan penguji.",
+      "teknik_kriteria": "Teknik Tes & Non-Tes: Ujian Akhir Semester (UAS) Expo Presentasi & Live Demo Proyek Saintifik Analisis Data Eksperimen Rekayasa Komputasi Berkelompok.\nKriteria: Rubrik Evaluasi Proyek Saintifik Skala 1-5.",
+      "luring": "Ujian Akhir Semester (UAS): Presentasi hasil proyek pengolahan data statistik rekayasa di hadapan dosen penguji, evaluasi skrip komputasi R/Python, dan tanya jawab komprehensif.\n[PB: 1x(3x50')]",
+      "daring": "LMS Unirow: Pengumpulan repositori proyek (GitHub/GitLab), laporan akhir format paper IEEE (PDF), dan rekaman video presentasi.",
+      "materi_pustaka": "Kompilasi Seluruh Materi Pembelajaran Semester (Statistika Deskriptif, Probabilitas, Estimasi, Uji Hipotesis, ANOVA, Regresi Berganda, dan Komputasi R/Python).\nPustaka: Seluruh Pustaka Utama dan Pendukung",
+      "bobot": 15
+    }
+  ],
+  "tugas_terstruktur": [
+    {
+      "tugas_ke": 1,
+      "judul": "Eksplorasi Data Statistika Deskriptif dan Pemodelan Distribusi Probabilitas Diskrit/Kontinu Menggunakan R/Python",
+      "sub_cpmk": "Sub-CPMK 1 & 2",
+      "alokasi_waktu": "Minggu ke-3 s.d. ke-4 (2 Minggu)",
+      "jenis": "Kelompok (3-4 Mahasiswa)",
+      "deskripsi": "Mahasiswa secara berkelompok memilih atau mengumpulkan dataset empiris pengukuran performa sistem komputasi (misal: log latency request server, waktu eksekusi algoritma, atau distribusi ukuran berkas transfer jaringan). Kelompok melakukan pembersihan data, menghitung parameter statistika deskriptif (mean, varians, kuartil, IQR), menyajikan visualisasi grafik publikasi (histogram, density plot, boxplot), serta mencocokkan distribusi probabilitas teoritis (Binomial, Poisson, atau Normal) terhadap data empiris tersebut menggunakan bahasa R atau Python.",
+      "indikator": "Ketepatan kalkulasi parameter numerik deskriptif, kualitas estetika visualisasi data eksploratif, kebenaran formulasi fungsi peluang teoritis, dan analisis interpretasi makna fisis data.",
+      "luaran": "Laporan Analisis Data Eksploratif format PDF (standar laporan saintifik) disertai file skrip komputasi R (.R) atau Jupyter Notebook (.ipynb).",
+      "bobot": 10
+    },
+    {
+      "tugas_ke": 2,
+      "judul": "Perancangan Pengujian Hipotesis Statistik Komparatif Uji t pada Eksperimen Kinerja Sistem Komputasi",
+      "sub_cpmk": "Sub-CPMK 5",
+      "alokasi_waktu": "Minggu ke-9 s.d. ke-10 (2 Minggu)",
+      "jenis": "Kelompok (3-4 Mahasiswa)",
+      "deskripsi": "Kelompok merancang eksperimen pengujian statistik komparatif untuk membuktikan klaim ilmiah (misal: apakah algoritma optimasi B secara signifikan lebih cepat daripada algoritma dasar A, atau apakah arsitektur mikroservis menurunkan response time sistem). Mahasiswa merumuskan hipotesis H0 dan H1 secara formal, menentukan taraf signifikansi alpha, melakukan uji asumsi normalitas sampel, menjalankan Two-Sample t-Test atau Paired t-Test di R/Python, mengevaluasi p-value dan selang kepercayaan, serta menarik kesimpulan inferensial yang valid.",
+      "indikator": "Ketepatan perumusan H0 dan H1, keabsahan verifikasi asumsi parametrik, akurasi kalkulasi uji statistik t dan p-value, serta ketajaman justifikasi penarikan kesimpulan rekayasa.",
+      "luaran": "Dokumen Laporan Eksperimen Uji Hipotesis (PDF) disertai dataset mentah dan skrip pengujian R/Python yang dapat direproduksi (reproducible code).",
+      "bobot": 10
+    },
+    {
+      "tugas_ke": 3,
+      "judul": "Pemodelan Prediktif Regresi Linier Berganda dan Analisis Multivariat ANOVA Kasus Rekayasa Nyata",
+      "sub_cpmk": "Sub-CPMK 6 & 7",
+      "alokasi_waktu": "Minggu ke-13 s.d. ke-15 (3 Minggu)",
+      "jenis": "Kelompok (3-4 Mahasiswa)",
+      "deskripsi": "Kelompok memodelkan permasalahan prediksi multivariat pada domain rekayasa perangkat lunak / komputasi (misal: memprediksi estimasi waktu kompilasi atau penggunaan CPU berdasarkan ukuran basis kode, jumlah concurrent users, dan kapasitas RAM). Mahasiswa mengestimasi koefisien regresi berganda OLS, melakukan uji simultan F dan parsial t, menganalisis koefisien determinasi R², memvalidasi 4 asumsi klasik regresi (normalitas residual, homoskedastisitas, non-multikolinearitas dengan VIF, dan autokorelasi), serta menyusun rekomendasi keputusan rekayasa.",
+      "indikator": "Ketepatan estimasi persamaan regresi linier berganda, kelengkapan dan keabsahan uji diagnostik asumsi klasik, interpretasi statistik yang logis terhadap variabel independen, dan kualitas tata tulis ilmiah laporan.",
+      "luaran": "Laporan Akhir Proyek Analisis Statistik dalam format artikel ilmiah IEEE / Elsevier (PDF 8-12 halaman) dan repositori kode R/Python lengkap di GitHub.",
+      "bobot": 10
+    }
+  ],
+  "rubrik_obe": {
+    "skala": [
+      {
+        "nilai": 5,
+        "kategori": "Sangat Kompeten",
+        "rentang": "81 - 100",
+        "deskripsi": "Mahasiswa menunjukkan penguasaan teori statistika teknik yang sangat mendalam dan presisi tinggi. Analisis data deskriptif dan inferensial sangat akurat, pemodelan distribusi probabilitas dan regresi multivariat tepat tanpa kesalahan interpretasi, pengujian asumsi klasik dilakukan komprehensif, kode komputasi R/Python sangat bersih, terstruktur, dan terdokumentasi (reproducible), laporan ditulis dengan standar kaidah ilmiah tinggi, dan presentasi sangat meyakinkan."
+      },
+      {
+        "nilai": 4,
+        "kategori": "Kompeten",
+        "rentang": "61 - 80",
+        "deskripsi": "Mahasiswa mampu menerapkan konsep statistika teknik dengan baik. Perhitungan statistik deskriptif dan pengujian hipotesis benar dengan interpretasi p-value yang tepat, pemodelan regresi dan ANOVA memenuhi kaidah dengan sedikit catatan minor, skrip R/Python berfungsi normal menghasilkan visualisasi data yang baik, dokumentasi laporan terstruktur rapi, dan kolaborasi tim berjalan efektif."
+      },
+      {
+        "nilai": 3,
+        "kategori": "Cukup Kompeten",
+        "rentang": "41 - 60",
+        "deskripsi": "Mahasiswa memahami konsep dasar statistika rekayasa. Kalkulasi numerik dasar terpenuhi namun terdapat beberapa kelemahan dalam interpretasi uji inferensial atau penentuan daerah penolakan hipotesis, pemodelan regresi menghasilkan persamaan dasar namun uji asumsi residual kurang lengkap, kode R/Python berjalan tetapi minim dokumentasi, dan laporan memiliki beberapa kekurangan format."
+      },
+      {
+        "nilai": 2,
+        "kategori": "Kurang Kompeten",
+        "rentang": "21 - 40",
+        "deskripsi": "Mahasiswa memiliki pemahaman terbatas mengenai statistika teknik. Terjadi kesalahan mendasar dalam perumusan hipotesis statistik atau pemilihan uji yang tepat (salah memilih uji t vs ANOVA vs non-parametrik), interpretasi p-value keliru, skrip komputasi sering mengalami eror, dan dokumentasi laporan sangat minim."
+      },
+      {
+        "nilai": 1,
+        "kategori": "Tidak Kompeten",
+        "rentang": "0 - 20",
+        "deskripsi": "Mahasiswa tidak mampu mendemonstrasikan capaian pembelajaran. Tidak mampu melakukan kalkulasi statistik deskriptif maupun inferensial, tidak ada data empiris atau skrip analisis yang diserahkan, dokumen tugas tidak dikumpulkan, atau terindikasi plagiarisme berat."
+      }
+    ]
+  }
+}

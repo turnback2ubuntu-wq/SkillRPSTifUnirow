@@ -1,0 +1,388 @@
+{
+  "identitas": {
+    "universitas": "UNIVERSITAS PGRI RONGGOLAWE",
+    "fakultas": "FAKULTAS SAINS DAN TEKNOLOGI",
+    "prodi": "PROGRAM STUDI S1 INFORMATIKA",
+    "kode_dokumen": "RPS-INF-IF6802",
+    "mata_kuliah": "Analisa Data Multivariat",
+    "kode_mk": "IF6802",
+    "rumpun_mk": "Kecerdasan Komputasional & Sains Data",
+    "bobot_sks": 3,
+    "semester": 6,
+    "tgl_penyusunan": "25 Agustus 2025",
+    "dosen_pengembang": "Andy Haryoko, S.T., M.T.",
+    "koordinator_rmk": "Andy Haryoko, S.T., M.T.",
+    "ka_prodi": "AMALUDIN ARIFIA, M.Kom.",
+    "nidn_kaprodi": "07xxxxxxxx",
+    "ujm_prodi": "UJM Program Studi Informatika",
+    "nidn_ujm": "07xxxxxxxx",
+    "dosen_pengampu": "Andy Haryoko, S.T., M.T.",
+    "matakuliah_syarat": "IF640424 Statistik Teknik / Aljabar Linier & Matriks"
+  },
+  "capaian_pembelajaran": {
+    "cpl": [
+      {
+        "kode": "CPL03",
+        "deskripsi": "Memiliki kemampuan memahami cara kerja sistem komputer serta menerapkan berbagai algoritma/metode untuk memecahkan masalah dalam suatu organisasi. [C2, C3]"
+      },
+      {
+        "kode": "CPL04",
+        "deskripsi": "Memiliki kompetensi dalam menganalisis persoalan computing yang kompleks untuk mengidentifikasi solusi pengelolaan proyek teknologi di bidang informatika/ilmu komputer dengan mempertimbangkan perkembangan ilmu transdisiplin. [C4]"
+      },
+      {
+        "kode": "CPL05",
+        "deskripsi": "Memiliki kemampuan merancang, mengimplementasikan, dan mengevaluasi solusi berbasis computing (sistem cerdas, data analytics, machine learning) yang memenuhi kebutuhan pengguna dengan pendekatan analitis dan saintifik. [C5, C6]"
+      }
+    ],
+    "cpmk": [
+      {
+        "kode": "CPMK1",
+        "cpl_induk": "CPL03",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu menerapkan konsep dasar aljabar linier multivariat, vektor rata-rata, matriks varians-kovarians/korelasi, serta pengujian asumsi normalitas multivariat dan deteksi outlier (Mahalanobis distance) dalam eksplorasi data berdimensi tinggi [C3]."
+      },
+      {
+        "kode": "CPMK2",
+        "cpl_induk": "CPL04",
+        "kontribusi_persen": 50,
+        "deskripsi": "Mampu menganalisis dan mereduksi dimensi data menggunakan teknik Principal Component Analysis (PCA) dan Exploratory/Confirmatory Factor Analysis (EFA/CFA) untuk ekstraksi fitur data kompleks [C4]."
+      },
+      {
+        "kode": "CPMK3",
+        "cpl_induk": "CPL04",
+        "kontribusi_persen": 50,
+        "deskripsi": "Mampu menganalisis hubungan ketergantungan dan perbedaan grup multivariat melalui Regresi Linier Berganda, Regresi Logistik Multivariat, dan MANOVA (Multivariate Analysis of Variance) [C4]."
+      },
+      {
+        "kode": "CPMK4",
+        "cpl_induk": "CPL05",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu merancang, mengimplementasikan, dan mengevaluasi model klasifikasi dan segmentasi data menggunakan Analisis Diskriminan, Cluster Analysis (Hierarkis & K-Means), Multidimensional Scaling (MDS), serta visualisasi interaktif dengan Python/R untuk studi kasus industri/sains [C5, C6]."
+      }
+    ],
+    "sub_cpmk": [
+      {
+        "kode": "Sub-CPMK1",
+        "cpmk_induk": "CPMK1",
+        "deskripsi": "Mampu menjelaskan konsep dasar analisis multivariat, taksonomi metode dependence vs independence, representasi matriks data, vektor mean, dan matriks kovarians [C2]."
+      },
+      {
+        "kode": "Sub-CPMK2",
+        "cpmk_induk": "CPMK1",
+        "deskripsi": "Mampu menerapkan pengujian asumsi distribusi normal multivariat (Mardia's test, Royston test, Chi-Square Q-Q Plot) dan mendeteksi pencilan multivariat menggunakan Mahalanobis Distance [C3]."
+      },
+      {
+        "kode": "Sub-CPMK3",
+        "cpmk_induk": "CPMK2",
+        "deskripsi": "Mampu menghitung dan menganalisis reduksi dimensi variabel dengan Principal Component Analysis (PCA) berbasis nilai eigen dan vektor eigen serta interpretasi Scree Plot dan Biplot [C4]."
+      },
+      {
+        "kode": "Sub-CPMK4",
+        "cpmk_induk": "CPMK2",
+        "deskripsi": "Mampu menganalisis struktur faktor laten dengan Exploratory Factor Analysis (EFA) menggunakan rotasi orthogonal (Varimax) dan oblique (Promax), serta interpretasi loading faktor [C4]."
+      },
+      {
+        "kode": "Sub-CPMK5",
+        "cpmk_induk": "CPMK3",
+        "deskripsi": "Mampu menganalisis model Regresi Linier Berganda multivariat, diagnosa multikolinieritas (VIF), heteroskedastisitas, dan autokorelasi [C4]."
+      },
+      {
+        "kode": "Sub-CPMK6",
+        "cpmk_induk": "CPMK3",
+        "deskripsi": "Mampu menerapkan dan menganalisis model Regresi Logistik Biner dan Multinomial untuk variabel respon kategorik multivariat [C4]."
+      },
+      {
+        "kode": "Sub-CPMK7",
+        "cpmk_induk": "CPMK3",
+        "deskripsi": "Mampu mengevaluasi perbedaan rata-rata multivariat antar kelompok perlakuan menggunakan MANOVA (Wilks' Lambda, Pillai's Trace, Hotelling's Trace, Roy's Largest Root) [C4, C5]."
+      },
+      {
+        "kode": "Sub-CPMK8",
+        "cpmk_induk": "CPMK4",
+        "deskripsi": "Mampu merancang fungsi pembeda dan mengklasifikasikan observasi baru dengan Analisis Diskriminan Linier (LDA) dan Kuadratik (QDA) [C5]."
+      },
+      {
+        "kode": "Sub-CPMK9",
+        "cpmk_induk": "CPMK4",
+        "deskripsi": "Mampu merancang dan mengevaluasi segmentasi data observasi multivariat menggunakan teknik Hierarchical Clustering (Single, Complete, Average, Ward) dan K-Means Clustering dengan evaluasi koefisien Silhouette [C5, C6]."
+      },
+      {
+        "kode": "Sub-CPMK10",
+        "cpmk_induk": "CPMK4",
+        "deskripsi": "Mampu merancang visualisasi persepsi posisi objek dan asosiasi kategori menggunakan Multidimensional Scaling (MDS) dan Analisis Korespondensi [C5]."
+      },
+      {
+        "kode": "Sub-CPMK11",
+        "cpmk_induk": "CPMK4",
+        "deskripsi": "Mampu mempresentasikan dan mempertahankan laporan proyek analitik multivariat komprehensif pada dataset riil berdimensi tinggi menggunakan Python/R [C5, C6]."
+      }
+    ]
+  },
+  "deskripsi_singkat_mk": "Mata kuliah Analisa Data Multivariat (IF6802) merupakan mata kuliah keahlian peminatan Sains Data dan Kecerdasan Komputasional yang membekali mahasiswa S1 Informatika dengan landasan teori dan keterampilan komputasi dalam menganalisis kumpulan data kompleks berdimensi tinggi (multi-variabel). Mahasiswa diajarkan untuk memahami dan menerapkan teknik reduksi dimensi (Principal Component Analysis dan Factor Analysis), pemodelan dependensi multivariat (Regresi Berganda, Regresi Logistik, dan MANOVA), serta metode klasifikasi dan segmentasi (Analisis Diskriminan, Cluster Analysis, Multidimensional Scaling, dan Analisis Korespondensi). Perkuliahan mengintegrasikan pendekatan analitis berbasis matriks dengan pemrograman praktis menggunakan Python (NumPy, SciPy, Pandas, Scikit-learn, Statsmodels) dan R, serta diakhiri dengan pengerjaan Proyek Analitik Data Multivariat Dunia Nyata.",
+  "bahan_kajian": [
+    "1. Pengantar Analisa Multivariat, Vektor Mean, Matriks Kovarians & Korelasi",
+    "2. Uji Asumsi Normalitas Multivariat & Deteksi Outlier (Mahalanobis Distance)",
+    "3. Principal Component Analysis (PCA): Ekstraksi Eigen, Scree Plot, & Biplot",
+    "4. Exploratory Factor Analysis (EFA): Ekstraksi Faktor, Rotasi (Varimax/Promax), & Skor Faktor",
+    "5. Regresi Linier Berganda Multivariat & Diagnosa Asumsi Klasik",
+    "6. Regresi Logistik Multivariat (Binary & Multinomial Logistic Regression)",
+    "7. Uji Vektor Rata-rata Hotelling's T² & MANOVA (One-way dan Two-way)",
+    "8. Linear & Quadratic Discriminant Analysis (LDA & QDA)",
+    "9. Analisis Klaster Hierarkis (Agglomerative) & Klaster Non-Hierarkis (K-Means Clustering)",
+    "10. Evaluasi Validitas Klaster (Elbow Method, Silhouette Analysis, Davies-Bouldin)",
+    "11. Multidimensional Scaling (MDS) Metrik & Non-Metrik",
+    "12. Simple & Multiple Correspondence Analysis (CA & MCA)",
+    "13. Proyek Analitik Sains Data Multivariat Berbasis Industri Menggunakan Python/R"
+  ],
+  "pustaka": {
+    "utama": [
+      "1. Johnson, R. A., & Wichern, D. W. (2019). Applied Multivariate Statistical Analysis (6th ed.). Pearson Education.",
+      "2. Hair, J. F., Black, W. C., Babin, B. J., & Anderson, R. E. (2019). Multivariate Data Analysis (8th ed.). Cengage Learning.",
+      "3. Everitt, B., & Hothorn, T. (2011). An Introduction to Applied Multivariate Analysis with R. Springer Science & Business Media."
+    ],
+    "pendukung": [
+      "1. James, G., Witten, D., Hastie, T., & Tibshirani, R. (2021). An Introduction to Statistical Learning with Applications in R/Python (2nd ed.). Springer.",
+      "2. Rencher, A. C., & Christensen, W. F. (2012). Methods of Multivariate Analysis (3rd ed.). John Wiley & Sons.",
+      "3. VanderPlas, J. (2016). Python Data Science Handbook: Essential Tools for Working with Data. O'Reilly Media.",
+      "4. Jurnal Internasional IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI) & ACM Transactions on Knowledge Discovery from Data (TKDD) terkini."
+    ]
+  },
+  "matriks_16_pertemuan": [
+    {
+      "minggu": "1",
+      "sub_cpmk": "Sub-CPMK1: Mampu menjelaskan konsep dasar analisa multivariat, taksonomi metode dependence vs independence, representasi matriks data, vektor mean, dan matriks kovarians [C2]",
+      "indikator": "Ketepatan menjelaskan definisi analitik data multivariat, membedakan metode ketergantungan vs interdependensi, serta menyusun matriks data, menghitung vektor mean dan matriks kovarians/korelasi",
+      "teknik_kriteria": "Kriteria: Ketepatan perhitungan matematis & kejelasan konsep; Teknik: Kuis interaktif & Lembar Kerja Eksplorasi Data",
+      "luring": "Kuliah interaktif, Diskusi Kelompok, Praktik Dasar Pembuatan Matriks Data di Python/R (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Mempelajari modul RPS-01, video tutorial NumPy/Pandas matriks, forum tanya-jawab di LMS UNIROW",
+      "materi_pustaka": "Pengenalan Analisis Multivariat, Taksonomi Hair et al., Aljabar Matriks Multivariat, Vektor Mean dan Matriks Kovarians (Pustaka Utama 1: Bab 1-2, Pustaka Utama 2: Bab 1)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "2",
+      "sub_cpmk": "Sub-CPMK2: Mampu menerapkan pengujian asumsi distribusi normal multivariat dan deteksi outlier multivariat menggunakan Mahalanobis Distance [C3]",
+      "indikator": "Kemampuan melakukan uji kecocokan normalitas multivariat (Mardia's Skewness & Kurtosis test, Chi-Square Q-Q plot) serta mendeteksi dan menangani pencilan multivariat berbasis jarak Mahalanobis",
+      "teknik_kriteria": "Kriteria: Kebenaran diagnosa statistik & interpretasi plot; Teknik: Penilaian Tugas Terstruktur Praktikum 1",
+      "luring": "Kuliah Pengantar, Praktikum Komputasi di Lab: Implementasi Uji Normalitas Multivariat & Mahalanobis Distance dengan Python (SciPy/Statsmodels) (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Mengunduh dataset multivariat studi kasus finansial/kesehatan, submit notebook praktikum di LMS",
+      "materi_pustaka": "Distribusi Normal Multivariat, Sifat-sifat Elips Kontur, Diagnosa Outlier, Mahalanobis Distance vs Euclidean (Pustaka Utama 1: Bab 4-5)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "3",
+      "sub_cpmk": "Sub-CPMK3: Mampu menghitung dan menganalisis reduksi dimensi variabel dengan Principal Component Analysis (PCA) berbasis nilai eigen dan vektor eigen serta interpretasi Scree Plot dan Biplot [C4]",
+      "indikator": "Ketepatan langkah dekomposisi nilai eigen dari matriks kovarians/korelasi, menentukan jumlah komponen utama optimal (Kaiser criterion, persentase varians kumulatif, Scree Plot), serta interpretasi visualisasi Biplot",
+      "teknik_kriteria": "Kriteria: Ketajaman analisis reduksi varians; Teknik: Portofolio Analisis PCA di Python (Scikit-Learn)",
+      "luring": "Kuliah Mimbar, Problem-Based Learning (PBL): Studi Kasus Reduksi Dimensi Data Citra/Sensor, Praktikum PCA (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Mempelajari materi interaktif PCA, visualisasi 3D Komponen Utama melalui Jupyter Lab/Google Colab",
+      "materi_pustaka": "Principal Component Analysis (PCA), Dekomposisi Spektral, Nilai & Vektor Eigen, Scree Plot, Biplot (Pustaka Utama 1: Bab 8, Pustaka Utama 2: Bab 3)",
+      "bobot": "8%"
+    },
+    {
+      "minggu": "4",
+      "sub_cpmk": "Sub-CPMK4: Mampu menganalisis struktur faktor laten dengan Exploratory Factor Analysis (EFA) menggunakan rotasi orthogonal (Varimax) dan oblique (Promax), serta interpretasi loading faktor [C4]",
+      "indikator": "Kemampuan menguji kelayakan data (KMO & Bartlett's Test of Sphericity), mengekstraksi faktor laten (Principal Axis Factoring / Maximum Likelihood), menerapkan rotasi Varimax/Promax, dan menamai faktor laten",
+      "teknik_kriteria": "Kriteria: Logika interpretasi konstruk laten; Teknik: Tugas Analisis EFA pada Kuesioner/Survei Pengguna Sistem",
+      "luring": "Kuliah Interaktif, Diskusi Studi Kasus Psikometri/Survei Informatika, Praktik EFA di R/Python (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Mengerjakan kuis daring mengenai perbedaan mendasar PCA vs EFA di LMS UNIROW",
+      "materi_pustaka": "Exploratory Factor Analysis (EFA), KMO Test, Ekstraksi Faktor, Rotasi Ortogonal vs Oblik, Factor Score (Pustaka Utama 2: Bab 3, Pustaka Pendukung 2: Bab 13)",
+      "bobot": "7%"
+    },
+    {
+      "minggu": "5",
+      "sub_cpmk": "Sub-CPMK5: Mampu menganalisis model Regresi Linier Berganda multivariat, diagnosa multikolinieritas (VIF), heteroskedastisitas, dan autokorelasi [C4]",
+      "indikator": "Keahlian menyusun estimasi OLS matriks, menghitung koefisien determinasi multivariat (R² dan Adjusted R²), menguji signifikansi simultan (F-test) dan parsial (t-test), serta validasi asumsi Gauss-Markov",
+      "teknik_kriteria": "Kriteria: Ketepatan perumusan model & evaluasi diagnostik residual; Teknik: Tugas Terstruktur Analisis Regresi",
+      "luring": "Ceramah, Diskusi Pemodelan Multivariat, Simulasi Perhitungan Matriks Regresi di Python (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Submit laporan regresi dataset harga properti/performa server di LMS UNIROW",
+      "materi_pustaka": "Multiple Linear Regression dalam Notasi Matriks, Uji Simultan & Parsial, Multikolinearitas (VIF), Diagnosa Residual (Pustaka Utama 1: Bab 7, Pustaka Utama 2: Bab 4)",
+      "bobot": "7%"
+    },
+    {
+      "minggu": "6",
+      "sub_cpmk": "Sub-CPMK6: Mampu menerapkan dan menganalisis model Regresi Logistik Biner dan Multinomial untuk variabel respon kategorik multivariat [C4]",
+      "indikator": "Ketepatan estimasi parameter Maximum Likelihood (MLE), menghitung Odds Ratio, interpretasi nilai deviance, Pseudo R², Hosmer-Lemeshow goodness of fit, dan matriks konfusi",
+      "teknik_kriteria": "Kriteria: Ketepatan interpretasi rasio odds & metrik performa klasifikasi; Teknik: Penilaian Praktikum Lab",
+      "luring": "Kuliah Pengantar, Praktik Komputasi Kasus Deteksi Churn Nasabah / Spam Classification dengan Regresi Logistik di Python (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Diskusi asinkron penanganan data imbalanced pada regresi logistik melalui LMS UNIROW",
+      "materi_pustaka": "Regresi Logistik Biner dan Multinomial, Fungsi Logit, Odds Ratio, Uji Hosmer-Lemeshow, Confusion Matrix (Pustaka Utama 2: Bab 5, Pustaka Pendukung 1: Bab 4)",
+      "bobot": "8%"
+    },
+    {
+      "minggu": "7",
+      "sub_cpmk": "Sub-CPMK7: Mampu mengevaluasi perbedaan rata-rata multivariat antar kelompok perlakuan menggunakan MANOVA (Wilks' Lambda, Pillai's Trace, Hotelling's Trace, Roy's Largest Root) [C4, C5]",
+      "indikator": "Kemampuan merumuskan hipotesis nol kesamaan vektor mean, memeriksa asumsi homogenitas matriks kovarians (Box's M test), dan menginterpretasikan empat statistik uji MANOVA serta analisis post-hoc",
+      "teknik_kriteria": "Kriteria: Kedalaman analisis varians multivariat; Teknik: Presentasi Singkat Studi Kasus A/B Testing Sistem UI/UX",
+      "luring": "Kuliah Diskusi, Praktik Komputasi Uji MANOVA di Python/R, Evaluasi Hasil Box's M (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Review materi persiapan Ujian Tengah Semester (UTS) di LMS UNIROW",
+      "materi_pustaka": "Perbandingan Vektor Mean Multivariat, Hotelling's Two-Sample T², One-Way & Two-Way MANOVA, Box's M Test (Pustaka Utama 1: Bab 6, Pustaka Utama 2: Bab 6)",
+      "bobot": "10%"
+    },
+    {
+      "minggu": "8",
+      "sub_cpmk": "Evaluasi Tengah Semester (UTS): Mengukur ketercapaian CPMK1, CPMK2, dan CPMK3 (Sub-CPMK 1 s.d. 7)",
+      "indikator": "Ketuntasan, ketelitian, dan ketepatan mahasiswa dalam menyelesaikan soal analisis teoritis dan komputasi multivariat (Eksplorasi, Normalitas, PCA, EFA, Regresi, MANOVA)",
+      "teknik_kriteria": "Kriteria: Rubrik Ujian Tertulis & Pemecahan Kasus Komputasi (Skala 1-100); Teknik: Tes Tulis & Ujian Praktik Mandiri",
+      "luring": "Ujian Tengah Semester Tertulis & Ujian Lab Komputasi Terjadwal (150 Menit)",
+      "daring": "Pengumpulan berkas jawaban dan script analisis UTS melalui portal ujian LMS UNIROW",
+      "materi_pustaka": "Materi Perkuliahan Minggu 1 sampai Minggu 7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": "9",
+      "sub_cpmk": "Sub-CPMK8: Mampu merancang fungsi pembeda dan mengklasifikasikan observasi baru dengan Analisis Diskriminan Linier (LDA) dan Kuadratik (QDA) [C5]",
+      "indikator": "Ketepatan menghitung fungsi diskriminan Fisher, mengevaluasi Wilk's Lambda diskriminan, menguji asumsi homogenitas kovarians untuk memilih LDA vs QDA, serta menghitung error rate klasifikasi",
+      "teknik_kriteria": "Kriteria: Akurasi pemodelan klasifikasi & evaluasi batas keputusan; Teknik: Tugas Proyek Mandiri 1",
+      "luring": "Kuliah Pengantar, Case-Based Learning: Klasifikasi Kelayakan Kredit Nasabah / Pengenalan Pola Teks, Praktikum LDA/QDA di Python (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Akses tutorial interaktif perbandingan batas keputusan linier vs kuadratik di LMS UNIROW",
+      "materi_pustaka": "Discriminant Analysis, Two-Group & Multi-Group LDA, QDA, Batas Keputusan Bayesian (Pustaka Utama 1: Bab 11, Pustaka Utama 2: Bab 5)",
+      "bobot": "6%"
+    },
+    {
+      "minggu": "10",
+      "sub_cpmk": "Sub-CPMK9: Mampu merancang dan mengevaluasi segmentasi data observasi multivariat menggunakan teknik Hierarchical Clustering (Agglomerative) [C5]",
+      "indikator": "Ketepatan menghitung matriks jarak multivariat (Euclidean, Manhattan), membandingkan metode linkage (Single, Complete, Average, Centroid, Ward's method), dan menginterpretasikan grafik Dendrogram",
+      "teknik_kriteria": "Kriteria: Ketepatan pemotongan dendrogram & validitas klaster; Teknik: Lembar Kerja Praktikum Klastering",
+      "luring": "Kuliah Mimbar, Praktikum Pembuatan Dendrogram dan Analisis Segmentasi Profil Pelanggan di Lab (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Diskusi kelompok pemilihan metrik jarak pada data campuran di forum LMS UNIROW",
+      "materi_pustaka": "Cluster Analysis, Matriks Kedekatan (Proximity Matrix), Hierarchical Agglomerative Methods, Interpretasi Dendrogram (Pustaka Utama 1: Bab 12, Pustaka Utama 2: Bab 7)",
+      "bobot": "7%"
+    },
+    {
+      "minggu": "11",
+      "sub_cpmk": "Sub-CPMK9: Mampu merancang dan mengevaluasi segmentasi data observasi multivariat menggunakan K-Means Clustering dan validasi koefisien Silhouette [C5, C6]",
+      "indikator": "Keahlian menerapkan algoritma Lloyd/K-Means, menentukan jumlah klaster k optimal dengan metode Elbow dan Silhouette Coefficient, serta menganalisis stabilitas klaster",
+      "teknik_kriteria": "Kriteria: Ketajaman interpretasi profil klaster & metrik validasi; Teknik: Portofolio Pemrograman Machine Learning Tanpa Supervisi",
+      "luring": "Kuliah Interaktif, Diskusi Kelompok Penerapan K-Means pada Big Data, Praktikum K-Means & Profiling Karakter Klaster (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Eksplorasi visualisasi Klaster 3D interaktif menggunakan Plotly di LMS UNIROW",
+      "materi_pustaka": "Non-Hierarchical Clustering (K-Means, K-Medoids), Optimasi Inersia, Elbow Curve, Silhouette Analysis (Pustaka Utama 2: Bab 7, Pustaka Pendukung 1: Bab 10)",
+      "bobot": "7%"
+    },
+    {
+      "minggu": "12",
+      "sub_cpmk": "Sub-CPMK10: Mampu merancang visualisasi persepsi posisi objek spasial multivariat menggunakan Multidimensional Scaling (MDS) [C5]",
+      "indikator": "Ketepatan merekonstruksi konfigurasi geometris berdimensi rendah dari matriks dissimilaritas objek, mengevaluasi nilai STRESS (Kruskal's Stress), dan menginterpretasikan perceptual map posisi kompetitor",
+      "teknik_kriteria": "Kriteria: Kebenaran interpretasi perceptual mapping; Teknik: Tugas Analisis Brand Positioning Industri TI",
+      "luring": "Kuliah Diskusi, Demonstrasi Perhitungan Classical Metric MDS dan Non-Metric MDS di R/Python (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Mengunduh modul studi kasus perceptual map e-commerce di LMS UNIROW",
+      "materi_pustaka": "Multidimensional Scaling (MDS), Matriks Dissimilaritas, Metrik vs Non-Metrik MDS, Nilai Stress & Shepard Diagram (Pustaka Utama 1: Bab 12, Pustaka Utama 2: Bab 8)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "13",
+      "sub_cpmk": "Sub-CPMK10: Mampu merancang pemetaan visual asosiasi antar variabel kategori menggunakan Analisis Korespondensi (Correspondence Analysis) [C5]",
+      "indikator": "Kemampuan menyusun tabel kontingensi multivariat, menghitung profil baris dan kolom, melakukan dekomposisi nilai singular (SVD) pada matriks inersia, dan memvisualisasikan peta korespondensi 2D",
+      "teknik_kriteria": "Kriteria: Ketepatan interpretasi asosiasi silang; Teknik: Tugas Analisis Asosiasi Fitur Perangkat Lunak",
+      "luring": "Kuliah Mimbar, Praktikum Simple & Multiple Correspondence Analysis (MCA) di Python/R (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Aktivitas kuis interaktif mengenai penentuan inersia total di LMS UNIROW",
+      "materi_pustaka": "Simple Correspondence Analysis (CA), Multiple Correspondence Analysis (MCA), Matriks Kontingensi, Inersia & Chi-Square Metric (Pustaka Utama 2: Bab 8, Pustaka Utama 3: Bab 5)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "14",
+      "sub_cpmk": "Sub-CPMK11: Mampu merancang dan mengintegrasikan alur kerja analitik data multivariat (end-to-end pipeline) pada studi kasus data riil [C5, C6]",
+      "indikator": "Kemampuan menggabungkan teknik reduksi dimensi, pengelompokan/klasifikasi, dan pemodelan statistik dalam satu pipeline komputasi terstruktur untuk menyelesaikan problem analitik kompleks",
+      "teknik_kriteria": "Kriteria: Kematangan metodologi & efisiensi script kode; Teknik: Asesmen Progres Proyek Besar & Review Kode",
+      "luring": "Project-Based Learning (PjBL) Workshop: Asistensi, Debugging, dan Review Pipeline Data Multivariat Mahasiswa di Lab Komputer (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Upload draf naskah laporan proyek & repositori kode (GitHub/GitLab) ke LMS UNIROW",
+      "materi_pustaka": "Integrasi Metodologi Analitik Multivariat, Data Preprocessing Pipeline, Feature Engineering, Interpretasi Bisnis & Saintifik (Pustaka Utama 1 & 2)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "15",
+      "sub_cpmk": "Sub-CPMK11: Mampu mempresentasikan dan mempertahankan hasil temuan proyek analitik multivariat dengan visualisasi interaktif dan saintifik [C5, C6]",
+      "indikator": "Kemampuan menyajikan temuan analitis secara terstruktur, menjawab pertanyaan kritis tim penguji/dosen, serta menyajikan visualisasi data yang komunikatif dan berwawasan mendalam",
+      "teknik_kriteria": "Kriteria: Rubrik Penilaian Presentasi & Komunikasi Ilmiah (Skala 1-5); Teknik: Penilaian Presentasi Kelompok & Tanya Jawab",
+      "luring": "Seminar Kelas Presentasi Proyek Akhir Analisa Data Multivariat, Sesi Tanya Jawab Kritis & Peer-Review Antar Kelompok (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Feedback peer-review tertulis antar mahasiswa melalui LMS UNIROW",
+      "materi_pustaka": "Diseminasi Ilmiah Data Science, Standar Penulisan Laporan Teknis/Saintifik, Storytelling with Multivariate Data",
+      "bobot": "7%"
+    },
+    {
+      "minggu": "16",
+      "sub_cpmk": "Evaluasi Akhir Semester (UAS): Mengukur ketercapaian CPMK3 dan CPMK4 (Sub-CPMK 8 s.d. 11) berbasis Proyek Analitik Komprehensif",
+      "indikator": "Kualitas final report, kebaruan dan kompleksitas dataset yang dianalisis, ketepatan metode multivariat yang diterapkan, kecanggihan visualisasi, dan reliabilitas kode komputasi",
+      "teknik_kriteria": "Kriteria: Rubrik Holistik Laporan Proyek Akhir & Repositori Source Code (Skala 1-100); Teknik: Penilaian Laporan Proyek & Deliverables",
+      "luring": "Pengumpulan Akhir Laporan Hardcopy & Sidang Evaluasi Akhir Hasil Proyek Terjadwal",
+      "daring": "Final submission bundle (Laporan PDF, Jupyter Notebook / R script, file presentasi) di LMS UNIROW",
+      "materi_pustaka": "Seluruh Bahan Kajian Analisa Data Multivariat (Minggu 1 s.d. 15)",
+      "bobot": "15%"
+    }
+  ],
+  "tugas_terstruktur": [
+    {
+      "tugas_ke": 1,
+      "nama_tugas": "Tugas 1 (Eksplorasi Matriks Data & Pengujian Asumsi Normalitas Multivariat)",
+      "sub_cpmk": "Sub-CPMK1, Sub-CPMK2",
+      "waktu": "Minggu 2 (Dikumpulkan Minggu 3)",
+      "deskripsi": "Mahasiswa diberikan dataset berdimensi tinggi (minimal 6 variabel kontinu, n >= 150 observasi). Mahasiswa diwajibkan menyusun matriks varians-kovarians dan matriks korelasi, melakukan pengujian normalitas multivariat (Mardia test, Chi-square Q-Q plot), menghitung Mahalanobis Distance untuk mendeteksi outlier multivariat, dan membuat interpretasi komparatif.",
+      "luaran": "Laporan tertulis format IEEE 4-6 halaman disertai lampiran kode Python/R yang dapat direproduksi (reproducible notebook)."
+    },
+    {
+      "tugas_ke": 2,
+      "nama_tugas": "Tugas 2 (Studi Komparasi Reduksi Dimensi: PCA vs Exploratory Factor Analysis)",
+      "sub_cpmk": "Sub-CPMK3, Sub-CPMK4",
+      "waktu": "Minggu 4 (Dikumpulkan Minggu 5)",
+      "deskripsi": "Mahasiswa melakukan analisis reduksi dimensi pada dataset survei persepsi adopsi teknologi informasi. Melakukan PCA untuk mereduksi variabel dengan scree plot dan biplot, dilanjutkan dengan EFA menggunakan rotasi Varimax untuk menemukan faktor laten, lalu membandingkan hasil kedua metode secara kritis.",
+      "luaran": "Makalah analisis komparatif beserta visualisasi biplot dan matriks loading faktor yang terinterpretasikan dengan baik."
+    },
+    {
+      "tugas_ke": 3,
+      "nama_tugas": "Tugas 3 (Pemodelan Dependensi: Regresi Logistik Multivariat & MANOVA)",
+      "sub_cpmk": "Sub-CPMK5, Sub-CPMK6, Sub-CPMK7",
+      "waktu": "Minggu 6 (Dikumpulkan Minggu 7)",
+      "deskripsi": "Mahasiswa melakukan pemodelan klasifikasi respon biner/multinomial dengan mengevaluasi nilai odds ratio dan uji kelayakan model, serta merancang eksperimen uji beda multivariat dengan MANOVA untuk menguji efek perlakuan interface terhadap metrik keterlibatan pengguna (multi-response).",
+      "luaran": "Laporan teknis hasil uji signifikansi multivariat dan script kode evaluasi model statistik."
+    },
+    {
+      "tugas_ke": 4,
+      "nama_tugas": "Tugas 4 (Proyek Analitik Multivariat Mandiri/Kelompok: Klasifikasi & Segmentasi Data Skala Industri)",
+      "sub_cpmk": "Sub-CPMK8, Sub-CPMK9, Sub-CPMK10, Sub-CPMK11",
+      "waktu": "Minggu 10 s.d. Minggu 15 (Dipresentasikan Minggu 15 & Dikumpulkan Minggu 16)",
+      "deskripsi": "Proyek Capstone berskala industri di mana kelompok mahasiswa (2-3 orang) memilih satu domain persoalan (finansial, e-commerce, kesehatan, smart city). Menerapkan minimal 3 teknik multivariat (misal: PCA + K-Means + Analisis Diskriminan atau MANOVA + Klaster Hierarki + MDS), memvalidasi klaster dengan koefisien Silhouette, dan menyajikan dashboard visualisasi interaktif.",
+      "luaran": "Laporan Proyek Final standar publikasi ilmiah, repositori GitHub publik berisi kode rapi dan dokumentasi Readme lengkap, serta materi presentasi slide interaktif."
+    }
+  ],
+  "rubrik_obe": [
+    {
+      "aspek": "Pemahaman Konsep & Teori Aljabar Multivariat (Kognitif C2-C3)",
+      "skor_1": "Gagal memahami matriks data multivariat, salah dalam formulasi mean vektor dan kovarians (< 50)",
+      "skor_2": "Mampu menyebutkan definisi dasar namun banyak kekeliruan perhitungan kovarians/korelasi (50-59)",
+      "skor_3": "Memahami konsep matriks multivariat dengan cukup baik, perhitungan benar dengan sedikit koreksi (60-69)",
+      "skor_4": "Menguasai konsep matriks multivariat, normalitas multivariat, dan jarak Mahalanobis secara tepat (70-84)",
+      "skor_5": "Menguasai konsep teori secara sempurna, mampu membuktikan relasi matematis dan mengaitkannya ke data riil (85-100)"
+    },
+    {
+      "aspek": "Keterampilan Reduksi Dimensi & Ekstraksi Fitur (Analitik C4)",
+      "skor_1": "Tidak mampu menerapkan PCA maupun EFA, tidak memahami konsep nilai eigen dan varians (< 50)",
+      "skor_2": "Dapat menjalankan kode PCA/EFA tetapi gagal menentukan jumlah komponen/faktor yang tepat (50-59)",
+      "skor_3": "Mampu mengekstraksi komponen dengan kriteria Kaiser, interpretasi scree plot cukup memadai (60-69)",
+      "skor_4": "Mampu mereduksi dimensi dengan akurat, rotasi faktor tepat, interpretasi biplot jelas dan logis (70-84)",
+      "skor_5": "Analisis reduksi dimensi sangat mendalam, memberikan sintesis penamaan faktor laten yang inovatif dan teruji (85-100)"
+    },
+    {
+      "aspek": "Pemodelan Dependensi & Uji Hipotesis Multivariat (Analisis & Evaluasi C4-C5)",
+      "skor_1": "Keliru dalam memilih uji multivariat, mengabaikan pelanggaran asumsi statistik dasar (< 50)",
+      "skor_2": "Menggunakan MANOVA/Regresi namun diagnosa asumsi Box's M atau multikolinieritas diabaikan (50-59)",
+      "skor_3": "Menerapkan pengujian dependensi dengan benar, diagnosa asumsi dilakukan secara standar (60-69)",
+      "skor_4": "Mampu melakukan estimasi parameter, diagnosa asumsi lengkap, interpretasi statistik uji tepat (70-84)",
+      "skor_5": "Pemodelan sangat komprehensif, evaluasi goodness of fit mendalam, solusi alternatif atas pelanggaran asumsi terbukti efektif (85-100)"
+    },
+    {
+      "aspek": "Perancangan Solusi Klasifikasi & Klastering (Kreasi & Implementasi C5-C6)",
+      "skor_1": "Algoritma klastering/klasifikasi tidak berjalan atau menghasilkan pengelompokan yang tidak valid (< 50)",
+      "skor_2": "Model klastering/LDA berjalan namun tanpa evaluasi validitas klaster (silhouette) atau cross-validation (50-59)",
+      "skor_3": "Segmentasi berhasil dibuat, metrik evaluasi dihitung secara memadai (60-69)",
+      "skor_4": "Perancangan model klastering dan diskriminan optimal, perbandingan metode linkages/metrik jarak sangat baik (70-84)",
+      "skor_5": "Solusi segmentasi dan klasifikasi sangat canggih, profil klaster terdeskripsi dengan wawasan bisnis/sains luar biasa, kode modular dan efisien (85-100)"
+    },
+    {
+      "aspek": "Kualitas Laporan Ilmiah, Kode Reproducible & Presentasi (Soft Skills & Afektif)",
+      "skor_1": "Laporan tidak terstruktur, plagiarisme tinggi, kode tidak dapat dijalankan, presentasi sangat buruk (< 50)",
+      "skor_2": "Laporan kurang rapi, dokumentasi kode minim, kesulitan menjawab pertanyaan penguji (50-59)",
+      "skor_3": "Laporan sesuai format, kode dapat dijalankan dengan instruksi standar, presentasi cukup komunikatif (60-69)",
+      "skor_4": "Laporan terstruktur rapi standar ilmiah, kode di GitHub sangat bersih dan terdokumentasi, presentasi meyakinkan (70-84)",
+      "skor_5": "Kualitas naskah setara prosiding/jurnal terindeks, visualisasi data interaktif memukau, penguasaan materi sempurna saat mempertahankan argumen (85-100)"
+    }
+  ]
+}
