@@ -1,0 +1,443 @@
+{
+  "identitas": {
+    "universitas": "UNIVERSITAS PGRI RONGGOLAWE",
+    "fakultas": "FAKULTAS SAINS DAN TEKNOLOGI",
+    "prodi": "PROGRAM STUDI S1 INFORMATIKA",
+    "kode_dokumen": "RPS-INF-IF230324",
+    "mata_kuliah": "Analisa Desain dan Sistem",
+    "kode_mk": "IF230324",
+    "rumpun_mk": "Rekayasa Perangkat Lunak & Sistem Informasi",
+    "bobot_sks": 3,
+    "semester": 3,
+    "tgl_penyusunan": "25 Agustus 2025",
+    "dosen_pengembang": "Alfian Nurlifa, M.Kom.",
+    "koordinator_rmk": "Alfian Nurlifa, M.Kom.",
+    "ka_prodi": "AMALUDIN ARIFIA, M.Kom.",
+    "nidn_kaprodi": "07xxxxxxxx",
+    "ujm_prodi": "UJM Program Studi Informatika",
+    "nidn_ujm": "07xxxxxxxx",
+    "dosen_pengampu": "Alfian Nurlifa, M.Kom.",
+    "matakuliah_syarat": "IF120224 Pengenalan Pemrograman / Algoritma Pemrograman"
+  },
+  "capaian_pembelajaran": {
+    "cpl": [
+      {
+        "kode": "CPL04",
+        "deskripsi": "Memiliki kompetensi dalam menganalisis persoalan computing yang kompleks untuk mengidentifikasi solusi pengelolaan proyek teknologi di bidang informatika/ilmu komputer dengan mempertimbangkan perkembangan ilmu transdisiplin. [C4]"
+      },
+      {
+        "kode": "CPL05",
+        "deskripsi": "Memiliki kemampuan merancang, mengimplementasikan, dan mengevaluasi solusi berbasis computing (sistem informasi, sistem cerdas, perangkat lunak) yang memenuhi kebutuhan pengguna dengan pendekatan analitis dan saintifik. [C5, C6]"
+      },
+      {
+        "kode": "CPL08",
+        "deskripsi": "Menunjukkan komitmen terhadap standar profesional, etika, tata kelola, dan kerja sama tim interdisipliner dalam pelaksanaan proyek teknologi. [A3, A4]"
+      }
+    ],
+    "cpmk": [
+      {
+        "kode": "CPMK1",
+        "cpl_induk": "CPL04",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu menganalisis dan mendokumentasikan kebutuhan fungsional dan non-fungsional sistem informasi organisasi yang kompleks menggunakan metodologi System Development Life Cycle (SDLC) dan standar Software Requirements Specification (SRS) [C4]."
+      },
+      {
+        "kode": "CPMK2",
+        "cpl_induk": "CPL05",
+        "kontribusi_persen": 50,
+        "deskripsi": "Mampu merancang model proses bisnis dan data sistem menggunakan pendekatan terstruktur (Data Flow Diagram/DFD, Kamus Data, ERD) serta pendekatan berorientasi objek (UML: Use Case, Activity, Class, Sequence Diagrams) [C5]."
+      },
+      {
+        "kode": "CPMK3",
+        "cpl_induk": "CPL05",
+        "kontribusi_persen": 50,
+        "deskripsi": "Mampu merancang arsitektur sistem informasi, skema basis data relasional/NoSQL, dan antarmuka pengguna (UI/UX wireframe & prototype) yang berpusat pada pengguna (user-centered design) menggunakan perangkat perancangan modern [C5]."
+      },
+      {
+        "kode": "CPMK4",
+        "cpl_induk": "CPL08",
+        "kontribusi_persen": 100,
+        "deskripsi": "Mampu bekerja sama secara efektif dalam tim proyek untuk menyusun dokumen System Design Document (SDD), memvalidasi kelayakan sistem, serta mendemonstrasikan hasil rancangan sistem informasi kepada pemangku kepentingan dengan etika profesional [A4, C6]."
+      }
+    ],
+    "sub_cpmk": [
+      {
+        "kode": "Sub-CPMK 1",
+        "cpmk_induk": "CPMK1",
+        "bobot_penilaian": 3,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu menjelaskan konsep dasar sistem informasi, peran analis sistem, dan membandingkan metodologi SDLC (Waterfall, Prototyping, RAD, Scrum/Agile) [C2]."
+      },
+      {
+        "kode": "Sub-CPMK 2",
+        "cpmk_induk": "CPMK1",
+        "bobot_penilaian": 4,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu melakukan analisis identifikasi masalah organisasi menggunakan kerangka kerja PIECES dan menyusun studi kelayakan sistem (Feasibility Study) operasional, teknis, dan ekonomis [C4]."
+      },
+      {
+        "kode": "Sub-CPMK 3",
+        "cpmk_induk": "CPMK1",
+        "bobot_penilaian": 7,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu merumuskan elisitasi kebutuhan pengguna (fungsional & non-fungsional) dan menyusun dokumen spesifikasi kebutuhan perangkat lunak standar SRS IEEE 830 [C4]."
+      },
+      {
+        "kode": "Sub-CPMK 4",
+        "cpmk_induk": "CPMK2",
+        "bobot_penilaian": 6,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu merancang pemodelan proses berorientasi terstruktur menggunakan Diagram Konteks, Data Flow Diagram (DFD) Level 0 hingga Level Rinci, dan Kamus Data [C5]."
+      },
+      {
+        "kode": "Sub-CPMK 5",
+        "cpmk_induk": "CPMK2",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu merancang model data konseptual dan logis menggunakan Entity Relationship Diagram (ERD) dengan notasi Chen/Crow's Foot dan memetakannya ke tabel relasional [C5]."
+      },
+      {
+        "kode": "Sub-CPMK 6",
+        "cpmk_induk": "CPMK2",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu merancang pemodelan kebutuhan berorientasi objek menggunakan Use Case Diagram, skenario naratif use case terperinci, dan Activity Diagram [C5]."
+      },
+      {
+        "kode": "Sub-CPMK 7",
+        "cpmk_induk": "CPMK2",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu merancang pemodelan struktur dan perilaku sistem berorientasi objek menggunakan Class Diagram (atribut, operasi, relasi asosiasi/agregasi/komposisi) dan Sequence Diagram [C5]."
+      },
+      {
+        "kode": "Sub-CPMK 8",
+        "cpmk_induk": "CPMK3",
+        "bobot_penilaian": 5,
+        "jumlah_minggu": 1,
+        "deskripsi": "Mampu merancang State Machine Diagram untuk siklus hidup objek kompleks serta Component Diagram dan Deployment Diagram untuk konfigurasi fisik sistem [C5]."
+      },
+      {
+        "kode": "Sub-CPMK 9",
+        "cpmk_induk": "CPMK3",
+        "bobot_penilaian": 10,
+        "jumlah_minggu": 2,
+        "deskripsi": "Mampu merancang arsitektur sistem informasi (Monolitik, Client-Server, MVC, Microservices, RESTful API) dan menerapkan normalisasi basis data (1NF, 2NF, 3NF) pada skema fisik [C5]."
+      },
+      {
+        "kode": "Sub-CPMK 10",
+        "cpmk_induk": "CPMK3",
+        "bobot_penilaian": 8,
+        "jumlah_minggu": 2,
+        "deskripsi": "Mampu merancang antarmuka pengguna (UI/UX) berbasis User-Centered Design, membuat wireframe interaktif, dan merancang prototype sistem menggunakan tools Figma/Pencil [C5]."
+      },
+      {
+        "kode": "Sub-CPMK 11",
+        "cpmk_induk": "CPMK4",
+        "bobot_penilaian": 12,
+        "jumlah_minggu": 2,
+        "deskripsi": "Mampu mengintegrasikan seluruh artefak rancangan ke dalam dokumen System Design Document (SDD) dan mempresentasikan prototype sistem informasi solusi industri dalam kerja sama tim [A4, C6]."
+      },
+      {
+        "kode": "Sub-CPMK 12 (UTS & UAS)",
+        "cpmk_induk": "CPMK1, CPMK2, CPMK3, CPMK4",
+        "bobot_penilaian": 30,
+        "jumlah_minggu": 2,
+        "deskripsi": "Mampu mendemonstrasikan evaluasi komprehensif penguasaan analisis dan perancangan sistem informasi melalui Ujian Tengah Semester (15%) dan Ujian Akhir Semester berbasis Capstone Project (15%) [C4, C5, C6]."
+      }
+    ]
+  },
+  "deskripsi_singkat_mk": "Mata kuliah Analisa Desain dan Sistem (IF230324) membekali mahasiswa S1 Informatika dengan kompetensi inti rekayasa sistem informasi dalam mengidentifikasi masalah organisasi, menganalisis kebutuhan pemangku kepentingan, dan merancang arsitektur solusi sistem informasi modern. Pembelajaran mencakup penguasaan siklus hidup pengembangan sistem (SDLC) Waterfall dan Agile/Scrum, elisitasi kebutuhan berspesifikasi standar IEEE 830, pemodelan proses dan data terstruktur (DFD, Kamus Data, ERD), pemodelan berorientasi objek standar UML (Use Case, Activity, Class, Sequence, State Machine, Deployment Diagrams), perancangan arsitektur perangkat lunak (MVC, Microservices, API), normalisasi basis data fisik, serta perancangan antarmuka pengguna (UI/UX) interaktif menggunakan Figma. Perkuliahan berorientasi pada Project-Based Learning di mana mahasiswa bekerja dalam tim untuk menghasilkan dokumen System Design Document (SDD) dan prototipe sistem teruji untuk studi kasus dunia nyata.",
+  "bahan_kajian": [
+    "1. Pengantar Konsep Sistem Informasi, Peran Analis Sistem, & Paradigma SDLC (Waterfall, Agile/Scrum)",
+    "2. Analisis Kelayakan Sistem (Feasibility Study) & Kerangka Kerja Identifikasi Masalah PIECES",
+    "3. Elisitasi Kebutuhan Pengguna, Wawancara, Observasi, & Dokumen Standar SRS (IEEE 830)",
+    "4. Pemodelan Proses Terstruktur: Context Diagram, DFD Bertingkat (Level 0, Level 1), & Kamus Data",
+    "5. Pemodelan Data Konseptual: Entity Relationship Diagram (ERD) & Relasi Antar Entitas",
+    "6. Pemodelan Berorientasi Objek UML: Use Case Diagram, Use Case Specification/Narrative, & Activity Diagram",
+    "7. Pemodelan Struktur & Perilaku Dinamis: Class Diagram, Object Diagram, & Sequence Diagram",
+    "8. Pemodelan Lanjutan: State Machine Diagram, Component Diagram, & Deployment Diagram",
+    "9. Perancangan Arsitektur Perangkat Lunak: Monolitik, Layered (MVC), Microservices, & RESTful API",
+    "10. Perancangan Basis Data Fisik: Aturan Normalisasi (1NF, 2NF, 3NF, BCNF) & Skema Database",
+    "11. Perancangan Antarmuka Pengguna (UI/UX): Prinsip Desain Antarmuka, Wireframing, & Prototyping Interaktif (Figma)",
+    "12. Perancangan Masukan (Input), Dialog Layar, Formulir, & Keluaran (Output/Reporting System)",
+    "13. Penyusunan Dokumen Spesifikasi Desain Sistem (SDD), Rencana Implementasi & Pengujian Sistem"
+  ],
+  "pustaka": {
+    "utama": [
+      "1. Dennis, A., Wixom, B. H., & Roth, R. M. (2021). Systems Analysis and Design (8th ed.). John Wiley & Sons.",
+      "2. Kendall, K. E., & Kendall, J. E. (2020). Systems Analysis and Design (10th ed.). Pearson.",
+      "3. Satzinger, J. W., Jackson, R. B., & Burd, S. D. (2016). Systems Analysis and Design in a Changing World (7th ed.). Cengage Learning."
+    ],
+    "pendukung": [
+      "1. Pressman, R. S., & Maxim, B. R. (2020). Software Engineering: A Practitioner's Approach (9th ed.). McGraw-Hill.",
+      "2. Sommerville, I. (2016). Software Engineering (10th ed.). Pearson.",
+      "3. IEEE Std 830-1998: IEEE Recommended Practice for Software Requirements Specifications.",
+      "4. Jurnal Nasional Terakreditasi SINTA & Internasional Bereputasi Bidang Rekayasa Perangkat Lunak & Sistem Informasi Terkini."
+    ]
+  },
+  "matriks_16_pertemuan": [
+    {
+      "minggu": "1",
+      "sub_cpmk": "Sub-CPMK 1: Mampu menjelaskan konsep dasar sistem informasi, peran analis sistem, dan membandingkan metodologi SDLC (Waterfall vs Agile/Scrum) [C2]",
+      "indikator": "Ketepatan menjelaskan definisi komponen sistem informasi, kompetensi analis sistem, tahapan SDLC klasik vs Agile, serta kriteria pemilihan metodologi yang tepat",
+      "teknik_kriteria": "Kriteria: Ketepatan penjelasan konsep; Teknik: Kuis interaktif & Diskusi kelas studi kasus",
+      "luring": "Kuliah interaktif, Diskusi Kelompok, Studi Kasus Kegagalan Proyek SI dan Peran SDLC (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Mempelajari modul RPS-01, video pengantar SDLC, forum tanya-jawab di LMS UNIROW",
+      "materi_pustaka": "Konsep Sistem & Informasi, Karakteristik Sistem, Analis Sistem, Siklus SDLC, Model Waterfall vs Agile/Scrum (Dennis Bab 1-2, Kendall Bab 1)",
+      "bobot": "3%"
+    },
+    {
+      "minggu": "2",
+      "sub_cpmk": "Sub-CPMK 2: Mampu melakukan analisis identifikasi masalah organisasi menggunakan kerangka PIECES dan menyusun studi kelayakan sistem (Feasibility Study) [C4]",
+      "indikator": "Kemampuan mengidentifikasi gejala masalah dengan matriks PIECES serta menganalisis kelayakan operasional, teknis, ekonomis (Cost-Benefit Analysis/ROI/NPV), dan hukum",
+      "teknik_kriteria": "Kriteria: Ketajaman analisis kelayakan; Teknik: Penilaian Tugas Terstruktur 1 (Feasibility Report)",
+      "luring": "Problem-Based Learning: Analisis Studi Kasus UMKM/Organisasi Tuban, Praktik Perhitungan ROI/Payback Period (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Mengunduh template studi kelayakan, submit laporan draf studi kelayakan di LMS UNIROW",
+      "materi_pustaka": "Kerangka Kerja PIECES, Studi Kelayakan (Technical, Economic, Operational Feasibility), Cost-Benefit Analysis (Kendall Bab 2-3, Satzinger Bab 2)",
+      "bobot": "4%"
+    },
+    {
+      "minggu": "3",
+      "sub_cpmk": "Sub-CPMK 3: Mampu merumuskan elisitasi kebutuhan pengguna dan menyusun dokumen spesifikasi kebutuhan perangkat lunak standar SRS IEEE 830 [C4]",
+      "indikator": "Keahlian teknik wawancara, kuesioner, observasi, membedakan kebutuhan fungsional vs non-fungsional, serta menyusun bab-bab dokumen SRS standar IEEE 830",
+      "teknik_kriteria": "Kriteria: Kelengkapan & konsistensi spesifikasi kebutuhan; Teknik: Rubrik Penilaian Dokumen SRS",
+      "luring": "Simulasi Wawancara Pengguna (Role-Play), Workshop Penulisan SRS Standar IEEE 830 di Lab Komputer (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Review dokumen SRS antar kelompok melalui fitur workshop LMS UNIROW",
+      "materi_pustaka": "Teknik Pengumpulan Kebutuhan, Analisis Kebutuhan Fungsional & Non-Fungsional, Struktur Dokumen SRS IEEE Std 830 (Dennis Bab 3-4, Pressman Bab 8)",
+      "bobot": "7%"
+    },
+    {
+      "minggu": "4",
+      "sub_cpmk": "Sub-CPMK 4: Mampu merancang pemodelan proses terstruktur menggunakan Diagram Konteks, Data Flow Diagram (DFD) bertingkat, dan Kamus Data [C5]",
+      "indikator": "Ketepatan mengidentifikasi entitas eksternal, proses, data store, dan aliran data, mematuhi aturan balancing DFD (Level 0, Level 1), serta menyusun struktur kamus data",
+      "teknik_kriteria": "Kriteria: Kepatuhan aturan notasi Gane-Sarson/Yourdon & balancing; Teknik: Lembar Kerja Praktikum DFD",
+      "luring": "Kuliah Pengantar, Praktikum Lab: Perancangan DFD Bertingkat menggunakan tools Draw.io/Visual Paradigm (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Kuis daring aturan perancangan DFD (Black Hole, Miracle, Gray Hole) di LMS UNIROW",
+      "materi_pustaka": "Pemodelan Proses, Notasi DFD, Context Diagram, DFD Level 0, DFD Child Level 1, Kamus Data (Data Dictionary) (Dennis Bab 5, Kendall Bab 7)",
+      "bobot": "6%"
+    },
+    {
+      "minggu": "5",
+      "sub_cpmk": "Sub-CPMK 5: Mampu merancang model data konseptual dan logis menggunakan Entity Relationship Diagram (ERD) dan pemetaannya ke tabel relasional [C5]",
+      "indikator": "Ketepatan menentukan entitas kuat/lemah, atribut kunci, relasi kardinalitas (1:1, 1:N, M:N), aturan integritas referensial, serta transformasi ERD ke tabel relasional",
+      "teknik_kriteria": "Kriteria: Kebenaran kardinalitas & integritas data; Teknik: Tugas Analisis Skema Database Kasus Nyata",
+      "luring": "Kuliah Interaktif, Diskusi Pemodelan Basis Data, Praktikum Pembuatan ERD di Lab Komputer (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Eksplorasi modul pemodelan ERD interaktif di LMS UNIROW",
+      "materi_pustaka": "Entity Relationship Diagram (ERD), Kardinalitas & Modalitas, Notasi Crow's Foot, Transformasi ERD ke Skema Relasional (Dennis Bab 6, Satzinger Bab 5)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "6",
+      "sub_cpmk": "Sub-CPMK 6: Mampu merancang pemodelan kebutuhan berorientasi objek menggunakan Use Case Diagram, skenario naratif use case, dan Activity Diagram [C5]",
+      "indikator": "Keahlian merumuskan aktor, relasi <<include>> dan <<extend>>, generalisasi, menyusun narasi skenario use case (kondisi awal, aliran utama, aliran alternatif), dan merancang Activity Diagram dengan swimlanes",
+      "teknik_kriteria": "Kriteria: Logika relasi use case & kelengkapan skenario naratif; Teknik: Portofolio Pemodelan UML",
+      "luring": "Workshop Perancangan Use Case & Activity Diagram di Lab Komputer (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Submit tugas Use Case Narrative studi kasus sistem masing-masing kelompok di LMS UNIROW",
+      "materi_pustaka": "Pengenalan UML, Use Case Diagram, Use Case Narrative (Full Dress), Activity Diagram dengan Decision & Swimlanes (Dennis Bab 8, Satzinger Bab 3-4)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "7",
+      "sub_cpmk": "Sub-CPMK 7: Mampu merancang pemodelan struktur dan perilaku sistem menggunakan Class Diagram dan Sequence Diagram [C5]",
+      "indikator": "Ketepatan menentukan nama kelas, visibilitas (+, -, #), atribut, metode, relasi asosiasi, agregasi, komposisi, dependensi, pewarisan, serta interaksi pesan waktu-nyata pada Sequence Diagram",
+      "teknik_kriteria": "Kriteria: Konsistensi antara Class Diagram dengan Sequence Diagram; Teknik: Review Progres Proyek Tahap 1",
+      "luring": "Kuliah Diskusi, Praktik Perancangan Class & Sequence Diagram menggunakan StarUML/Visual Paradigm (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Review kesiapan materi Ujian Tengah Semester (UTS) di LMS UNIROW",
+      "materi_pustaka": "Class Diagram, Visibilitas & Enkapsulasi, Relasi Antar Kelas, Sequence Diagram, Objek, Lifeline, Message Lifeline (Dennis Bab 8-9, Satzinger Bab 4-5)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "8",
+      "sub_cpmk": "Evaluasi Tengah Semester (UTS): Mengukur ketercapaian CPMK1 dan CPMK2 (Sub-CPMK 1 s.d. 7)",
+      "indikator": "Ketepatan, kelengkapan, dan kedalaman mahasiswa dalam menyelesaikan studi kasus analisis kebutuhan, pembuatan SRS, pemodelan DFD, ERD, dan UML (Use Case, Activity, Class, Sequence)",
+      "teknik_kriteria": "Kriteria: Rubrik Asesmen Ujian Tertulis & Pemodelan Sistem (Skala 1-100); Teknik: Tes Tulis & Ujian Praktik Mandiri",
+      "luring": "Ujian Tengah Semester Terjadwal di Ruang Kelas / Lab Komputer (150 Menit)",
+      "daring": "Unggah berkas lembar jawaban & file model sistem di portal ujian LMS UNIROW",
+      "materi_pustaka": "Seluruh Materi Perkuliahan Minggu 1 sampai Minggu 7",
+      "bobot": "15%"
+    },
+    {
+      "minggu": "9",
+      "sub_cpmk": "Sub-CPMK 8: Mampu merancang State Machine Diagram untuk siklus hidup objek kompleks serta Component Diagram dan Deployment Diagram [C5]",
+      "indikator": "Kemampuan memetakan perubahan state, transisi, trigger event, guard condition pada objek, serta merancang arsitektur modul fisik dan pemetaan node infrastruktur server/jaringan",
+      "teknik_kriteria": "Kriteria: Ketepatan pemodelan state & arsitektur deployment; Teknik: Penilaian Tugas Terstruktur Praktikum UML",
+      "luring": "Kuliah Pengantar, Praktikum Pemodelan State Machine, Component & Deployment Diagram di Lab (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Akses panduan referensi arsitektur cloud deployment di LMS UNIROW",
+      "materi_pustaka": "State Machine Diagram, Event-Driven Transition, Component Diagram, Deployment Diagram, Node & Artifact (Satzinger Bab 5, Dennis Bab 9)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "10",
+      "sub_cpmk": "Sub-CPMK 9: Mampu merancang arsitektur sistem informasi (Monolitik, Layered MVC, Microservices, RESTful API) [C5]",
+      "indikator": "Kemampuan membandingkan pola arsitektur software, merancang komunikasi antar-layer (Presentation, Business Logic, Data Access), dan mendokumentasikan spesifikasi antarmuka API endpoint",
+      "teknik_kriteria": "Kriteria: Efisiensi desain arsitektur sistem; Teknik: Asesmen Rancangan Arsitektur Proyek",
+      "luring": "Kuliah Interaktif, Diskusi Pola Arsitektur Modern, Perancangan Diagram Arsitektur Sistem Informasi (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Diskusi asinkron perbandingan arsitektur monolitik vs microservices di LMS UNIROW",
+      "materi_pustaka": "Arsitektur Perangkat Lunak, Model-View-Controller (MVC), Service-Oriented Architecture (SOA), REST API Specification (Pressman Bab 13, Sommerville Bab 6)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "11",
+      "sub_cpmk": "Sub-CPMK 9: Mampu merancang basis data fisik teroptimasi menggunakan normalisasi 1NF hingga 3NF [C5]",
+      "indikator": "Ketepatan mengidentifikasi anomali data (insert, update, delete), menghilangkan dependensi parsial dan transitif, menghasilkan skema database fisik yang efisien dan terindeks",
+      "teknik_kriteria": "Kriteria: Integritas data & validitas aturan normalisasi; Teknik: Lembar Kerja Normalisasi Database",
+      "luring": "Workshop Normalisasi Data Kasus Faktur/Transaksi Nyata di Lab Komputer (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Upload hasil normalisasi dan SQL Data Definition Language (DDL) di LMS UNIROW",
+      "materi_pustaka": "Physical Database Design, Anomali Redundansi, Tahapan Normalisasi (1NF, 2NF, 3NF, BCNF), Optimasi Indeks (Dennis Bab 11, Kendall Bab 13)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "12",
+      "sub_cpmk": "Sub-CPMK 10: Mampu merancang antarmuka pengguna (UI/UX) berbasis User-Centered Design, wireframe, dan prototype interaktif menggunakan Figma [C5]",
+      "indikator": "Keahlian menerapkan 10 Usability Heuristics Nielsen, merancang Information Architecture, wireframing low-fidelity, dan membangun high-fidelity interactive prototype di Figma",
+      "teknik_kriteria": "Kriteria: Prinsip estetika, kemudahan penggunaan (usability), dan konsistensi UI; Teknik: Portofolio Desain Figma",
+      "luring": "Hands-on Workshop: Perancangan UI/UX Design System, Komponen, dan Interaksi Menggunakan Figma di Lab (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Review link prototype Figma interaktif antar kelompok melalui LMS UNIROW",
+      "materi_pustaka": "User Interface & Experience Design, Usability Principles, Wireframe vs Mockup vs Prototype, Figma Design System (Dennis Bab 10, Kendall Bab 11-12)",
+      "bobot": "4%"
+    },
+    {
+      "minggu": "13",
+      "sub_cpmk": "Sub-CPMK 10: Mampu merancang dialog layar, formulir masukan data (Input), dan sistem pelaporan keluaran (Output) [C5]",
+      "indikator": "Ketepatan merancang navigasi alur kerja pengguna, validasi input formulir, penanganan error/notifikasi, serta merancang dashboard dan laporan operasional/manajerial",
+      "teknik_kriteria": "Kriteria: Ergonomi formulir & kejelasan struktur pelaporan; Teknik: Tugas Desain Input/Output Sistem",
+      "luring": "Kuliah Mimbar, Studi Kasus Perancangan Dashboard Analytics dan Form Entri Data Transaksional (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Kuis interaktif validasi input dan user feedback di LMS UNIROW",
+      "materi_pustaka": "Input Design & Validation, Form Layout, Output Design, Dashboard & Reporting, Human-Computer Interaction (Kendall Bab 11-12, Satzinger Bab 6)",
+      "bobot": "4%"
+    },
+    {
+      "minggu": "14",
+      "sub_cpmk": "Sub-CPMK 11: Mampu mengintegrasikan artefak rancangan ke dalam dokumen System Design Document (SDD) dan menyusun rencana pengujian [C5, C6]",
+      "indikator": "Kemampuan menyusun dokumen SDD komprehensif (arsitektur, basis data, antarmuka, modul proses), serta merumuskan skenario pengujian fungsional (Black-box Test Plan)",
+      "teknik_kriteria": "Kriteria: Kelengkapan, konsistensi antar-bab SDD, dan keterujian; Teknik: Asesmen Draf Dokumen SDD",
+      "luring": "Project-Based Learning Workshop: Asistensi, Review, dan Cross-Checking Dokumen SDD di Lab Komputer (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Upload berkas draf dokumen SDD lengkap dan rencana pengujian di LMS UNIROW",
+      "materi_pustaka": "System Design Specification (SDD), Traceability Matrix Kebutuhan ke Desain, Software Testing Strategy (Sommerville Bab 8, Pressman Bab 17)",
+      "bobot": "5%"
+    },
+    {
+      "minggu": "15",
+      "sub_cpmk": "Sub-CPMK 11: Mampu mempresentasikan dan mempertahankan prototype rancangan sistem informasi dalam kerja sama tim [A4, C6]",
+      "indikator": "Keterampilan menyajikan solusi sistem informasi secara profesional, kejelasan demonstrasi prototype, pembagian peran kerja sama tim yang solid, dan ketepatan menjawab pertanyaan kritis",
+      "teknik_kriteria": "Kriteria: Rubrik Penilaian Presentasi & Komunikasi Profesional (Skala 1-5); Teknik: Seminar Proyek & Tanya Jawab",
+      "luring": "Sidang Pleno Seminar Presentasi Proyek Desain Sistem Informasi, Demonstrasi Prototype Figma & Peer-Review Antar Kelompok (PB: 3x50'; PT: 3x60'; BM: 3x60')",
+      "daring": "Peer-assessment nilai kontribusi anggota tim di form evaluasi LMS UNIROW",
+      "materi_pustaka": "Komunikasi Profesional Rekayasa Perangkat Lunak, Teknik Presentasi Proyek TI, Dokumentasi Deliverable Proyek",
+      "bobot": "7%"
+    },
+    {
+      "minggu": "16",
+      "sub_cpmk": "Evaluasi Akhir Semester (UAS): Mengukur ketercapaian CPMK3 dan CPMK4 (Sub-CPMK 8 s.d. 11) berbasis Capstone System Design Project",
+      "indikator": "Kualitas dokumen final System Design Document (SDD), interaktivitas prototype sistem, kelayakan arsitektur, kelengkapan model UML, dan kekompakan tim",
+      "teknik_kriteria": "Kriteria: Rubrik Holistik Laporan Proyek Desain Sistem & Prototype (Skala 1-100); Teknik: Penilaian Naskah Final SDD & Portofolio",
+      "luring": "Pengumpulan Naskah Cetak Dokumen SDD Resmi & Sidang Evaluasi Akhir Terjadwal",
+      "daring": "Unggah Final Bundle (Dokumen SDD PDF, Link Figma Prototype, File StarUML/Draw.io, Slide Presentasi) di LMS UNIROW",
+      "materi_pustaka": "Seluruh Bahan Kajian Analisa Desain dan Sistem (Minggu 1 s.d. Minggu 15)",
+      "bobot": "15%"
+    }
+  ],
+  "tugas_terstruktur": [
+    {
+      "tugas_ke": 1,
+      "nama_tugas": "Tugas 1 (Studi Kelayakan & Analisis PIECES Solusi SI Organisasi)",
+      "sub_cpmk": "Sub-CPMK 1, Sub-CPMK 2",
+      "waktu": "Minggu 2 (Dikumpulkan Minggu 3)",
+      "deskripsi": "Mahasiswa dalam kelompok (3-4 orang) memilih satu mitra organisasi/UMKM riil di wilayah Kabupaten Tuban/Jawa Timur. Mahasiswa melakukan investigasi awal, memetakan kelemahan sistem berjalan dengan kerangka kerja PIECES, serta menyusun analisis kelayakan teknis, operasional, dan analisis biaya-manfaat (Cost-Benefit Analysis, ROI, Payback Period).",
+      "luaran": "Laporan Studi Kelayakan Sistem Informasi (Feasibility Report) format PDF 8-12 halaman dilengkapi lembar persetujuan mitra."
+    },
+    {
+      "tugas_ke": 2,
+      "nama_tugas": "Tugas 2 (Penyusunan Dokumen Spesifikasi Kebutuhan Perangkat Lunak / SRS Standar IEEE 830)",
+      "sub_cpmk": "Sub-CPMK 3",
+      "waktu": "Minggu 3 (Dikumpulkan Minggu 4)",
+      "deskripsi": "Berdasarkan hasil elisitasi kebutuhan mitra, kelompok mahasiswa merumuskan kebutuhan fungsional dan non-fungsional, membuat batasan sistem, menyusun use case naratif ringkas, serta memformatnya ke dalam dokumen standar Software Requirements Specification (SRS) IEEE Std 830-1998.",
+      "luaran": "Dokumen SRS resmi siap telaah (15-25 halaman) standar industri rekayasa perangkat lunak."
+    },
+    {
+      "tugas_ke": 3,
+      "nama_tugas": "Tugas 3 (Pemodelan Sistem Terstruktur DFD/ERD dan Berorientasi Objek UML)",
+      "sub_cpmk": "Sub-CPMK 4, Sub-CPMK 5, Sub-CPMK 6, Sub-CPMK 7, Sub-CPMK 8",
+      "waktu": "Minggu 5 s.d. Minggu 9 (Dikumpulkan Minggu 10)",
+      "deskripsi": "Kelompok mahasiswa merancang artefak pemodelan sistem komprehensif yang saling konsisten: DFD Level 0 s.d. 1, Kamus Data, ERD notasi Crow's Foot, Use Case Diagram disertai narasi lengkap, Activity Diagram, Class Diagram lengkap dengan visibilitas metode, Sequence Diagram untuk skenario utama, dan Deployment Diagram.",
+      "luaran": "Portofolio Diagram Pemodelan Sistem (file sumber .vpp/.mdj dan berkas kompilasi PDF)."
+    },
+    {
+      "tugas_ke": 4,
+      "nama_tugas": "Tugas 4 (Capstone Project: System Design Document / SDD & Prototipe Interaktif Figma)",
+      "sub_cpmk": "Sub-CPMK 9, Sub-CPMK 10, Sub-CPMK 11",
+      "waktu": "Minggu 10 s.d. Minggu 15 (Dipresentasikan Minggu 15 & Dikumpulkan Minggu 16)",
+      "deskripsi": "Kelompok mahasiswa menyelesaikan perancangan arsitektur software, normalisasi basis data hingga 3NF, perancangan antarmuka pengguna interaktif (UI/UX) di Figma dengan design system yang rapi, mengintegrasikan seluruh bab ke dalam dokumen System Design Document (SDD), dan mempresentasikannya di hadapan dosen dan rekan mahasiswa.",
+      "luaran": "Dokumen final SDD lengkap (40-60 halaman), tautan Figma Interactive Prototype yang dapat dioperasikan penuh, dan video presentasi/demo perancangan sistem 7-10 menit."
+    }
+  ],
+  "rubrik_obe": {
+    "skala": [
+      {
+        "nilai": 5,
+        "kategori": "Sangat Baik / Sangat Kompeten",
+        "rentang": "85 - 100",
+        "deskripsi": "Menunjukkan penguasaan luar biasa dalam analisis kebutuhan, pemodelan sistem (DFD, ERD, UML) yang sangat presisi tanpa cacat logika, arsitektur sistem modular dan terukur, prototipe antarmuka Figma berstandar profesional yang sangat estetis dan intuitif, serta dokumentasi SDD yang sangat komprehensif."
+      },
+      {
+        "nilai": 4,
+        "kategori": "Baik / Kompeten",
+        "rentang": "70 - 84",
+        "deskripsi": "Mampu menganalisis masalah dengan tepat, diagram pemodelan proses dan data terstruktur rapi dengan notasi standar yang benar, prototipe UI/UX berjalan baik dan konsisten, dokumentasi SDD lengkap dan memenuhi kaidah baku rekayasa perangkat lunak."
+      },
+      {
+        "nilai": 3,
+        "kategori": "Cukup / Cukup Kompeten",
+        "rentang": "60 - 69",
+        "deskripsi": "Memahami konsep dasar analisis dan desain sistem, pemodelan dibuat namun terdapat sedikit ketidakkonsistenan antar diagram (misal use case vs sequence), prototipe antarmuka fungsional namun tata letak kurang ergonomis, dokumen SDD tersusun standar."
+      },
+      {
+        "nilai": 2,
+        "kategori": "Kurang / Kurang Kompeten",
+        "rentang": "50 - 59",
+        "deskripsi": "Analisis kebutuhan dangkal, banyak pelanggaran aturan notasi pemodelan sistem (misal balancing DFD salah, relasi kardinalitas ERD keliru), prototipe statis tidak interaktif, dokumen belum lengkap."
+      },
+      {
+        "nilai": 1,
+        "kategori": "Sangat Kurang / Tidak Kompeten",
+        "rentang": "< 50",
+        "deskripsi": "Gagal memahami prinsip analisis dan desain sistem, artefak pemodelan tidak dibuat atau plagiarisme, prototipe tidak berfungsi, tidak ada kerja sama tim dalam penyusunan tugas."
+      }
+    ],
+    "aspek_penilaian": [
+      {
+        "aspek": "Analisis Kebutuhan & Dokumen SRS (Kognitif C4)",
+        "skor_1": "Kebutuhan tidak jelas, tidak membedakan fungsional vs non-fungsional (< 50)",
+        "skor_2": "Kebutuhan terdaftar namun tidak lengkap dan tanpa kriteria terukur (50-59)",
+        "skor_3": "Kebutuhan fungsional terdefinisi cukup baik, SRS format standar (60-69)",
+        "skor_4": "Elisitasi kebutuhan mendalam, kriteria penerimaan jelas, SRS IEEE 830 rapi (70-84)",
+        "skor_5": "Spesifikasi kebutuhan sangat sempurna, matriks keterlacakan (traceability) lengkap (85-100)"
+      },
+      {
+        "aspek": "Kualitas Pemodelan Proses & Data UML/DFD/ERD (Analisis & Desain C5)",
+        "skor_1": "Banyak pelanggaran notasi fatal, diagram tidak menggambarkan proses sistem (< 50)",
+        "skor_2": "Diagram dibuat tetapi tidak konsisten antara data dan proses (50-59)",
+        "skor_3": "Pemodelan memenuhi kaidah standar, konsistensi cukup terjaga (60-69)",
+        "skor_4": "Pemodelan sangat rapi, relasi kardinalitas dan interaksi objek tepat (70-84)",
+        "skor_5": "Arsitektur model sangat matang, modular, ekspresif, dan siap diimplementasikan developer (85-100)"
+      },
+      {
+        "aspek": "Desain Antarmuka UI/UX & Interaktivitas Figma (Kreasi C5-C6)",
+        "skor_1": "Hanya berupa sketsa kasar tidak ergonomis tanpa alur interaksi (< 50)",
+        "skor_2": "Desain antarmuka statis, melanggar konsistensi tata letak (50-59)",
+        "skor_3": "Wireframe jelas, prototype interaktif standar berfungsi (60-69)",
+        "skor_4": "UI/UX menarik, menerapkan prinsip usability Nielsen, prototype Figma responsif (70-84)",
+        "skor_5": "Design system Figma sangat profesional, micro-interaction memukau, pengalaman pengguna luar biasa (85-100)"
+      },
+      {
+        "aspek": "Kualitas Dokumen SDD, Presentasi & Etika Kerja Sama Tim (Afektif & Soft Skills)",
+        "skor_1": "Dokumen tidak terstruktur, plagiarisme, tim pasif saat presentasi (< 50)",
+        "skor_2": "Dokumen minim detail teknis, presentasi kaku dan kurang siap (50-59)",
+        "skor_3": "Dokumen SDD lengkap, presentasi komunikatif, tim berbagi tugas (60-69)",
+        "skor_4": "Dokumen SDD sangat profesional, argumentasi desain meyakinkan saat tanya jawab (70-84)",
+        "skor_5": "Kualitas naskah setara konsultan IT profesional, penguasaan materi sempurna, kolaborasi tim teladan (85-100)"
+      }
+    ]
+  }
+}

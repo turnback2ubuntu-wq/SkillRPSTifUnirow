@@ -32,7 +32,8 @@ Pengembangan RPS ini mengacu pada:
 ├── RPS_IF260624_Sistem_Informasi_Bisnis.*    (JSON, MD, DOCX)
 ├── RPS_IF440524_Basis_Data_Lanjut.*          (JSON, MD, DOCX)
 ├── RPS_IF640424_Statistik_Teknik.*           (JSON, MD, DOCX)
-└── RPS_IF6802_Analisa_Data_Multivariat.*     (JSON, MD, DOCX)
+├── RPS_IF6802_Analisa_Data_Multivariat.*     (JSON, MD, DOCX)
+└── RPS_IF230324_Analisa_Desain_dan_Sistem.*  (JSON, MD, DOCX)
 ```
 
 ---
@@ -56,6 +57,7 @@ Pengembangan RPS ini mengacu pada:
 | **IF440524** | Basis Data Lanjut | 3 SKS | Andy Haryoko, S.T., M.T. | `.json`, `.md`, `.docx` |
 | **IF640424** | Statistik Teknik | 3 SKS | Andy Haryoko, S.T., M.T. | `.json`, `.md`, `.docx` |
 | **IF6802** | Analisa Data Multivariat | 3 SKS | Andy Haryoko, S.T., M.T. | `.json`, `.md`, `.docx` |
+| **IF230324** | Analisa Desain dan Sistem | 3 SKS | Alfian Nurlifa, M.Kom. | `.json`, `.md`, `.docx` |
 
 ---
 
@@ -79,6 +81,8 @@ python3 .agents/skills/rps-obe-generator/scripts/generate_rps_docx.py \
 
 ## 👨‍🏫 Dosen Pengembang & Pimpinan Prodi
 
-- **Dosen Pengembang / Pengampu**: Andy Haryoko, S.T., M.T.
+- **Dosen Pengembang / Pengampu**:
+  - Andy Haryoko, S.T., M.T.
+  - Alfian Nurlifa, M.Kom.
 - **Ketua Program Studi S1 Informatika**: AMALUDIN ARIFIA, M.Kom.
 - **Institusi**: Program Studi S1 Informatika, Fakultas Sains dan Teknologi, Universitas PGRI Ronggolawe (UNIROW) Tuban
